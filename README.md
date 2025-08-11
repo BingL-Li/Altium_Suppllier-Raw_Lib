@@ -16,8 +16,9 @@ Save and manage supplier raw libraries and datasheets
 
 ### 📋 Detailed File Listings
 
-#### 📂 Wurth Elektronik
-**Integrated Libraries:**
-- 🔗 [WE-MAPI (rev25a).IntLib](./Passive/Inductor/Wurth Elektronik/WE-MAPI (rev25a).IntLib)
+#### 🔗 Integrated Libraries (*.IntLib)
+
+**📂 Wurth Elektronik:**
+- [WE-MAPI (rev25a).IntLib](./Passive/Inductor/Wurth Elektronik/WE-MAPI (rev25a).IntLib)
 
 <!-- /FOLDER-TOC -->
