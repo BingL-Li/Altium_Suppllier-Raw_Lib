@@ -36,7 +36,7 @@ jobs:
               }
               
               # Count files in current directory and subdirectories
-              for root, dirs, files in os.walk(directory):
+              for root, dirs, files in os.walk('.'):
                   for file in files:
                       file_lower = file.lower()
                       if file_lower.endswith('.intlib'):
@@ -53,9 +53,9 @@ jobs:
               return counts
           
           def get_all_files_by_type():
-              """Get all files organized by type and folder"""
+              """Get all files organized by type and folder with hierarchy info"""
               files_by_type = {
-                  'intlib': {},    # folder: [files]
+                  'intlib': {},    # folder: {'files': [files], 'level': depth}
                   'schlib': {},
                   'pcblib': {},
                   'step': {},      # 3D Models
@@ -69,33 +69,43 @@ jobs:
                   if root == '.':
                       continue
                   
-                  folder_name = os.path.basename(root)
+                  # Calculate folder depth for proper indentation
+                  folder_depth = root.count(os.sep)
                   relative_path = root
                   
                   for file in files:
                       file_lower = file.lower()
                       if file_lower.endswith('.intlib'):
                           if relative_path not in files_by_type['intlib']:
-                              files_by_type['intlib'][relative_path] = []
-                          files_by_type['intlib'][relative_path].append(file)
+                              files_by_type['intlib'][relative_path] = {'files': [], 'level': folder_depth}
+                          files_by_type['intlib'][relative_path]['files'].append(file)
                       elif file_lower.endswith('.schlib'):
                           if relative_path not in files_by_type['schlib']:
-                              files_by_type['schlib'][relative_path] = []
-                          files_by_type['schlib'][relative_path].append(file)
+                              files_by_type['schlib'][relative_path] = {'files': [], 'level': folder_depth}
+                          files_by_type['schlib'][relative_path]['files'].append(file)
                       elif file_lower.endswith('.pcblib'):
                           if relative_path not in files_by_type['pcblib']:
-                              files_by_type['pcblib'][relative_path] = []
-                          files_by_type['pcblib'][relative_path].append(file)
+                              files_by_type['pcblib'][relative_path] = {'files': [], 'level': folder_depth}
+                          files_by_type['pcblib'][relative_path]['files'].append(file)
                       elif file_lower.endswith(('.stp', '.step')):
                           if relative_path not in files_by_type['step']:
-                              files_by_type['step'][relative_path] = []
-                          files_by_type['step'][relative_path].append(file)
+                              files_by_type['step'][relative_path] = {'files': [], 'level': folder_depth}
+                          files_by_type['step'][relative_path]['files'].append(file)
                       elif file_lower.endswith('.pdf'):
                           if relative_path not in files_by_type['pdf']:
-                              files_by_type['pdf'][relative_path] = []
-                          files_by_type['pdf'][relative_path].append(file)
+                              files_by_type['pdf'][relative_path] = {'files': [], 'level': folder_depth}
+                          files_by_type['pdf'][relative_path]['files'].append(file)
               
               return files_by_type
+          
+          def get_header_level(base_level, folder_level):
+              """Calculate appropriate header level (max 6 for GitHub)"""
+              calculated_level = base_level + folder_level
+              return min(calculated_level, 6)  # GitHub supports up to 6 levels
+          
+          def get_indent_spaces(level):
+              """Get appropriate indentation for nested content"""
+              return '  ' * level  # 2 spaces per level
           
           def generate_folder_toc():
               toc = ["## 📁 Repository Structure\n\n"]
@@ -169,71 +179,59 @@ jobs:
               
               files_by_type = get_all_files_by_type()
               
-              # Integrated Libraries
-              if files_by_type['intlib']:
-                  toc.append("#### 🔗 Integrated Libraries (*.IntLib)\n\n")
-                  for folder_path in sorted(files_by_type['intlib'].keys()):
-                      folder_name = os.path.basename(folder_path)
-                      toc.append(f"**📂 {folder_name}:**\n")
-                      for file in sorted(files_by_type['intlib'][folder_path]):
-                          encoded_path = url_encode_path(f"{folder_path}/{file}")
-                          toc.append(f"- [{file}]({encoded_path})\n")
-                      toc.append("\n")
+              # File type configurations with their display info
+              file_types = [
+                  ('intlib', '🔗', 'Integrated Libraries', '*.IntLib'),
+                  ('schlib', '📐', 'Symbol Libraries', '*.SchLib'),
+                  ('pcblib', '🦶', 'Footprint Libraries', '*.PcbLib'),
+                  ('step', '🎯', '3D Models', '*.STP/*.STEP'),
+                  ('pdf', '📄', 'Datasheets', '*.pdf')
+              ]
               
-              # Symbol Libraries
-              if files_by_type['schlib']:
-                  toc.append("#### 📐 Symbol Libraries (*.SchLib)\n\n")
-                  for folder_path in sorted(files_by_type['schlib'].keys()):
-                      folder_name = os.path.basename(folder_path)
-                      toc.append(f"**📂 {folder_name}:**\n")
-                      for file in sorted(files_by_type['schlib'][folder_path]):
-                          encoded_path = url_encode_path(f"{folder_path}/{file}")
-                          toc.append(f"- [{file}]({encoded_path})\n")
-                      toc.append("\n")
-              
-              # Footprint Libraries
-              if files_by_type['pcblib']:
-                  toc.append("#### 🦶 Footprint Libraries (*.PcbLib)\n\n")
-                  for folder_path in sorted(files_by_type['pcblib'].keys()):
-                      folder_name = os.path.basename(folder_path)
-                      toc.append(f"**📂 {folder_name}:**\n")
-                      for file in sorted(files_by_type['pcblib'][folder_path]):
-                          encoded_path = url_encode_path(f"{folder_path}/{file}")
-                          toc.append(f"- [{file}]({encoded_path})\n")
-                      toc.append("\n")
-              
-              # 3D Models
-              if files_by_type['step']:
-                  toc.append("#### 🎯 3D Models (*.STP/*.STEP)\n\n")
-                  for folder_path in sorted(files_by_type['step'].keys()):
-                      folder_name = os.path.basename(folder_path)
-                      toc.append(f"**📂 {folder_name}:**\n")
-                      for file in sorted(files_by_type['step'][folder_path]):
-                          encoded_path = url_encode_path(f"{folder_path}/{file}")
-                          # Add file size info if possible
-                          try:
-                              file_size = os.path.getsize(f"{folder_path}/{file}")
-                              if file_size > 1024*1024:  # > 1MB
-                                  size_str = f" *({file_size/(1024*1024):.1f} MB)*"
-                              elif file_size > 1024:  # > 1KB
-                                  size_str = f" *({file_size/1024:.1f} KB)*"
+              for file_type, emoji, display_name, extension in file_types:
+                  if files_by_type[file_type]:
+                      base_header_level = 4  # Start with ####
+                      header_prefix = '#' * base_header_level
+                      toc.append(f"{header_prefix} {emoji} {display_name} ({extension})\n\n")
+                      
+                      # Sort folders by path for consistent ordering
+                      sorted_folders = sorted(files_by_type[file_type].keys())
+                      
+                      for folder_path in sorted_folders:
+                          folder_info = files_by_type[file_type][folder_path]
+                          folder_name = os.path.basename(folder_path)
+                          folder_level = folder_info['level']
+                          
+                          # Calculate header level for this folder (base + depth)
+                          folder_header_level = get_header_level(base_header_level + 1, folder_level - 1)
+                          folder_header_prefix = '#' * folder_header_level
+                          
+                          # Add folder header
+                          toc.append(f"{folder_header_prefix} 📂 {folder_name}\n\n")
+                          
+                          # Add indented file list
+                          indent = get_indent_spaces(folder_level - 1)
+                          
+                          for file in sorted(folder_info['files']):
+                              encoded_path = url_encode_path(f"{folder_path}/{file}")
+                              
+                              # Special handling for 3D models (show file size)
+                              if file_type == 'step':
+                                  try:
+                                      file_size = os.path.getsize(f"{folder_path}/{file}")
+                                      if file_size > 1024*1024:  # > 1MB
+                                          size_str = f" *({file_size/(1024*1024):.1f} MB)*"
+                                      elif file_size > 1024:  # > 1KB
+                                          size_str = f" *({file_size/1024:.1f} KB)*"
+                                      else:
+                                          size_str = f" *({file_size} B)*"
+                                  except:
+                                      size_str = ""
+                                  toc.append(f"{indent}- [{file}]({encoded_path}){size_str}\n")
                               else:
-                                  size_str = f" *({file_size} B)*"
-                          except:
-                              size_str = ""
-                          toc.append(f"- [{file}]({encoded_path}){size_str}\n")
-                      toc.append("\n")
-              
-              # Datasheets
-              if files_by_type['pdf']:
-                  toc.append("#### 📄 Datasheets (*.pdf)\n\n")
-                  for folder_path in sorted(files_by_type['pdf'].keys()):
-                      folder_name = os.path.basename(folder_path)
-                      toc.append(f"**📂 {folder_name}:**\n")
-                      for file in sorted(files_by_type['pdf'][folder_path]):
-                          encoded_path = url_encode_path(f"{folder_path}/{file}")
-                          toc.append(f"- [{file}]({encoded_path})\n")
-                      toc.append("\n")
+                                  toc.append(f"{indent}- [{file}]({encoded_path})\n")
+                          
+                          toc.append("\n")  # Add spacing between folders
               
               return ''.join(toc)
           
@@ -267,5 +265,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update library structure with 3D models support"
+          git diff --staged --quiet || git commit -m "docs: update library structure with proper indentation and header levels"
           git push
