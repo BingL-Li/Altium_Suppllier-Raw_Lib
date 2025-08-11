@@ -22,7 +22,7 @@ Save and manage supplier raw libraries and datasheets
 #### 🔗 Integrated Libraries (*.IntLib)
 
 **📂 Wurth-Elektronik:**
-- [WE-MAPI (rev25a).IntLib](./Passive/Inductor/Wurth-Elektronik/WE-MAPI (rev25a).IntLib)
+- [WE-MAPI (rev25a).IntLib](./Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
 
 #### 📄 Datasheets (*.pdf)
 
