@@ -16,7 +16,14 @@ jobs:
         run: |
           cat > generate_toc.py << 'EOF'
           import os
-          import glob
+          import urllib.parse
+          
+          def url_encode_path(path):
+              """URL encode path for GitHub links"""
+              # Split path into parts and encode each part
+              parts = path.split('/')
+              encoded_parts = [urllib.parse.quote(part) for part in parts]
+              return '/'.join(encoded_parts)
           
           def count_files_by_type(directory):
               """Count Altium library files by type"""
@@ -117,6 +124,7 @@ jobs:
                   level = directory.count(os.sep) - 1
                   indent = '  ' * level
                   folder_name = os.path.basename(directory)
+                  encoded_directory = url_encode_path(directory)
                   
                   # Count files in this specific directory (not subdirectories)
                   counts = {
@@ -139,9 +147,9 @@ jobs:
                   
                   if descriptions:
                       desc = " | ".join(descriptions)
-                      toc.append(f"{indent}- [📂 **{folder_name}**]({directory}/) - *{desc}*\n")
+                      toc.append(f"{indent}- [📂 **{folder_name}**]({encoded_directory}/) - *{desc}*\n")
                   else:
-                      toc.append(f"{indent}- [📂 {folder_name}]({directory}/)\n")
+                      toc.append(f"{indent}- [📂 {folder_name}]({encoded_directory}/)\n")
               
               # Add detailed file listings organized by type, then by folder
               toc.append("\n### 📋 Detailed File Listings\n\n")
@@ -155,7 +163,8 @@ jobs:
                       folder_name = os.path.basename(folder_path)
                       toc.append(f"**📂 {folder_name}:**\n")
                       for file in sorted(files_by_type['intlib'][folder_path]):
-                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                          encoded_path = url_encode_path(f"{folder_path}/{file}")
+                          toc.append(f"- [{file}]({encoded_path})\n")
                       toc.append("\n")
               
               # Symbol Libraries
@@ -165,7 +174,8 @@ jobs:
                       folder_name = os.path.basename(folder_path)
                       toc.append(f"**📂 {folder_name}:**\n")
                       for file in sorted(files_by_type['schlib'][folder_path]):
-                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                          encoded_path = url_encode_path(f"{folder_path}/{file}")
+                          toc.append(f"- [{file}]({encoded_path})\n")
                       toc.append("\n")
               
               # Footprint Libraries
@@ -175,7 +185,8 @@ jobs:
                       folder_name = os.path.basename(folder_path)
                       toc.append(f"**📂 {folder_name}:**\n")
                       for file in sorted(files_by_type['pcblib'][folder_path]):
-                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                          encoded_path = url_encode_path(f"{folder_path}/{file}")
+                          toc.append(f"- [{file}]({encoded_path})\n")
                       toc.append("\n")
               
               # Datasheets
@@ -185,7 +196,8 @@ jobs:
                       folder_name = os.path.basename(folder_path)
                       toc.append(f"**📂 {folder_name}:**\n")
                       for file in sorted(files_by_type['pdf'][folder_path]):
-                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                          encoded_path = url_encode_path(f"{folder_path}/{file}")
+                          toc.append(f"- [{file}]({encoded_path})\n")
                       toc.append("\n")
               
               return ''.join(toc)
@@ -220,5 +232,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update Altium library structure organized by file type"
+          git diff --staged --quiet || git commit -m "docs: update Altium library structure with URL-encoded links"
           git push
