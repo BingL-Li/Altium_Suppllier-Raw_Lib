@@ -3,16 +3,14 @@ Save and manage supplier raw libraries and datasheets
 
 
 <!-- FOLDER-TOC -->
-## 📁 Repository Structure
-
-### 📊 Library Summary
+## 📊 Library Summary
 - 🔗 **4** Integrated Libraries (*.IntLib)
 - 📐 **4** Symbol Libraries (*.SchLib)
 - 🦶 **4** Footprint Libraries (*.PcbLib)
 - 🎯 **3** 3D Models (*.STP/*.STEP)
 - 📄 **62** Datasheets (*.pdf)
 
-### 📂 Folder Structure
+## 📂 Folder Structure
 
 - [📂 Connector](./Connector/)
   - [📂 FPC FFC](./Connector/FPC%20FFC/)
@@ -61,9 +59,9 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Temperature**](./IC/Sensor/Temperature/) - *📄 3 PDF*
   - [📂 **Small Logic**](./IC/Small%20Logic/) - *📄 3 PDF*
 
-### 📋 Detailed File Listings
+## 📋 Detailed File Listings
 
-#### 🔗 Integrated Libraries (*.IntLib)
+### 🔗 Integrated Libraries (*.IntLib)
 
 ###### 📂 FH63S-20S-0_5SH
 
@@ -81,7 +79,7 @@ Save and manage supplier raw libraries and datasheets
 
   - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
 
-#### 📐 Symbol Libraries (*.SchLib)
+### 📐 Symbol Libraries (*.SchLib)
 
 ###### 📂 FH63S-10S-0_5SH
 
@@ -99,7 +97,7 @@ Save and manage supplier raw libraries and datasheets
 
   - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
 
-#### 🦶 Footprint Libraries (*.PcbLib)
+### 🦶 Footprint Libraries (*.PcbLib)
 
 ###### 📂 FH63S-10S-0_5SH
 
@@ -117,7 +115,7 @@ Save and manage supplier raw libraries and datasheets
 
   - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
 
-#### 🎯 3D Models (*.STP/*.STEP)
+### 🎯 3D Models (*.STP/*.STEP)
 
 ###### 📂 FH63S-10S-0_5SH
 
@@ -131,7 +129,7 @@ Save and manage supplier raw libraries and datasheets
 
   - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
 
-#### 📄 Datasheets (*.pdf)
+### 📄 Datasheets (*.pdf)
 
 ###### 📂 Hirose
 
@@ -175,17 +173,17 @@ Save and manage supplier raw libraries and datasheets
 
   - [ad5671r_5675r.pdf](./IC/ADC-DAC/DAC/ad5671r_5675r.pdf)
 
-###### 📂 IO Expander
+##### 📂 IO Expander
 
   - [PCA8575.pdf](./IC/IO%20Expander/PCA8575.pdf)
 
-###### 📂 LED Driver
+##### 📂 LED Driver
 
   - [lp5562.pdf](./IC/LED%20Driver/lp5562.pdf)
   - [tlc59108.pdf](./IC/LED%20Driver/tlc59108.pdf)
   - [tlc59116.pdf](./IC/LED%20Driver/tlc59116.pdf)
 
-###### 📂 MCU
+##### 📂 MCU
 
   - [cc1312r.pdf](./IC/MCU/cc1312r.pdf)
   - [swcu185g.pdf](./IC/MCU/swcu185g.pdf)
@@ -258,7 +256,7 @@ Save and manage supplier raw libraries and datasheets
   - [TC622 TC624 21440D.pdf](./IC/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
   - [adt7420.pdf](./IC/Sensor/Temperature/adt7420.pdf)
 
-###### 📂 Small Logic
+##### 📂 Small Logic
 
   - [scyt129g_TI_Small-Logic-Gate.pdf](./IC/Small%20Logic/scyt129g_TI_Small-Logic-Gate.pdf)
   - [sn74lvc2g241.pdf](./IC/Small%20Logic/sn74lvc2g241.pdf)
