@@ -7,13 +7,13 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-62-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-12-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-4-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-4-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-3-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-62-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-20-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-8-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-8-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-6-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **4** Integrated Libraries (*.IntLib)
-- 📐 **4** Symbol Libraries (*.SchLib)
-- 🦶 **4** Footprint Libraries (*.PcbLib)
-- 🎯 **3** 3D Models (*.STP/.STEP)
+- 📐 **8** Symbol Libraries (*.SchLib)
+- 🦶 **8** Footprint Libraries (*.PcbLib)
+- 🎯 **6** 3D Models (*.STP/.STEP)
 - 📄 **62** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
@@ -29,9 +29,20 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Molex**](./Connector/FPC%20FFC/Molex/) - *📄 4 PDF*
       - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/) - *🔗 1 IntLib | 🎯 1 3D*
         - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/1054301104/) - *📐 1 SchLib | 🦶 1 PcbLib*
+      - [📂 **Molex_2004850010**](./Connector/FPC%20FFC/Molex/Molex_2004850010/) - *🎯 1 3D*
+        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/Molex_2004850010/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
+          - [📂 History](./Connector/FPC%20FFC/Molex/Molex_2004850010/AltiumDesigner/History/)
+      - [📂 **Molex_2004850220**](./Connector/FPC%20FFC/Molex/Molex_2004850220/) - *🎯 1 3D*
+        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/Molex_2004850220/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
+          - [📂 History](./Connector/FPC%20FFC/Molex/Molex_2004850220/AltiumDesigner/History/)
+      - [📂 **Molex_2004850230**](./Connector/FPC%20FFC/Molex/Molex_2004850230/) - *🎯 1 3D*
+        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/Molex_2004850230/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
+          - [📂 History](./Connector/FPC%20FFC/Molex/Molex_2004850230/AltiumDesigner/History/)
 - [📂 Discrete - Passive](./Discrete%20-%20Passive/)
   - [📂 Choke](./Discrete%20-%20Passive/Choke/)
     - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) - *📄 1 PDF*
+  - [📂 Ferrite Bead](./Discrete%20-%20Passive/Ferrite%20Bead/)
+    - [📂 **DLM0QSN900HY2D**](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) - *📐 1 SchLib | 🦶 1 PcbLib*
   - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
     - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) - *🔗 1 IntLib | 📄 1 PDF*
 - [📂 IC](./IC/)
@@ -218,6 +229,22 @@ Save and manage supplier raw libraries and datasheets
 
   - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
 
+#### 📂 AltiumDesigner
+
+  - [2004850210.SchLib](./Connector/FPC%20FFC/Molex/Molex_2004850010/AltiumDesigner/2004850210.SchLib)
+
+#### 📂 AltiumDesigner
+
+  - [2004850220.SchLib](./Connector/FPC%20FFC/Molex/Molex_2004850220/AltiumDesigner/2004850220.SchLib)
+
+#### 📂 AltiumDesigner
+
+  - [2004850230.SchLib](./Connector/FPC%20FFC/Molex/Molex_2004850230/AltiumDesigner/2004850230.SchLib)
+
+#### 📂 DLM0QSN900HY2D
+
+  - [SnapEDAsch.SchLib](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/SnapEDAsch.SchLib)
+
 ### 🦶 Footprint Libraries (*.PcbLib)
 
 #### 📂 FH63S-10S-0_5SH
@@ -236,6 +263,22 @@ Save and manage supplier raw libraries and datasheets
 
   - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
 
+#### 📂 AltiumDesigner
+
+  - [2004850210.PcbLib](./Connector/FPC%20FFC/Molex/Molex_2004850010/AltiumDesigner/2004850210.PcbLib)
+
+#### 📂 AltiumDesigner
+
+  - [2004850220.PcbLib](./Connector/FPC%20FFC/Molex/Molex_2004850220/AltiumDesigner/2004850220.PcbLib)
+
+#### 📂 AltiumDesigner
+
+  - [2004850230.PcbLib](./Connector/FPC%20FFC/Molex/Molex_2004850230/AltiumDesigner/2004850230.PcbLib)
+
+#### 📂 DLM0QSN900HY2D
+
+  - [SnapEDApcb.PcbLib](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/SnapEDApcb.PcbLib)
+
 ### 🎯 3D Models (*.STP/*.STEP)
 
 #### 📂 FH63S-10S-0_5SH
@@ -249,6 +292,18 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 1054301104
 
   - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
+
+#### 📂 Molex_2004850010
+
+  - [2004850210.stp](./Connector/FPC%20FFC/Molex/Molex_2004850010/2004850210.stp) *(885.8 KB)*
+
+#### 📂 Molex_2004850220
+
+  - [2004850220.stp](./Connector/FPC%20FFC/Molex/Molex_2004850220/2004850220.stp) *(1.2 MB)*
+
+#### 📂 Molex_2004850230
+
+  - [2004850230.stp](./Connector/FPC%20FFC/Molex/Molex_2004850230/2004850230.stp) *(2.2 MB)*
 
 ### 🔗 Integrated Libraries (*.IntLib)
 
