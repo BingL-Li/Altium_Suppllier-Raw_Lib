@@ -170,13 +170,13 @@ jobs:
               
               files_by_type = get_all_files_by_type()
               
-              # File type configurations with their display info
+              # File type configurations with their display info - REORDERED
               file_types = [
-                  ('intlib', '🔗', 'Integrated Libraries', '*.IntLib'),
-                  ('schlib', '📐', 'Symbol Libraries', '*.SchLib'),
-                  ('pcblib', '🦶', 'Footprint Libraries', '*.PcbLib'),
-                  ('step', '🎯', '3D Models', '*.STP/*.STEP'),
-                  ('pdf', '📄', 'Datasheets', '*.pdf')
+                  ('pdf', '📄', 'Datasheets', '*.pdf'),                    # 1st - Datasheets
+                  ('schlib', '📐', 'Symbol Libraries', '*.SchLib'),        # 2nd - Symbol Libraries
+                  ('pcblib', '🦶', 'Footprint Libraries', '*.PcbLib'),     # 3rd - Footprint Libraries
+                  ('step', '🎯', '3D Models', '*.STP/*.STEP'),             # 4th - 3D Models
+                  ('intlib', '🔗', 'Integrated Libraries', '*.IntLib'),    # 5th - Integrated Libraries
               ]
               
               for file_type, emoji, display_name, extension in file_types:
@@ -250,5 +250,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: fix folder header levels to consistent level 4"
+          git diff --staged --quiet || git commit -m "docs: reorder detailed sections - datasheets first"
           git push
