@@ -42,15 +42,45 @@ jobs:
               
               return counts
           
-          def get_file_list(directory, extension):
-              """Get list of files with specific extension"""
-              files = []
-              for root, dirs, file_list in os.walk(directory):
-                  for file in file_list:
-                      if file.lower().endswith(extension.lower()):
-                          rel_path = os.path.relpath(os.path.join(root, file), directory)
-                          files.append(file)
-              return files
+          def get_all_files_by_type():
+              """Get all files organized by type and folder"""
+              files_by_type = {
+                  'intlib': {},    # folder: [files]
+                  'schlib': {},
+                  'pcblib': {},
+                  'pdf': {}
+              }
+              
+              for root, dirs, files in os.walk('.'):
+                  # Skip .git and .github directories
+                  dirs[:] = [d for d in dirs if not d.startswith('.git')]
+                  
+                  if root == '.':
+                      continue
+                  
+                  folder_name = os.path.basename(root)
+                  relative_path = root
+                  
+                  for file in files:
+                      file_lower = file.lower()
+                      if file_lower.endswith('.intlib'):
+                          if relative_path not in files_by_type['intlib']:
+                              files_by_type['intlib'][relative_path] = []
+                          files_by_type['intlib'][relative_path].append(file)
+                      elif file_lower.endswith('.schlib'):
+                          if relative_path not in files_by_type['schlib']:
+                              files_by_type['schlib'][relative_path] = []
+                          files_by_type['schlib'][relative_path].append(file)
+                      elif file_lower.endswith('.pcblib'):
+                          if relative_path not in files_by_type['pcblib']:
+                              files_by_type['pcblib'][relative_path] = []
+                          files_by_type['pcblib'][relative_path].append(file)
+                      elif file_lower.endswith('.pdf'):
+                          if relative_path not in files_by_type['pdf']:
+                              files_by_type['pdf'][relative_path] = []
+                          files_by_type['pdf'][relative_path].append(file)
+              
+              return files_by_type
           
           def generate_folder_toc():
               toc = ["## 📁 Repository Structure\n\n"]
@@ -113,37 +143,50 @@ jobs:
                   else:
                       toc.append(f"{indent}- [📂 {folder_name}]({directory}/)\n")
               
-              # Add detailed file listings for directories with library files
+              # Add detailed file listings organized by type, then by folder
               toc.append("\n### 📋 Detailed File Listings\n\n")
               
-              for directory in directories:
-                  folder_name = os.path.basename(directory)
-                  
-                  # Get library files in this directory
-                  intlib_files = [f for f in os.listdir(directory) if f.lower().endswith('.intlib') and os.path.isfile(os.path.join(directory, f))]
-                  schlib_files = [f for f in os.listdir(directory) if f.lower().endswith('.schlib') and os.path.isfile(os.path.join(directory, f))]
-                  pcblib_files = [f for f in os.listdir(directory) if f.lower().endswith('.pcblib') and os.path.isfile(os.path.join(directory, f))]
-                  
-                  if intlib_files or schlib_files or pcblib_files:
-                      toc.append(f"#### 📂 {folder_name}\n")
-                      
-                      if intlib_files:
-                          toc.append("**Integrated Libraries:**\n")
-                          for file in sorted(intlib_files):
-                              toc.append(f"- 🔗 [{file}]({directory}/{file})\n")
-                          toc.append("\n")
-                      
-                      if schlib_files:
-                          toc.append("**Symbol Libraries:**\n")
-                          for file in sorted(schlib_files):
-                              toc.append(f"- 📐 [{file}]({directory}/{file})\n")
-                          toc.append("\n")
-                      
-                      if pcblib_files:
-                          toc.append("**Footprint Libraries:**\n")
-                          for file in sorted(pcblib_files):
-                              toc.append(f"- 🦶 [{file}]({directory}/{file})\n")
-                          toc.append("\n")
+              files_by_type = get_all_files_by_type()
+              
+              # Integrated Libraries
+              if files_by_type['intlib']:
+                  toc.append("#### 🔗 Integrated Libraries (*.IntLib)\n\n")
+                  for folder_path in sorted(files_by_type['intlib'].keys()):
+                      folder_name = os.path.basename(folder_path)
+                      toc.append(f"**📂 {folder_name}:**\n")
+                      for file in sorted(files_by_type['intlib'][folder_path]):
+                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                      toc.append("\n")
+              
+              # Symbol Libraries
+              if files_by_type['schlib']:
+                  toc.append("#### 📐 Symbol Libraries (*.SchLib)\n\n")
+                  for folder_path in sorted(files_by_type['schlib'].keys()):
+                      folder_name = os.path.basename(folder_path)
+                      toc.append(f"**📂 {folder_name}:**\n")
+                      for file in sorted(files_by_type['schlib'][folder_path]):
+                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                      toc.append("\n")
+              
+              # Footprint Libraries
+              if files_by_type['pcblib']:
+                  toc.append("#### 🦶 Footprint Libraries (*.PcbLib)\n\n")
+                  for folder_path in sorted(files_by_type['pcblib'].keys()):
+                      folder_name = os.path.basename(folder_path)
+                      toc.append(f"**📂 {folder_name}:**\n")
+                      for file in sorted(files_by_type['pcblib'][folder_path]):
+                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                      toc.append("\n")
+              
+              # Datasheets
+              if files_by_type['pdf']:
+                  toc.append("#### 📄 Datasheets (*.pdf)\n\n")
+                  for folder_path in sorted(files_by_type['pdf'].keys()):
+                      folder_name = os.path.basename(folder_path)
+                      toc.append(f"**📂 {folder_name}:**\n")
+                      for file in sorted(files_by_type['pdf'][folder_path]):
+                          toc.append(f"- [{file}]({folder_path}/{file})\n")
+                      toc.append("\n")
               
               return ''.join(toc)
           
@@ -177,5 +220,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update Altium library structure with file counts"
+          git diff --staged --quiet || git commit -m "docs: update Altium library structure organized by file type"
           git push
