@@ -1,0 +1,86 @@
+# Created by Ultra Librarian 8.3.366 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "YZP8")
+Pad (Name "D2") (Location -9.84251976, 29.52756119) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D1") (Location 9.84251976, 29.52756119) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C2") (Location -9.84251976, 9.84252167) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C1") (Location 9.84251976, 9.84252167) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B2") (Location -9.84251976, -9.84251785) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B1") (Location 9.84251976, -9.84251785) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A2") (Location -9.84251976, -29.52755737) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A1") (Location 9.84251976, -29.52755737) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 12) (Shape Rounded) (Layer Top)
+EndPad
+Text (Location 43.5, 4.52756119) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "D")
+Text (Location 43.5, -54.52755737) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "A")
+Text (Location 15.15748024, -88.50000191) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "2")
+Text (Location 34.84251976, -88.50000191) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "1")
+Line (Width 1) (Start 8.65748024, -38.5) (End 18.5, -28.65748024) (Layer Mechanical13) 
+Line (Width 1) (Start -18.5, -38.5) (End 18.5, -38.5) (Layer Mechanical13) 
+Line (Width 1) (Start 18.5, -38.5) (End 18.5, 38.5) (Layer Mechanical13) 
+Line (Width 1) (Start 18.5, 38.5) (End -18.5, 38.5) (Layer Mechanical13) 
+Line (Width 1) (Start -18.5, 38.5) (End -18.5, -38.5) (Layer Mechanical13) 
+Text (Location 43.5, 4.52756119) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "D")
+Text (Location 43.5, -54.52755737) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "A")
+Text (Location 15.15748024, -88.50000191) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "2")
+Text (Location 34.84251976, -88.50000191) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "1")
+Text (Location 68.5, 4.52756119) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "D")
+Text (Location 68.5, -54.52755737) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "A")
+Text (Location -34.84251976, -88.50000191) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "2")
+Text (Location -15.15748024, -88.50000191) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "1")
+Line (Width 6) (Start -28.5, -48.5) (End -28.5, 48.5) (Layer Mechanical15) 
+Line (Width 6) (Start -28.5, 48.5) (End 28.5, 48.5) (Layer Mechanical15) 
+Line (Width 6) (Start 28.5, 48.5) (End 28.5, -48.5) (Layer Mechanical15) 
+Line (Width 6) (Start 28.5, -48.5) (End -28.5, -48.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-28.5, -48.5)
+Point (-28.5, 48.5)
+Point (28.5, 48.5)
+Point (28.5, -48.5)
+EndPolygon
+Polygon (PointCount 4) (Layer KeepOutLayer) 
+Point (-37.18503952, 56.87007904)
+Point (37.18503952, 56.87007904)
+Point (37.18503952, -56.87007904)
+Point (-37.18503952, -56.87007904)
+EndPolygon
+Step (Name YZP8.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "SN74LVC3G34YZPR") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "B1") (Name Visible "B1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "B2") (Name Visible "B2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, -300) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "D1") (Name Visible "D1") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 300, -400) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "D2") (Name Visible "D2") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 1300, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "A1") (Name Visible "A1") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 1300, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "A2") (Name Visible "A2") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Pin (Location 1300, -300) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "C1") (Name Visible "C1") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 1)
+Pin (Location 1300, -400) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "C2") (Name Visible "C2") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 1)
+Rectangle (Width 5) (Start 300, -600) (End 1300, 300) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Texas Instruments") (Part 1)
+Parameter (Name "RefDes") (Location 800, 500) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 800, 400) (Height 82) (Rotation 0) (Justification Center) (Value "Type") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "YZP8")
+EndComponent
+EndComponents
