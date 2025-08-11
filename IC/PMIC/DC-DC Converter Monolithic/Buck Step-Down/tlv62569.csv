@@ -1,0 +1,7 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cin,Taiyo Yuden,MSAST21GAB5475MTNA01,1,0.03223,6.75,Cap: 4.7 µF  Total Derated Cap: 3.6 µF  VDC: 25 V  ESR: 8.21 mΩ  Package: 0805  
+Cout,MuRata,GRJ155R60J106ME11D,3,0.02,3,Cap: 10 µF  Total Derated Cap: 11 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0402  
+L1,Wurth Elektronik,74438336015HT,1,1.04,16,L: 1.5 µH  DCR: 35.2 mΩ  IDC: 5.17 A  
+U1,Texas Instruments,TLV62569DBVR,1,0.059,10.14,
+Rfbt,Yageo,RC0201FR-07442KL,1,0.01,2.08,Resistance: 442 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rfbb,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
