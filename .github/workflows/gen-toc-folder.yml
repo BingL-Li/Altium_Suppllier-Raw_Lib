@@ -103,10 +103,6 @@ jobs:
               calculated_level = base_level + folder_level
               return min(calculated_level, 6)  # GitHub supports up to 6 levels
           
-          def get_indent_spaces(level):
-              """Get appropriate indentation for nested content"""
-              return '  ' * level  # 2 spaces per level
-          
           def generate_folder_toc():
               toc = ["## 📁 Repository Structure\n\n"]
               
@@ -209,8 +205,8 @@ jobs:
                           # Add folder header
                           toc.append(f"{folder_header_prefix} 📂 {folder_name}\n\n")
                           
-                          # Add indented file list
-                          indent = get_indent_spaces(folder_level - 1)
+                          # Use consistent 2-space indentation for all file lists
+                          indent = "  "  # Always 2 spaces to avoid code block formatting
                           
                           for file in sorted(folder_info['files']):
                               encoded_path = url_encode_path(f"{folder_path}/{file}")
@@ -265,5 +261,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update library structure with proper indentation and header levels"
+          git diff --staged --quiet || git commit -m "docs: fix indentation to prevent code block formatting"
           git push
