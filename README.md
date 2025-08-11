@@ -3,6 +3,12 @@ Save and manage supplier raw libraries and datasheets
 
 
 <!-- FOLDER-TOC -->
+![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner) ![License](https://img.shields.io/github/license/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
+
+![Total Libraries](https://img.shields.io/badge/Libraries-12-blue?style=flat-square&logo=altiumdesigner) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square) ![Datasheets](https://img.shields.io/badge/Datasheets-62-yellow?style=flat-square&logo=adobeacrobatreader) ![SchLib](https://img.shields.io/badge/SchLib-4-orange?style=flat-square) ![PcbLib](https://img.shields.io/badge/PcbLib-4-red?style=flat-square) ![3D Models](https://img.shields.io/badge/3D%20Models-3-purple?style=flat-square&logo=blender)
+
 ## 📊 Library Summary
 - 🔗 **4** Integrated Libraries (*.IntLib)
 - 📐 **4** Symbol Libraries (*.SchLib)
