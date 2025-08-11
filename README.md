@@ -7,7 +7,7 @@ Save and manage supplier raw libraries and datasheets
 
 ### 📊 Library Summary
 - 🔗 **1** Integrated Libraries (*.IntLib)
-- 📄 **8** Datasheets (*.pdf)
+- 📄 **51** Datasheets (*.pdf)
 
 ### 📂 Folder Structure
 
@@ -17,6 +17,13 @@ Save and manage supplier raw libraries and datasheets
   - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
     - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) - *🔗 1 IntLib | 📄 1 PDF*
 - [📂 IC](./IC/)
+  - [📂 ADC-DAC](./IC/ADC-DAC/)
+    - [📂 **ADC**](./IC/ADC-DAC/ADC/) - *📄 3 PDF*
+    - [📂 **Combined ADC DAC and or GPIO**](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/) - *📄 5 PDF*
+    - [📂 **DAC**](./IC/ADC-DAC/DAC/) - *📄 1 PDF*
+  - [📂 **IO Expander**](./IC/IO%20Expander/) - *📄 1 PDF*
+  - [📂 **LED Driver**](./IC/LED%20Driver/) - *📄 3 PDF*
+  - [📂 **MCU**](./IC/MCU/) - *📄 2 PDF*
   - [📂 PMIC](./IC/PMIC/)
     - [📂 **Battery Charger**](./IC/PMIC/Battery%20Charger/) - *📄 1 PDF*
     - [📂 DC-DC Converter Monolithic](./IC/PMIC/DC-DC%20Converter%20Monolithic/)
@@ -25,6 +32,20 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Power Control Switch**](./IC/PMIC/Power%20Control%20Switch/) - *📄 2 PDF*
     - [📂 Voltage Regulator - Linear](./IC/PMIC/Voltage%20Regulator%20-%20Linear/)
       - [📂 **Low Drop-Out (LDO) Linear Regulator**](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
+  - [📂 Peripheral](./IC/Peripheral/)
+    - [📂 **SMBus-IIC**](./IC/Peripheral/SMBus-IIC/) - *📄 4 PDF*
+  - [📂 Sensor](./IC/Sensor/)
+    - [📂 **Capacitance**](./IC/Sensor/Capacitance/) - *📄 5 PDF*
+      - [📂 FDC1004_Arduino_Test](./IC/Sensor/Capacitance/FDC1004_Arduino_Test/)
+    - [📂 Optical](./IC/Sensor/Optical/)
+      - [📂 **Optical Switch**](./IC/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
+      - [📂 **Proximity**](./IC/Sensor/Optical/Proximity/) - *📄 7 PDF*
+      - [📂 **ToF**](./IC/Sensor/Optical/ToF/) - *📄 1 PDF*
+    - [📂 **Position Sensor - Inductive**](./IC/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
+      - [📂 Coil Profiles](./IC/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
+      - [📂 ICDT_1_2 1](./IC/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
+    - [📂 **Temperature**](./IC/Sensor/Temperature/) - *📄 3 PDF*
+  - [📂 **Small Logic**](./IC/Small%20Logic/) - *📄 3 PDF*
 
 ### 📋 Detailed File Listings
 
@@ -41,6 +62,33 @@ Save and manage supplier raw libraries and datasheets
 **📂 Wurth-Elektronik:**
 - [74438336015HT.pdf](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/74438336015HT.pdf)
 
+**📂 ADC:**
+- [AD7291.pdf](./IC/ADC-DAC/ADC/AD7291.pdf)
+- [MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf](./IC/ADC-DAC/ADC/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf)
+- [UG-253.pdf](./IC/ADC-DAC/ADC/UG-253.pdf)
+
+**📂 Combined ADC DAC and or GPIO:**
+- [AD7294-2.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/AD7294-2.pdf)
+- [ad5592r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5592r.pdf)
+- [ad5593r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5593r.pdf)
+- [amc60804.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc60804.pdf)
+- [amc7891.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc7891.pdf)
+
+**📂 DAC:**
+- [ad5671r_5675r.pdf](./IC/ADC-DAC/DAC/ad5671r_5675r.pdf)
+
+**📂 IO Expander:**
+- [PCA8575.pdf](./IC/IO%20Expander/PCA8575.pdf)
+
+**📂 LED Driver:**
+- [lp5562.pdf](./IC/LED%20Driver/lp5562.pdf)
+- [tlc59108.pdf](./IC/LED%20Driver/tlc59108.pdf)
+- [tlc59116.pdf](./IC/LED%20Driver/tlc59116.pdf)
+
+**📂 MCU:**
+- [cc1312r.pdf](./IC/MCU/cc1312r.pdf)
+- [swcu185g.pdf](./IC/MCU/swcu185g.pdf)
+
 **📂 Battery Charger:**
 - [ltc4020.pdf](./IC/PMIC/Battery%20Charger/ltc4020.pdf)
 
@@ -56,5 +104,49 @@ Save and manage supplier raw libraries and datasheets
 
 **📂 Low Drop-Out (LDO) Linear Regulator:**
 - [NCP1117-D.PDF](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/NCP1117-D.PDF)
+
+**📂 SMBus-IIC:**
+- [AN10658.pdf](./IC/Peripheral/SMBus-IIC/AN10658.pdf)
+- [AN255.pdf](./IC/Peripheral/SMBus-IIC/AN255.pdf)
+- [PCA9600.pdf](./IC/Peripheral/SMBus-IIC/PCA9600.pdf)
+- [tca9548a.pdf](./IC/Peripheral/SMBus-IIC/tca9548a.pdf)
+
+**📂 Capacitance:**
+- [snoa925.pdf](./IC/Sensor/Capacitance/snoa925.pdf)
+- [snoscy5c.pdf](./IC/Sensor/Capacitance/snoscy5c.pdf)
+- [tidrcr9.pdf](./IC/Sensor/Capacitance/tidrcr9.pdf)
+- [tidrcs2.pdf](./IC/Sensor/Capacitance/tidrcs2.pdf)
+- [tidu736a.pdf](./IC/Sensor/Capacitance/tidu736a.pdf)
+
+**📂 Optical Switch:**
+- [OPB315.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB315.pdf)
+- [OPB800.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB800.pdf)
+
+**📂 Proximity:**
+- [vcnl36687s.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s.pdf)
+- [vcnl36687s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
+- [vcnl36687s_sensor-board-files.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
+- [vcnl36826s.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s.pdf)
+- [vcnl36826s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
+- [vcnl36826s_physics.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
+- [vcnl36826s_sensor-board-guide.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
+
+**📂 ToF:**
+- [vl53l8ch.pdf](./IC/Sensor/Optical/ToF/vl53l8ch.pdf)
+
+**📂 Position Sensor - Inductive:**
+- [REN_IPS2550-Datasheet_DST_20240424.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
+- [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
+- [REN_ZMID520x-Datasheet_DST_20200721.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
+
+**📂 Temperature:**
+- [PEPI-C-Thermostats.pdf](./IC/Sensor/Temperature/PEPI-C-Thermostats.pdf)
+- [TC622 TC624 21440D.pdf](./IC/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
+- [adt7420.pdf](./IC/Sensor/Temperature/adt7420.pdf)
+
+**📂 Small Logic:**
+- [scyt129g_TI_Small-Logic-Gate.pdf](./IC/Small%20Logic/scyt129g_TI_Small-Logic-Gate.pdf)
+- [sn74lvc2g241.pdf](./IC/Small%20Logic/sn74lvc2g241.pdf)
+- [sn74lvc3g34.pdf](./IC/Small%20Logic/sn74lvc3g34.pdf)
 
 <!-- /FOLDER-TOC -->
