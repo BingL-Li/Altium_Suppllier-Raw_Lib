@@ -121,16 +121,41 @@ jobs:
                   pass
               return 'user/repo'  # fallback
           
+          def check_license_type():
+              """Check what type of license is being used"""
+              license_files = ['LICENSE', 'LICENSE.md', 'LICENSE.txt', 'README.md']
+              
+              for file_name in license_files:
+                  if os.path.exists(file_name):
+                      try:
+                          with open(file_name, 'r', encoding='utf-8') as f:
+                              content = f.read().lower()
+                              if 'creative commons' in content and 'by-nc-sa' in content:
+                                  return 'cc-by-nc-sa'
+                              elif 'creative commons' in content:
+                                  return 'creative-commons'
+                              elif any(license_type in content for license_type in ['mit', 'apache', 'gpl', 'bsd']):
+                                  return 'standard'
+                      except:
+                          continue
+              
+              return 'standard'  # fallback
+          
           def generate_badges(total_counts, repo_path):
-              """Generate shields.io badges in the specified order"""
+              """Generate shields.io badges with corrected logos in the specified order"""
               badges = []
               
               # First row: Altium Designer + License
               badges.append("![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner)")
               
-              # Check if LICENSE file exists
-              if os.path.exists('LICENSE') or os.path.exists('LICENSE.md') or os.path.exists('LICENSE.txt'):
-                  badges.append(f"![License](https://img.shields.io/github/license/{repo_path}?style=flat-square)")
+              # Check license type and create appropriate badge
+              license_type = check_license_type()
+              if license_type == 'cc-by-nc-sa':
+                  badges.append("![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square&logo=creativecommons)")
+              elif license_type == 'creative-commons':
+                  badges.append("![License: Creative Commons](https://img.shields.io/badge/License-Creative%20Commons-lightgrey.svg?style=flat-square&logo=creativecommons)")
+              elif os.path.exists('LICENSE') or os.path.exists('LICENSE.md') or os.path.exists('LICENSE.txt'):
+                  badges.append(f"![License](https://img.shields.io/github/license/{repo_path}?style=flat-square&logo=opensourcehardware)")
               
               # Second row: GitHub info
               github_badges = []
@@ -138,25 +163,25 @@ jobs:
               github_badges.append(f"![GitHub last commit](https://img.shields.io/github/last-commit/{repo_path}?style=flat-square&logo=github)")
               github_badges.append(f"![GitHub stars](https://img.shields.io/github/stars/{repo_path}?style=flat-square&logo=github)")
               
-              # Third row: Library counts
+              # Third row: Library counts with corrected logos
               library_badges = []
               
-              # Total libraries count
+              if total_counts['pdf'] > 0:
+                  library_badges.append(f"![Datasheets](https://img.shields.io/badge/Datasheets-{total_counts['pdf']}-yellow?style=flat-square&logo=filedotio)")
+              
+              # Total libraries count - use opensourcehardware gear logo
               total_libs = total_counts['intlib'] + total_counts['schlib'] + total_counts['pcblib']
               if total_libs > 0:
-                  library_badges.append(f"![Total Libraries](https://img.shields.io/badge/Libraries-{total_libs}-blue?style=flat-square&logo=altiumdesigner)")
+                  library_badges.append(f"![Total Libraries](https://img.shields.io/badge/Libraries-{total_libs}-blue?style=flat-square&logo=opensourcehardware)")
               
               if total_counts['intlib'] > 0:
-                  library_badges.append(f"![IntLib](https://img.shields.io/badge/IntLib-{total_counts['intlib']}-green?style=flat-square)")
-              
-              if total_counts['pdf'] > 0:
-                  library_badges.append(f"![Datasheets](https://img.shields.io/badge/Datasheets-{total_counts['pdf']}-yellow?style=flat-square&logo=adobeacrobatreader)")
+                  library_badges.append(f"![IntLib](https://img.shields.io/badge/IntLib-{total_counts['intlib']}-green?style=flat-square&logo=librariesdotio)")
               
               if total_counts['schlib'] > 0:
-                  library_badges.append(f"![SchLib](https://img.shields.io/badge/SchLib-{total_counts['schlib']}-orange?style=flat-square)")
+                  library_badges.append(f"![SchLib](https://img.shields.io/badge/SchLib-{total_counts['schlib']}-orange?style=flat-square&logo=electron)")
               
               if total_counts['pcblib'] > 0:
-                  library_badges.append(f"![PcbLib](https://img.shields.io/badge/PcbLib-{total_counts['pcblib']}-red?style=flat-square)")
+                  library_badges.append(f"![PcbLib](https://img.shields.io/badge/PcbLib-{total_counts['pcblib']}-red?style=flat-square&logo=circuitverse)")
               
               if total_counts['step'] > 0:
                   library_badges.append(f"![3D Models](https://img.shields.io/badge/3D%20Models-{total_counts['step']}-purple?style=flat-square&logo=blender)")
@@ -198,7 +223,7 @@ jobs:
                   if total_counts['pcblib'] > 0:
                       toc.append(f"- 🦶 **{total_counts['pcblib']}** Footprint Libraries (*.PcbLib)\n")
                   if total_counts['step'] > 0:
-                      toc.append(f"- 🎯 **{total_counts['step']}** 3D Models (*.STP/*.STEP)\n")
+                      toc.append(f"- 🎯 **{total_counts['step']}** 3D Models (*.STP/.STEP)\n")
                   if total_counts['pdf'] > 0:
                       toc.append(f"- 📄 **{total_counts['pdf']}** Datasheets (*.pdf)\n")
                   toc.append("\n")
@@ -336,5 +361,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: reorder badges without section header"
+          git diff --staged --quiet || git commit -m "docs: update license badge for Creative Commons CC BY-NC-SA 4.0"
           git push
