@@ -10,7 +10,7 @@ Save and manage supplier raw libraries and datasheets
 - 📐 **4** Symbol Libraries (*.SchLib)
 - 🦶 **4** Footprint Libraries (*.PcbLib)
 - 🎯 **4** 3D Models (*.STP/*.STEP)
-- 📄 **64** Datasheets (*.pdf)
+- 📄 **65** Datasheets (*.pdf)
 
 ### 📂 Folder Structure
 
@@ -44,7 +44,7 @@ Save and manage supplier raw libraries and datasheets
   - [📂 PMIC](./IC/PMIC/)
     - [📂 **Battery Charger**](./IC/PMIC/Battery%20Charger/) - *📄 1 PDF*
     - [📂 DC-DC Converter Monolithic](./IC/PMIC/DC-DC%20Converter%20Monolithic/)
-      - [📂 **Buck Step-Down**](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) - *📄 1 PDF*
+      - [📂 **Buck Step-Down**](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) - *📄 2 PDF*
     - [📂 **Ideal Diode**](./IC/PMIC/Ideal%20Diode/) - *📄 1 PDF*
     - [📂 **Power Control Switch**](./IC/PMIC/Power%20Control%20Switch/) - *📄 2 PDF*
     - [📂 Voltage Regulator - Linear](./IC/PMIC/Voltage%20Regulator%20-%20Linear/)
@@ -70,129 +70,129 @@ Save and manage supplier raw libraries and datasheets
 
 ###### 📂 FH63S_20S_0_5SH
 
-      - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH.IntLib)
+  - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH.IntLib)
 
 ###### 📂 FH63S_30S_0_5SH
 
-      - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH.IntLib)
+  - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH.IntLib)
 
 ###### 📂 1054301104
 
-      - [1054301104.IntLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104.IntLib)
+  - [1054301104.IntLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104.IntLib)
 
 ###### 📂 Wurth-Elektronik
 
-    - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
+  - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
 
 #### 📐 Symbol Libraries (*.SchLib)
 
 ###### 📂 FH63S-10S-0.5SH
 
-      - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/FH63S-10S-0.5SH.SchLib)
+  - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/FH63S-10S-0.5SH.SchLib)
 
 ###### 📂 FH63S-20S-0.5SH
 
-        - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
+  - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
 
 ###### 📂 FH63S-30S-0.5SH
 
-        - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
+  - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
 
 ###### 📂 1054301104
 
-        - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
+  - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
 
 #### 🦶 Footprint Libraries (*.PcbLib)
 
 ###### 📂 FH63S-10S-0.5SH
 
-      - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/HRS_FH63S-10S-0.5SH.PcbLib)
+  - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/HRS_FH63S-10S-0.5SH.PcbLib)
 
 ###### 📂 FH63S-20S-0.5SH
 
-        - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
+  - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
 
 ###### 📂 FH63S-30S-0.5SH
 
-        - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
+  - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
 
 ###### 📂 1054301104
 
-        - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
+  - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
 
 #### 🎯 3D Models (*.STP/*.STEP)
 
 ###### 📂 FH63S-10S-0.5SH(01)_CL0580-4414-0-01_3DDrawing_STEP_0001372634S
 
-      - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/FH63S-10S-0.5SH.stp) *(1.6 MB)*
+  - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/FH63S-10S-0.5SH.stp) *(1.6 MB)*
 
 ###### 📂 FH63S-20S-0.5SH(01)_CL0580-4419-0-01_3DDrawing_STEP_0001372631S
 
-      - [FH63S-20S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/FH63S-20S-0.5SH.stp) *(2.2 MB)*
+  - [FH63S-20S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/FH63S-20S-0.5SH.stp) *(2.2 MB)*
 
 ###### 📂 FH63S-30S-0.5SH(01)_CL0580-4415-0-01_3DDrawing_STEP_0001372644S
 
-      - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/FH63S-30S-0.5SH.stp) *(2.7 MB)*
+  - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/FH63S-30S-0.5SH.stp) *(2.7 MB)*
 
 ###### 📂 1054301104
 
-      - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
+  - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
 
 #### 📄 Datasheets (*.pdf)
 
 ###### 📂 Hirose
 
-    - [FH63S-10S-0.5SH(01)_CL0580-4414-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_2DDrawing_0001602788.pdf)
-    - [FH63S-20S-0.5SH(01)_CL0580-4419-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_2DDrawing_0001602788.pdf)
-    - [FH63S-30S-0.5SH(01)_CL0580-4415-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_2DDrawing_0001602788.pdf)
-    - [FH63S-40S-0.5SH(01)_CL0580-4416-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-40S-0.5SH%2801%29_CL0580-4416-0-01_2DDrawing_0001602788.pdf)
-    - [FH63S-50S-0.5SH(01)_CL0580-4417-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-50S-0.5SH%2801%29_CL0580-4417-0-01_2DDrawing_0001602788.pdf)
-    - [FH63S_Catalog_ed_FH63S_CAT.pdf](./Connector/FPC%20FFC/Hirose/FH63S_Catalog_ed_FH63S_CAT.pdf)
+  - [FH63S-10S-0.5SH(01)_CL0580-4414-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_2DDrawing_0001602788.pdf)
+  - [FH63S-20S-0.5SH(01)_CL0580-4419-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_2DDrawing_0001602788.pdf)
+  - [FH63S-30S-0.5SH(01)_CL0580-4415-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_2DDrawing_0001602788.pdf)
+  - [FH63S-40S-0.5SH(01)_CL0580-4416-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-40S-0.5SH%2801%29_CL0580-4416-0-01_2DDrawing_0001602788.pdf)
+  - [FH63S-50S-0.5SH(01)_CL0580-4417-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-50S-0.5SH%2801%29_CL0580-4417-0-01_2DDrawing_0001602788.pdf)
+  - [FH63S_Catalog_ed_FH63S_CAT.pdf](./Connector/FPC%20FFC/Hirose/FH63S_Catalog_ed_FH63S_CAT.pdf)
 
 ###### 📂 FH63S-10S-0.5SH(01)_CL0580-4414-0-01_3DDrawing_STEP_0001372634S
 
-      - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/Readme.pdf)
+  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/Readme.pdf)
 
 ###### 📂 FH63S-20S-0.5SH(01)_CL0580-4419-0-01_3DDrawing_STEP_0001372631S
 
-      - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/Readme.pdf)
+  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/Readme.pdf)
 
 ###### 📂 FH63S-30S-0.5SH(01)_CL0580-4415-0-01_3DDrawing_STEP_0001372644S
 
-      - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/Readme.pdf)
+  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/Readme.pdf)
 
 ###### 📂 Molex
 
-    - [2004850210_sd.pdf](./Connector/FPC%20FFC/Molex/2004850210_sd.pdf)
-    - [2004850220_sd.pdf](./Connector/FPC%20FFC/Molex/2004850220_sd.pdf)
-    - [2004850230_sd.pdf](./Connector/FPC%20FFC/Molex/2004850230_sd.pdf)
-    - [526100672_sd.pdf](./Connector/FPC%20FFC/Molex/526100672_sd.pdf)
+  - [2004850210_sd.pdf](./Connector/FPC%20FFC/Molex/2004850210_sd.pdf)
+  - [2004850220_sd.pdf](./Connector/FPC%20FFC/Molex/2004850220_sd.pdf)
+  - [2004850230_sd.pdf](./Connector/FPC%20FFC/Molex/2004850230_sd.pdf)
+  - [526100672_sd.pdf](./Connector/FPC%20FFC/Molex/526100672_sd.pdf)
 
 ###### 📂 Murata
 
-    - [EFLD0010.pdf](./Discrete%20-%20Passive/Choke/Murata/EFLD0010.pdf)
+  - [EFLD0010.pdf](./Discrete%20-%20Passive/Choke/Murata/EFLD0010.pdf)
 
 ###### 📂 Wurth-Elektronik
 
-    - [74438336015HT.pdf](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/74438336015HT.pdf)
+  - [74438336015HT.pdf](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/74438336015HT.pdf)
 
 ###### 📂 ADC
 
-    - [AD7291.pdf](./IC/ADC-DAC/ADC/AD7291.pdf)
-    - [MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf](./IC/ADC-DAC/ADC/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf)
-    - [UG-253.pdf](./IC/ADC-DAC/ADC/UG-253.pdf)
+  - [AD7291.pdf](./IC/ADC-DAC/ADC/AD7291.pdf)
+  - [MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf](./IC/ADC-DAC/ADC/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf)
+  - [UG-253.pdf](./IC/ADC-DAC/ADC/UG-253.pdf)
 
 ###### 📂 Combined ADC DAC and or GPIO
 
-    - [AD7294-2.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/AD7294-2.pdf)
-    - [ad5592r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5592r.pdf)
-    - [ad5593r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5593r.pdf)
-    - [amc60804.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc60804.pdf)
-    - [amc7891.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc7891.pdf)
+  - [AD7294-2.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/AD7294-2.pdf)
+  - [ad5592r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5592r.pdf)
+  - [ad5593r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5593r.pdf)
+  - [amc60804.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc60804.pdf)
+  - [amc7891.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc7891.pdf)
 
 ###### 📂 DAC
 
-    - [ad5671r_5675r.pdf](./IC/ADC-DAC/DAC/ad5671r_5675r.pdf)
+  - [ad5671r_5675r.pdf](./IC/ADC-DAC/DAC/ad5671r_5675r.pdf)
 
 ###### 📂 IO Expander
 
@@ -211,70 +211,71 @@ Save and manage supplier raw libraries and datasheets
 
 ###### 📂 Battery Charger
 
-    - [ltc4020.pdf](./IC/PMIC/Battery%20Charger/ltc4020.pdf)
+  - [ltc4020.pdf](./IC/PMIC/Battery%20Charger/ltc4020.pdf)
 
 ###### 📂 Buck Step-Down
 
-      - [tlv62569.pdf](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/tlv62569.pdf)
+  - [slva289b.pdf](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/slva289b.pdf)
+  - [tlv62569.pdf](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/tlv62569.pdf)
 
 ###### 📂 Ideal Diode
 
-    - [ltc4359.pdf](./IC/PMIC/Ideal%20Diode/ltc4359.pdf)
+  - [ltc4359.pdf](./IC/PMIC/Ideal%20Diode/ltc4359.pdf)
 
 ###### 📂 Power Control Switch
 
-    - [MP5035GJ.pdf](./IC/PMIC/Power%20Control%20Switch/MP5035GJ.pdf)
-    - [tps2042b.pdf](./IC/PMIC/Power%20Control%20Switch/tps2042b.pdf)
+  - [MP5035GJ.pdf](./IC/PMIC/Power%20Control%20Switch/MP5035GJ.pdf)
+  - [tps2042b.pdf](./IC/PMIC/Power%20Control%20Switch/tps2042b.pdf)
 
 ###### 📂 Low Drop-Out (LDO) Linear Regulator
 
-      - [NCP1117-D.PDF](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/NCP1117-D.PDF)
+  - [NCP1117-D.PDF](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/NCP1117-D.PDF)
 
 ###### 📂 SMBus-IIC
 
-    - [AN10658.pdf](./IC/Peripheral/SMBus-IIC/AN10658.pdf)
-    - [AN255.pdf](./IC/Peripheral/SMBus-IIC/AN255.pdf)
-    - [PCA9600.pdf](./IC/Peripheral/SMBus-IIC/PCA9600.pdf)
-    - [tca9548a.pdf](./IC/Peripheral/SMBus-IIC/tca9548a.pdf)
+  - [AN10658.pdf](./IC/Peripheral/SMBus-IIC/AN10658.pdf)
+  - [AN255.pdf](./IC/Peripheral/SMBus-IIC/AN255.pdf)
+  - [PCA9600.pdf](./IC/Peripheral/SMBus-IIC/PCA9600.pdf)
+  - [tca9548a.pdf](./IC/Peripheral/SMBus-IIC/tca9548a.pdf)
 
 ###### 📂 Capacitance
 
-    - [snoa925.pdf](./IC/Sensor/Capacitance/snoa925.pdf)
-    - [snoscy5c.pdf](./IC/Sensor/Capacitance/snoscy5c.pdf)
-    - [tidrcr9.pdf](./IC/Sensor/Capacitance/tidrcr9.pdf)
-    - [tidrcs2.pdf](./IC/Sensor/Capacitance/tidrcs2.pdf)
-    - [tidu736a.pdf](./IC/Sensor/Capacitance/tidu736a.pdf)
+  - [snoa925.pdf](./IC/Sensor/Capacitance/snoa925.pdf)
+  - [snoscy5c.pdf](./IC/Sensor/Capacitance/snoscy5c.pdf)
+  - [tidrcr9.pdf](./IC/Sensor/Capacitance/tidrcr9.pdf)
+  - [tidrcs2.pdf](./IC/Sensor/Capacitance/tidrcs2.pdf)
+  - [tidu736a.pdf](./IC/Sensor/Capacitance/tidu736a.pdf)
 
 ###### 📂 Optical Switch
 
-      - [OPB315.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB315.pdf)
-      - [OPB800.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB800.pdf)
+  - [OPB315.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB315.pdf)
+  - [OPB800.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB800.pdf)
 
 ###### 📂 Proximity
 
-      - [vcnl36687s.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s.pdf)
-      - [vcnl36687s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
-      - [vcnl36687s_sensor-board-files.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
-      - [vcnl36826s.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s.pdf)
-      - [vcnl36826s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
-      - [vcnl36826s_physics.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
-      - [vcnl36826s_sensor-board-guide.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
+  - [vcnl36687s.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s.pdf)
+  - [vcnl36687s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
+  - [vcnl36687s_sensor-board-files.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
+  - [vcnl36826s.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s.pdf)
+  - [vcnl36826s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
+  - [vcnl36826s_physics.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
+  - [vcnl36826s_sensor-board-guide.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
 
 ###### 📂 ToF
 
-      - [vl53l8ch.pdf](./IC/Sensor/Optical/ToF/vl53l8ch.pdf)
+  - [vl53l8ch.pdf](./IC/Sensor/Optical/ToF/vl53l8ch.pdf)
 
 ###### 📂 Position Sensor - Inductive
 
-    - [REN_IPS2550-Datasheet_DST_20240424.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
-    - [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
-    - [REN_ZMID520x-Datasheet_DST_20200721.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
+  - [REN_IPS2550-Datasheet_DST_20240424.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
+  - [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
+  - [REN_ZMID520x-Datasheet_DST_20200721.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
 
 ###### 📂 Temperature
 
-    - [PEPI-C-Thermostats.pdf](./IC/Sensor/Temperature/PEPI-C-Thermostats.pdf)
-    - [TC622 TC624 21440D.pdf](./IC/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
-    - [adt7420.pdf](./IC/Sensor/Temperature/adt7420.pdf)
+  - [PEPI-C-Thermostats.pdf](./IC/Sensor/Temperature/PEPI-C-Thermostats.pdf)
+  - [TC622 TC624 21440D.pdf](./IC/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
+  - [adt7420.pdf](./IC/Sensor/Temperature/adt7420.pdf)
 
 ###### 📂 Small Logic
 
