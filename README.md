@@ -4,7 +4,20 @@ Save and manage supplier raw libraries and datasheets
 
 <!-- FOLDER-TOC -->
 ## 📁 Repository Structure
-- [📂 Passive](./Passive/) - *1 libraries*
-  - [📂 Inductor](./Passive/Inductor/) - *1 libraries*
-    - [📂 Wurth Elektronik](./Passive/Inductor/Wurth Elektronik/) - *1 libraries*
+
+### 📊 Library Summary
+- 🔗 **1** Integrated Libraries (*.IntLib)
+
+### 📂 Folder Structure
+
+- [📂 Passive](./Passive/)
+  - [📂 Inductor](./Passive/Inductor/)
+    - [📂 **Wurth Elektronik**](./Passive/Inductor/Wurth Elektronik/) - *🔗 1 IntLib*
+
+### 📋 Detailed File Listings
+
+#### 📂 Wurth Elektronik
+**Integrated Libraries:**
+- 🔗 [WE-MAPI (rev25a).IntLib](./Passive/Inductor/Wurth Elektronik/WE-MAPI (rev25a).IntLib)
+
 <!-- /FOLDER-TOC -->
