@@ -1,0 +1,93 @@
+name: Generate Enhanced Folder TOC
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-folder-toc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Enhanced Folder Structure
+        run: |
+          cat > generate_toc.py << 'EOF'
+          import os
+          import subprocess
+          
+          def count_files(directory, extensions):
+              count = 0
+              for root, dirs, files in os.walk(directory):
+                  for file in files:
+                      if any(file.lower().endswith(ext) for ext in extensions):
+                          count += 1
+              return count
+          
+          def generate_folder_toc():
+              toc = ["## 📁 Repository Structure\n"]
+              
+              # Define file extensions to count
+              lib_extensions = ['.schlib', '.intlib', '.dblib']
+              pdf_extensions = ['.pdf']
+              pcb_extensions = ['.pcblib', '.footprint']
+              
+              for root, dirs, files in os.walk('.'):
+                  # Skip .git and .github directories
+                  dirs[:] = [d for d in dirs if not d.startswith('.git')]
+                  
+                  if root == '.':
+                      continue
+                      
+                  level = root.count(os.sep) - 1
+                  indent = '  ' * level
+                  folder_name = os.path.basename(root)
+                  
+                  # Count relevant files
+                  lib_count = count_files(root, lib_extensions)
+                  pdf_count = count_files(root, pdf_extensions)
+                  pcb_count = count_files(root, pcb_extensions)
+                  
+                  # Create description based on file types
+                  descriptions = []
+                  if lib_count > 0:
+                      descriptions.append(f"{lib_count} libraries")
+                  if pdf_count > 0:
+                      descriptions.append(f"{pdf_count} datasheets")
+                  if pcb_count > 0:
+                      descriptions.append(f"{pcb_count} footprints")
+                  
+                  desc = " | ".join(descriptions) if descriptions else "folder"
+                  
+                  toc.append(f"{indent}- [📂 {folder_name}]({root}/) - *{desc}*\n")
+              
+              return ''.join(toc)
+          
+          # Generate and save TOC
+          with open('folder_toc.md', 'w') as f:
+              f.write(generate_folder_toc())
+          EOF
+          
+          python generate_toc.py
+
+      - name: Update README
+        run: |
+          if grep -q "<!-- FOLDER-TOC -->" README.md; then
+            # Create temporary file with new content
+            awk '
+            /<!-- FOLDER-TOC -->/ {print; system("cat folder_toc.md"); f=1; next}
+            /<!-- \/FOLDER-TOC -->/ {f=0}
+            !f {print}
+            ' README.md > temp_readme.md
+            mv temp_readme.md README.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs: update folder structure with file counts"
+          git push
