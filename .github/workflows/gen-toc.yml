@@ -22,4 +22,4 @@ jobs:
           OPENING_COMMENT: '<!-- TOC -->'
           CLOSING_COMMENT: '<!-- /TOC -->'
           COMMIT_MESSAGE: 'docs: update table of contents'
-          MAX_HEADER_LEVEL: 3
+          MAX_HEADER_LEVEL: 4
