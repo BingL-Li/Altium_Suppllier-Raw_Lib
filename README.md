@@ -9,22 +9,19 @@ Save and manage supplier raw libraries and datasheets
 - 🔗 **4** Integrated Libraries (*.IntLib)
 - 📐 **4** Symbol Libraries (*.SchLib)
 - 🦶 **4** Footprint Libraries (*.PcbLib)
-- 🎯 **4** 3D Models (*.STP/*.STEP)
-- 📄 **65** Datasheets (*.pdf)
+- 🎯 **3** 3D Models (*.STP/*.STEP)
+- 📄 **62** Datasheets (*.pdf)
 
 ### 📂 Folder Structure
 
 - [📂 Connector](./Connector/)
   - [📂 FPC FFC](./Connector/FPC%20FFC/)
     - [📂 **Hirose**](./Connector/FPC%20FFC/Hirose/) - *📄 6 PDF*
-      - [📂 **FH63S-10S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
-      - [📂 **FH63S-10S-0.5SH(01)_CL0580-4414-0-01_3DDrawing_STEP_0001372634S**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/) - *🎯 1 3D | 📄 1 PDF*
-      - [📂 **FH63S-20S-0.5SH(01)_CL0580-4419-0-01_3DDrawing_STEP_0001372631S**](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/) - *🎯 1 3D | 📄 1 PDF*
-      - [📂 **FH63S-30S-0.5SH(01)_CL0580-4415-0-01_3DDrawing_STEP_0001372644S**](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/) - *🎯 1 3D | 📄 1 PDF*
-      - [📂 **FH63S_20S_0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/) - *🔗 1 IntLib*
-        - [📂 **FH63S-20S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
-      - [📂 **FH63S_30S_0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/) - *🔗 1 IntLib*
-        - [📂 **FH63S-30S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
+      - [📂 **FH63S-10S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+      - [📂 **FH63S-20S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/) - *🔗 1 IntLib*
+        - [📂 **FH63S-20S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
+      - [📂 **FH63S-30S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/) - *🔗 1 IntLib | 🎯 1 3D*
+        - [📂 **FH63S-30S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 **Molex**](./Connector/FPC%20FFC/Molex/) - *📄 4 PDF*
       - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/) - *🔗 1 IntLib | 🎯 1 3D*
         - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/1054301104/) - *📐 1 SchLib | 🦶 1 PcbLib*
@@ -68,13 +65,13 @@ Save and manage supplier raw libraries and datasheets
 
 #### 🔗 Integrated Libraries (*.IntLib)
 
-###### 📂 FH63S_20S_0_5SH
+###### 📂 FH63S-20S-0_5SH
 
-  - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH.IntLib)
+  - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH.IntLib)
 
-###### 📂 FH63S_30S_0_5SH
+###### 📂 FH63S-30S-0_5SH
 
-  - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH.IntLib)
+  - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.IntLib)
 
 ###### 📂 1054301104
 
@@ -86,17 +83,17 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📐 Symbol Libraries (*.SchLib)
 
-###### 📂 FH63S-10S-0.5SH
+###### 📂 FH63S-10S-0_5SH
 
-  - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/FH63S-10S-0.5SH.SchLib)
+  - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.SchLib)
 
 ###### 📂 FH63S-20S-0.5SH
 
-  - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
+  - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
 
 ###### 📂 FH63S-30S-0.5SH
 
-  - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
+  - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
 
 ###### 📂 1054301104
 
@@ -104,17 +101,17 @@ Save and manage supplier raw libraries and datasheets
 
 #### 🦶 Footprint Libraries (*.PcbLib)
 
-###### 📂 FH63S-10S-0.5SH
+###### 📂 FH63S-10S-0_5SH
 
-  - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH/HRS_FH63S-10S-0.5SH.PcbLib)
+  - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/HRS_FH63S-10S-0.5SH.PcbLib)
 
 ###### 📂 FH63S-20S-0.5SH
 
-  - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_20S_0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
+  - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
 
 ###### 📂 FH63S-30S-0.5SH
 
-  - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S_30S_0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
+  - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
 
 ###### 📂 1054301104
 
@@ -122,17 +119,13 @@ Save and manage supplier raw libraries and datasheets
 
 #### 🎯 3D Models (*.STP/*.STEP)
 
-###### 📂 FH63S-10S-0.5SH(01)_CL0580-4414-0-01_3DDrawing_STEP_0001372634S
+###### 📂 FH63S-10S-0_5SH
 
-  - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/FH63S-10S-0.5SH.stp) *(1.6 MB)*
+  - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.stp) *(1.6 MB)*
 
-###### 📂 FH63S-20S-0.5SH(01)_CL0580-4419-0-01_3DDrawing_STEP_0001372631S
+###### 📂 FH63S-30S-0_5SH
 
-  - [FH63S-20S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/FH63S-20S-0.5SH.stp) *(2.2 MB)*
-
-###### 📂 FH63S-30S-0.5SH(01)_CL0580-4415-0-01_3DDrawing_STEP_0001372644S
-
-  - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/FH63S-30S-0.5SH.stp) *(2.7 MB)*
+  - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.stp) *(2.7 MB)*
 
 ###### 📂 1054301104
 
@@ -148,18 +141,6 @@ Save and manage supplier raw libraries and datasheets
   - [FH63S-40S-0.5SH(01)_CL0580-4416-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-40S-0.5SH%2801%29_CL0580-4416-0-01_2DDrawing_0001602788.pdf)
   - [FH63S-50S-0.5SH(01)_CL0580-4417-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-50S-0.5SH%2801%29_CL0580-4417-0-01_2DDrawing_0001602788.pdf)
   - [FH63S_Catalog_ed_FH63S_CAT.pdf](./Connector/FPC%20FFC/Hirose/FH63S_Catalog_ed_FH63S_CAT.pdf)
-
-###### 📂 FH63S-10S-0.5SH(01)_CL0580-4414-0-01_3DDrawing_STEP_0001372634S
-
-  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-10S-0.5SH%2801%29_CL0580-4414-0-01_3DDrawing_STEP_0001372634S/Readme.pdf)
-
-###### 📂 FH63S-20S-0.5SH(01)_CL0580-4419-0-01_3DDrawing_STEP_0001372631S
-
-  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-20S-0.5SH%2801%29_CL0580-4419-0-01_3DDrawing_STEP_0001372631S/Readme.pdf)
-
-###### 📂 FH63S-30S-0.5SH(01)_CL0580-4415-0-01_3DDrawing_STEP_0001372644S
-
-  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH63S-30S-0.5SH%2801%29_CL0580-4415-0-01_3DDrawing_STEP_0001372644S/Readme.pdf)
 
 ###### 📂 Molex
 
