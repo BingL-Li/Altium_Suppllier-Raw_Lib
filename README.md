@@ -61,74 +61,6 @@ Save and manage supplier raw libraries and datasheets
 
 ## 📋 Detailed File Listings
 
-### 🔗 Integrated Libraries (*.IntLib)
-
-#### 📂 FH63S-20S-0_5SH
-
-  - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH.IntLib)
-
-#### 📂 FH63S-30S-0_5SH
-
-  - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.IntLib)
-
-#### 📂 1054301104
-
-  - [1054301104.IntLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104.IntLib)
-
-#### 📂 Wurth-Elektronik
-
-  - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
-
-### 📐 Symbol Libraries (*.SchLib)
-
-#### 📂 FH63S-10S-0_5SH
-
-  - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.SchLib)
-
-#### 📂 FH63S-20S-0.5SH
-
-  - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
-
-#### 📂 FH63S-30S-0.5SH
-
-  - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
-
-#### 📂 1054301104
-
-  - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
-
-### 🦶 Footprint Libraries (*.PcbLib)
-
-#### 📂 FH63S-10S-0_5SH
-
-  - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/HRS_FH63S-10S-0.5SH.PcbLib)
-
-#### 📂 FH63S-20S-0.5SH
-
-  - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
-
-#### 📂 FH63S-30S-0.5SH
-
-  - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
-
-#### 📂 1054301104
-
-  - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
-
-### 🎯 3D Models (*.STP/*.STEP)
-
-#### 📂 FH63S-10S-0_5SH
-
-  - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.stp) *(1.6 MB)*
-
-#### 📂 FH63S-30S-0_5SH
-
-  - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.stp) *(2.7 MB)*
-
-#### 📂 1054301104
-
-  - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
-
 ### 📄 Datasheets (*.pdf)
 
 #### 📂 Hirose
@@ -261,5 +193,73 @@ Save and manage supplier raw libraries and datasheets
   - [scyt129g_TI_Small-Logic-Gate.pdf](./IC/Small%20Logic/scyt129g_TI_Small-Logic-Gate.pdf)
   - [sn74lvc2g241.pdf](./IC/Small%20Logic/sn74lvc2g241.pdf)
   - [sn74lvc3g34.pdf](./IC/Small%20Logic/sn74lvc3g34.pdf)
+
+### 📐 Symbol Libraries (*.SchLib)
+
+#### 📂 FH63S-10S-0_5SH
+
+  - [FH63S-10S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.SchLib)
+
+#### 📂 FH63S-20S-0.5SH
+
+  - [FH63S-20S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/FH63S-20S-0.5SH.SchLib)
+
+#### 📂 FH63S-30S-0.5SH
+
+  - [FH63S-30S-0.5SH.SchLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/FH63S-30S-0.5SH.SchLib)
+
+#### 📂 1054301104
+
+  - [1054301104.SchLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/1054301104.SchLib)
+
+### 🦶 Footprint Libraries (*.PcbLib)
+
+#### 📂 FH63S-10S-0_5SH
+
+  - [HRS_FH63S-10S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/HRS_FH63S-10S-0.5SH.PcbLib)
+
+#### 📂 FH63S-20S-0.5SH
+
+  - [HRS_FH63S-20S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/HRS_FH63S-20S-0.5SH.PcbLib)
+
+#### 📂 FH63S-30S-0.5SH
+
+  - [HRS_FH63S-30S-0.5SH.PcbLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/HRS_FH63S-30S-0.5SH.PcbLib)
+
+#### 📂 1054301104
+
+  - [MOLEX_1054301104.PcbLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104/MOLEX_1054301104.PcbLib)
+
+### 🎯 3D Models (*.STP/*.STEP)
+
+#### 📂 FH63S-10S-0_5SH
+
+  - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.stp) *(1.6 MB)*
+
+#### 📂 FH63S-30S-0_5SH
+
+  - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.stp) *(2.7 MB)*
+
+#### 📂 1054301104
+
+  - [1054301104.STEP](./Connector/FPC%20FFC/Molex/1054301104/1054301104.STEP) *(579.4 KB)*
+
+### 🔗 Integrated Libraries (*.IntLib)
+
+#### 📂 FH63S-20S-0_5SH
+
+  - [FH63S-20S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH.IntLib)
+
+#### 📂 FH63S-30S-0_5SH
+
+  - [FH63S-30S-0.5SH.IntLib](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.IntLib)
+
+#### 📂 1054301104
+
+  - [1054301104.IntLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104.IntLib)
+
+#### 📂 Wurth-Elektronik
+
+  - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
 
 <!-- /FOLDER-TOC -->
