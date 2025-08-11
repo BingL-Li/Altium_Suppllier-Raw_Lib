@@ -98,18 +98,13 @@ jobs:
               
               return files_by_type
           
-          def get_header_level(base_level, folder_level):
-              """Calculate appropriate header level (max 6 for GitHub)"""
-              calculated_level = base_level + folder_level
-              return min(calculated_level, 6)  # GitHub supports up to 6 levels
-          
           def generate_folder_toc():
               toc = []  # Start with empty list, no main header
               
               # First, generate overall statistics
               total_counts = count_files_by_type('.')
               if any(total_counts.values()):
-                  toc.append("## 📊 Library Summary\n")  # Reduced from ###
+                  toc.append("## 📊 Library Summary\n")
                   if total_counts['intlib'] > 0:
                       toc.append(f"- 🔗 **{total_counts['intlib']}** Integrated Libraries (*.IntLib)\n")
                   if total_counts['schlib'] > 0:
@@ -123,7 +118,7 @@ jobs:
                   toc.append("\n")
               
               # Then generate folder structure
-              toc.append("## 📂 Folder Structure\n\n")  # Reduced from ###
+              toc.append("## 📂 Folder Structure\n\n")
               
               # Get all directories
               directories = []
@@ -171,7 +166,7 @@ jobs:
                       toc.append(f"{indent}- [📂 {folder_name}]({encoded_directory}/)\n")
               
               # Add detailed file listings organized by type, then by folder
-              toc.append("\n## 📋 Detailed File Listings\n\n")  # Reduced from ###
+              toc.append("\n## 📋 Detailed File Listings\n\n")
               
               files_by_type = get_all_files_by_type()
               
@@ -186,9 +181,8 @@ jobs:
               
               for file_type, emoji, display_name, extension in file_types:
                   if files_by_type[file_type]:
-                      base_header_level = 3  # Reduced from 4 (now ###)
-                      header_prefix = '#' * base_header_level
-                      toc.append(f"{header_prefix} {emoji} {display_name} ({extension})\n\n")
+                      # File type header (level 3: ###)
+                      toc.append(f"### {emoji} {display_name} ({extension})\n\n")
                       
                       # Sort folders by path for consistent ordering
                       sorted_folders = sorted(files_by_type[file_type].keys())
@@ -196,14 +190,9 @@ jobs:
                       for folder_path in sorted_folders:
                           folder_info = files_by_type[file_type][folder_path]
                           folder_name = os.path.basename(folder_path)
-                          folder_level = folder_info['level']
                           
-                          # Calculate header level for this folder (base + depth)
-                          folder_header_level = get_header_level(base_header_level + 1, folder_level - 1)
-                          folder_header_prefix = '#' * folder_header_level
-                          
-                          # Add folder header
-                          toc.append(f"{folder_header_prefix} 📂 {folder_name}\n\n")
+                          # All folder headers are level 4 (####) regardless of depth
+                          toc.append(f"#### 📂 {folder_name}\n\n")
                           
                           # Use consistent 2-space indentation for all file lists
                           indent = "  "  # Always 2 spaces to avoid code block formatting
@@ -261,5 +250,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: remove main header and reduce all header levels"
+          git diff --staged --quiet || git commit -m "docs: fix folder header levels to consistent level 4"
           git push
