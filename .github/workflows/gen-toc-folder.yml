@@ -31,6 +31,7 @@ jobs:
                   'intlib': 0,    # Integrated Libraries
                   'pcblib': 0,    # Footprint Libraries  
                   'schlib': 0,    # Symbol Libraries
+                  'step': 0,      # 3D Models (STP/STEP)
                   'pdf': 0        # Datasheets
               }
               
@@ -44,6 +45,8 @@ jobs:
                           counts['pcblib'] += 1
                       elif file_lower.endswith('.schlib'):
                           counts['schlib'] += 1
+                      elif file_lower.endswith(('.stp', '.step')):
+                          counts['step'] += 1
                       elif file_lower.endswith('.pdf'):
                           counts['pdf'] += 1
               
@@ -55,6 +58,7 @@ jobs:
                   'intlib': {},    # folder: [files]
                   'schlib': {},
                   'pcblib': {},
+                  'step': {},      # 3D Models
                   'pdf': {}
               }
               
@@ -82,6 +86,10 @@ jobs:
                           if relative_path not in files_by_type['pcblib']:
                               files_by_type['pcblib'][relative_path] = []
                           files_by_type['pcblib'][relative_path].append(file)
+                      elif file_lower.endswith(('.stp', '.step')):
+                          if relative_path not in files_by_type['step']:
+                              files_by_type['step'][relative_path] = []
+                          files_by_type['step'][relative_path].append(file)
                       elif file_lower.endswith('.pdf'):
                           if relative_path not in files_by_type['pdf']:
                               files_by_type['pdf'][relative_path] = []
@@ -102,6 +110,8 @@ jobs:
                       toc.append(f"- 📐 **{total_counts['schlib']}** Symbol Libraries (*.SchLib)\n")
                   if total_counts['pcblib'] > 0:
                       toc.append(f"- 🦶 **{total_counts['pcblib']}** Footprint Libraries (*.PcbLib)\n")
+                  if total_counts['step'] > 0:
+                      toc.append(f"- 🎯 **{total_counts['step']}** 3D Models (*.STP/*.STEP)\n")
                   if total_counts['pdf'] > 0:
                       toc.append(f"- 📄 **{total_counts['pdf']}** Datasheets (*.pdf)\n")
                   toc.append("\n")
@@ -131,6 +141,7 @@ jobs:
                       'intlib': len([f for f in os.listdir(directory) if f.lower().endswith('.intlib') and os.path.isfile(os.path.join(directory, f))]),
                       'schlib': len([f for f in os.listdir(directory) if f.lower().endswith('.schlib') and os.path.isfile(os.path.join(directory, f))]),
                       'pcblib': len([f for f in os.listdir(directory) if f.lower().endswith('.pcblib') and os.path.isfile(os.path.join(directory, f))]),
+                      'step': len([f for f in os.listdir(directory) if f.lower().endswith(('.stp', '.step')) and os.path.isfile(os.path.join(directory, f))]),
                       'pdf': len([f for f in os.listdir(directory) if f.lower().endswith('.pdf') and os.path.isfile(os.path.join(directory, f))])
                   }
                   
@@ -142,6 +153,8 @@ jobs:
                       descriptions.append(f"📐 {counts['schlib']} SchLib")
                   if counts['pcblib'] > 0:
                       descriptions.append(f"🦶 {counts['pcblib']} PcbLib")
+                  if counts['step'] > 0:
+                      descriptions.append(f"🎯 {counts['step']} 3D")
                   if counts['pdf'] > 0:
                       descriptions.append(f"📄 {counts['pdf']} PDF")
                   
@@ -189,6 +202,28 @@ jobs:
                           toc.append(f"- [{file}]({encoded_path})\n")
                       toc.append("\n")
               
+              # 3D Models
+              if files_by_type['step']:
+                  toc.append("#### 🎯 3D Models (*.STP/*.STEP)\n\n")
+                  for folder_path in sorted(files_by_type['step'].keys()):
+                      folder_name = os.path.basename(folder_path)
+                      toc.append(f"**📂 {folder_name}:**\n")
+                      for file in sorted(files_by_type['step'][folder_path]):
+                          encoded_path = url_encode_path(f"{folder_path}/{file}")
+                          # Add file size info if possible
+                          try:
+                              file_size = os.path.getsize(f"{folder_path}/{file}")
+                              if file_size > 1024*1024:  # > 1MB
+                                  size_str = f" *({file_size/(1024*1024):.1f} MB)*"
+                              elif file_size > 1024:  # > 1KB
+                                  size_str = f" *({file_size/1024:.1f} KB)*"
+                              else:
+                                  size_str = f" *({file_size} B)*"
+                          except:
+                              size_str = ""
+                          toc.append(f"- [{file}]({encoded_path}){size_str}\n")
+                      toc.append("\n")
+              
               # Datasheets
               if files_by_type['pdf']:
                   toc.append("#### 📄 Datasheets (*.pdf)\n\n")
@@ -232,5 +267,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update Altium library structure with URL-encoded links"
+          git diff --staged --quiet || git commit -m "docs: update library structure with 3D models support"
           git push
