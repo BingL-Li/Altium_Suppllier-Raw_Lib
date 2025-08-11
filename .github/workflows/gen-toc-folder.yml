@@ -98,11 +98,97 @@ jobs:
               
               return files_by_type
           
-          def generate_folder_toc():
-              toc = []  # Start with empty list, no main header
+          def get_repo_info():
+              """Get repository information for badges"""
+              # Try to get repo info from git remote
+              try:
+                  import subprocess
+                  result = subprocess.run(['git', 'remote', 'get-url', 'origin'], 
+                                        capture_output=True, text=True)
+                  if result.returncode == 0:
+                      url = result.stdout.strip()
+                      # Parse GitHub URL
+                      if 'github.com' in url:
+                          # Handle both SSH and HTTPS URLs
+                          if url.startswith('git@github.com:'):
+                              repo_path = url.replace('git@github.com:', '').replace('.git', '')
+                          elif 'github.com/' in url:
+                              repo_path = url.split('github.com/')[-1].replace('.git', '')
+                          else:
+                              repo_path = 'user/repo'
+                          return repo_path
+              except:
+                  pass
+              return 'user/repo'  # fallback
+          
+          def generate_badges(total_counts, repo_path):
+              """Generate shields.io badges in the specified order"""
+              badges = []
               
-              # First, generate overall statistics
+              # First row: Altium Designer + License
+              badges.append("![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner)")
+              
+              # Check if LICENSE file exists
+              if os.path.exists('LICENSE') or os.path.exists('LICENSE.md') or os.path.exists('LICENSE.txt'):
+                  badges.append(f"![License](https://img.shields.io/github/license/{repo_path}?style=flat-square)")
+              
+              # Second row: GitHub info
+              github_badges = []
+              github_badges.append(f"![GitHub repo size](https://img.shields.io/github/repo-size/{repo_path}?style=flat-square&logo=github)")
+              github_badges.append(f"![GitHub last commit](https://img.shields.io/github/last-commit/{repo_path}?style=flat-square&logo=github)")
+              github_badges.append(f"![GitHub stars](https://img.shields.io/github/stars/{repo_path}?style=flat-square&logo=github)")
+              
+              # Third row: Library counts
+              library_badges = []
+              
+              # Total libraries count
+              total_libs = total_counts['intlib'] + total_counts['schlib'] + total_counts['pcblib']
+              if total_libs > 0:
+                  library_badges.append(f"![Total Libraries](https://img.shields.io/badge/Libraries-{total_libs}-blue?style=flat-square&logo=altiumdesigner)")
+              
+              if total_counts['intlib'] > 0:
+                  library_badges.append(f"![IntLib](https://img.shields.io/badge/IntLib-{total_counts['intlib']}-green?style=flat-square)")
+              
+              if total_counts['pdf'] > 0:
+                  library_badges.append(f"![Datasheets](https://img.shields.io/badge/Datasheets-{total_counts['pdf']}-yellow?style=flat-square&logo=adobeacrobatreader)")
+              
+              if total_counts['schlib'] > 0:
+                  library_badges.append(f"![SchLib](https://img.shields.io/badge/SchLib-{total_counts['schlib']}-orange?style=flat-square)")
+              
+              if total_counts['pcblib'] > 0:
+                  library_badges.append(f"![PcbLib](https://img.shields.io/badge/PcbLib-{total_counts['pcblib']}-red?style=flat-square)")
+              
+              if total_counts['step'] > 0:
+                  library_badges.append(f"![3D Models](https://img.shields.io/badge/3D%20Models-{total_counts['step']}-purple?style=flat-square&logo=blender)")
+              
+              return badges, github_badges, library_badges
+          
+          def generate_folder_toc():
+              toc = []
+              
+              # Get repository information
+              repo_path = get_repo_info()
+              
+              # Generate overall statistics first (needed for badges)
               total_counts = count_files_by_type('.')
+              
+              # Add badges section (without header)
+              if any(total_counts.values()):
+                  first_row, second_row, third_row = generate_badges(total_counts, repo_path)
+                  
+                  # First row: Altium Designer + License
+                  if first_row:
+                      toc.append(" ".join(first_row) + "\n\n")
+                  
+                  # Second row: GitHub info
+                  if second_row:
+                      toc.append(" ".join(second_row) + "\n\n")
+                  
+                  # Third row: Library counts
+                  if third_row:
+                      toc.append(" ".join(third_row) + "\n\n")
+              
+              # Library Summary section
               if any(total_counts.values()):
                   toc.append("## 📊 Library Summary\n")
                   if total_counts['intlib'] > 0:
@@ -250,5 +336,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: reorder detailed sections - datasheets first"
+          git diff --staged --quiet || git commit -m "docs: reorder badges without section header"
           git push
