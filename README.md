@@ -3,17 +3,17 @@ Save and manage supplier raw libraries and datasheets
 
 
 <!-- FOLDER-TOC -->
-![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner) ![License](https://img.shields.io/github/license/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square)
+![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square&logo=creativecommons)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Total Libraries](https://img.shields.io/badge/Libraries-12-blue?style=flat-square&logo=altiumdesigner) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square) ![Datasheets](https://img.shields.io/badge/Datasheets-62-yellow?style=flat-square&logo=adobeacrobatreader) ![SchLib](https://img.shields.io/badge/SchLib-4-orange?style=flat-square) ![PcbLib](https://img.shields.io/badge/PcbLib-4-red?style=flat-square) ![3D Models](https://img.shields.io/badge/3D%20Models-3-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-62-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-12-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-4-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-4-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-3-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **4** Integrated Libraries (*.IntLib)
 - 📐 **4** Symbol Libraries (*.SchLib)
 - 🦶 **4** Footprint Libraries (*.PcbLib)
-- 🎯 **3** 3D Models (*.STP/*.STEP)
+- 🎯 **3** 3D Models (*.STP/.STEP)
 - 📄 **62** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
