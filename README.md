@@ -7,17 +7,20 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-73-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-30-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-13-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-13-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-11-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-74-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
-- 🔗 **4** Integrated Libraries (*.IntLib)
-- 📐 **13** Symbol Libraries (*.SchLib)
-- 🦶 **13** Footprint Libraries (*.PcbLib)
-- 🎯 **11** 3D Models (*.STP/.STEP)
-- 📄 **73** Datasheets (*.pdf)
+- 🔗 **5** Integrated Libraries (*.IntLib)
+- 📐 **15** Symbol Libraries (*.SchLib)
+- 🦶 **15** Footprint Libraries (*.PcbLib)
+- 🎯 **13** 3D Models (*.STP/.STEP)
+- 📄 **74** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
+- [📂 Cable](./Cable/)
+  - [📂 Flat Flex Cable](./Cable/Flat%20Flex%20Cable/)
+    - [📂 **166422358-659-150160207**](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/) - *🎯 1 3D*
 - [📂 Connector](./Connector/)
   - [📂 Circular Connector](./Connector/Circular%20Connector/)
     - [📂 **Aero Connector**](./Connector/Circular%20Connector/Aero%20Connector/) - *📄 1 PDF*
@@ -48,6 +51,8 @@ Save and manage supplier raw libraries and datasheets
 - [📂 Discrete - Active](./Discrete%20-%20Active/)
   - [📂 MOSFET](./Discrete%20-%20Active/MOSFET/)
     - [📂 N Channel](./Discrete%20-%20Active/MOSFET/N%20Channel/)
+      - [📂 ZXMN3A01ZTA](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/)
+        - [📂 **Altium**](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
       - [📂 **sq2310es_hs**](./Discrete%20-%20Active/MOSFET/N%20Channel/sq2310es_hs/) - *📄 1 PDF*
 - [📂 Discrete - Passive](./Discrete%20-%20Passive/)
   - [📂 Choke](./Discrete%20-%20Passive/Choke/)
@@ -70,6 +75,8 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **DAC**](./IC/ADC-DAC/DAC/) - *📄 1 PDF*
   - [📂 Driver](./IC/Driver/)
     - [📂 **LED**](./IC/Driver/LED/) - *📄 3 PDF*
+      - [📂 **LP5562TMX_NOPB**](./IC/Driver/LED/LP5562TMX_NOPB/) - *🔗 1 IntLib*
+        - [📂 **LP5562TMX_NOPB**](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/) - *📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 Motor](./IC/Driver/Motor/)
       - [📂 **Stepper**](./IC/Driver/Motor/Stepper/) - *📄 1 PDF*
   - [📂 **IO Expander**](./IC/IO%20Expander/) - *📄 1 PDF*
@@ -104,6 +111,7 @@ Save and manage supplier raw libraries and datasheets
         - [📂 **ul_SN74LVC3G34YZPR**](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) - *🎯 1 3D*
           - [📂 **AltiumDesigner**](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
             - [📂 History](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
+- [📂 **Power Supply**](./Power%20Supply/) - *🎯 1 3D | 📄 1 PDF*
 
 ## 📋 Detailed File Listings
 
@@ -269,6 +277,10 @@ Save and manage supplier raw libraries and datasheets
   - [sn74lvc2g241.pdf](./IC/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc2g241.pdf)
   - [sn74lvc3g34.pdf](./IC/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc3g34.pdf)
 
+#### 📂 Power Supply
+
+  - [RACM550-G.pdf](./Power%20Supply/RACM550-G.pdf)
+
 ### 📐 Symbol Libraries (*.SchLib)
 
 #### 📂 FH63S-10S-0_5SH
@@ -305,6 +317,10 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Altium
 
+  - [ZXMN3A01ZTA.SchLib](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/Altium/ZXMN3A01ZTA.SchLib)
+
+#### 📂 Altium
+
   - [MSL0402RGBU1.SchLib](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altium/MSL0402RGBU1.SchLib)
 
 #### 📂 DLM0QSN900HY2D
@@ -314,6 +330,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 AltiumDesigner
 
   - [AD7291BCPZ.SchLib](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.SchLib)
+
+#### 📂 LP5562TMX_NOPB
+
+  - [LP5562TMX_NOPB.SchLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/LP5562TMX_NOPB.SchLib)
 
 #### 📂 SN74LVC3G34DCUR
 
@@ -359,6 +379,10 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Altium
 
+  - [ZXMN3A01ZTA.PcbLib](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/Altium/ZXMN3A01ZTA.PcbLib)
+
+#### 📂 Altium
+
   - [MSL0402RGBU1.PcbLib](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altium/MSL0402RGBU1.PcbLib)
 
 #### 📂 DLM0QSN900HY2D
@@ -369,6 +393,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [AD7291BCPZ.PcbLib](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.PcbLib)
 
+#### 📂 LP5562TMX_NOPB
+
+  - [BGA12N40P4X3_162X122X68.PcbLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/BGA12N40P4X3_162X122X68.PcbLib)
+
 #### 📂 SN74LVC3G34DCUR
 
   - [SOP50P310X90-8N.PcbLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SOP50P310X90-8N.PcbLib)
@@ -378,6 +406,10 @@ Save and manage supplier raw libraries and datasheets
   - [SN74LVC3G34YZPR.PcbLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.PcbLib)
 
 ### 🎯 3D Models (*.STP/*.STEP)
+
+#### 📂 166422358-659-150160207
+
+  - [150160207.stp](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/150160207.stp) *(369.9 KB)*
 
 #### 📂 FH63S-10S-0_5SH
 
@@ -423,6 +455,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [YZP8.step](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/YZP8.step) *(20.5 KB)*
 
+#### 📂 Power Supply
+
+  - [RACM1200-SAV_ENC.STEP](./Power%20Supply/RACM1200-SAV_ENC.STEP) *(21.9 MB)*
+
 ### 🔗 Integrated Libraries (*.IntLib)
 
 #### 📂 FH63S-20S-0_5SH
@@ -440,5 +476,9 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Wurth-Elektronik
 
   - [WE-MAPI (rev25a).IntLib](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/WE-MAPI%20%28rev25a%29.IntLib)
+
+#### 📂 LP5562TMX_NOPB
+
+  - [LP5562TMX_NOPB.IntLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB.IntLib)
 
 <!-- /FOLDER-TOC -->
