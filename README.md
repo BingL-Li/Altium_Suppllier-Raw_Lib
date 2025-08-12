@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-74-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-30-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-13-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-13-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-11-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-73-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-30-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-4-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-13-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-13-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-11-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **4** Integrated Libraries (*.IntLib)
 - 📐 **13** Symbol Libraries (*.SchLib)
 - 🦶 **13** Footprint Libraries (*.PcbLib)
 - 🎯 **11** 3D Models (*.STP/.STEP)
-- 📄 **74** Datasheets (*.pdf)
+- 📄 **73** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -54,40 +54,9 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) - *📄 1 PDF*
   - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 1 PDF*
     - [📂 LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/)
-      - [📂 **MSL0402RGBU1**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/) - *📄 1 PDF*
+      - [📂 MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/)
         - [📂 **3D**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) - *🎯 1 3D*
-        - [📂 Allegro](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Allegro/)
-        - [📂 Altair](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altair/)
         - [📂 **Altium**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
-        - [📂 CADSTAR](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/CADSTAR/)
-        - [📂 CR-5000](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/CR-5000/)
-        - [📂 CR-8000](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/CR-8000/)
-        - [📂 Capture](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Capture/)
-        - [📂 CircuitStudio](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/CircuitStudio/)
-        - [📂 DEHDL](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DEHDL/)
-          - [📂 msl0402rgbu1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DEHDL/msl0402rgbu1/)
-            - [📂 chips](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DEHDL/msl0402rgbu1/chips/)
-            - [📂 part_table](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DEHDL/msl0402rgbu1/part_table/)
-            - [📂 sym_1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DEHDL/msl0402rgbu1/sym_1/)
-        - [📂 DesignSpark PCB](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DesignSpark%20PCB/)
-        - [📂 DesignSpark PCB PRO](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DesignSpark%20PCB%20PRO/)
-        - [📂 DipTrace](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/DipTrace/)
-        - [📂 EAGLE](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/EAGLE/)
-        - [📂 Easy-PC](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Easy-PC/)
-        - [📂 EasyEDA](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/EasyEDA/)
-        - [📂 KiCad](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/KiCad/)
-        - [📂 OrCAD_Allegro16](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/OrCAD_Allegro16/)
-        - [📂 PADS](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/PADS/)
-        - [📂 Proteus](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Proteus/)
-          - [📂 8.8 or earlier](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Proteus/8.8%20or%20earlier/)
-          - [📂 8.9 or later](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Proteus/8.9%20or%20later/)
-        - [📂 Pulsonix](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Pulsonix/)
-        - [📂 Quadcept](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Quadcept/)
-        - [📂 SOLIDWORKS PCB](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/SOLIDWORKS%20PCB/)
-        - [📂 TARGET 3001!](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/TARGET%203001%21/)
-        - [📂 Xpedition](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Xpedition/)
-        - [📂 eCADSTAR](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/eCADSTAR/)
-        - [📂 xDX Designer](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/xDX%20Designer/)
   - [📂 Ferrite Bead](./Discrete%20-%20Passive/Ferrite%20Bead/)
     - [📂 **DLM0QSN900HY2D**](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) - *📐 1 SchLib | 🦶 1 PcbLib*
   - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
@@ -171,10 +140,6 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Diode - Light Emitting
 
   - [msl0402rgbu1-e.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/msl0402rgbu1-e.pdf)
-
-#### 📂 MSL0402RGBU1
-
-  - [How_To_Use_Models.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/How_To_Use_Models.pdf)
 
 #### 📂 Wurth-Elektronik
 
