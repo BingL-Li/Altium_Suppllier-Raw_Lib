@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MSL0402RGBU1
-D Multi-Color LEDs RGB 624/527/470nm 5V 400/550/180mcd 30mA
-K
-F https://www.mouser.ph/ProductDetail/ROHM-Semiconductor/MSL0402RGBU1?qs=4v%252biZTmLVHE3LHOuFnEVGg%3D%3D
-$ENDCMP
-#
-#End Doc Library
