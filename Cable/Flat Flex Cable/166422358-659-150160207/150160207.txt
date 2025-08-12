@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-24022025-075648";"";
+"REFERENCE";"150160207";"";
+"TraceParts.PartTitle";"Premo-Flex Superior Retention solution";"";
+"TraceParts.InstanceId";"10-24022025-0756482NTLVYGCEJJUHTFKPRA1PH62X";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"0.50mm Pitch Premo-Flex One-Touch FFC Jumper with Ears, Same Side Contacts (Type A), 51.00mm Cable Length, Gold (Au) Plating, 20 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.9";"";
