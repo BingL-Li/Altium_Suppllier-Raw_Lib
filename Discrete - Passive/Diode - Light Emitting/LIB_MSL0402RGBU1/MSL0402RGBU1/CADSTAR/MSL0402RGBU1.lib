@@ -1,0 +1,18 @@
+.MSL0402RGBU1 :1 ;Multi-Color LEDs RGB 624/527/470nm 5V 400/550/180mcd 30mA
+MSL0402RGBU1
+*STM LED
+*NGS
+*PLB 1="K_B" 2="K_G" 3="K_R" 4="A_R" 5="A_G" 6="A_B"
+*MXP 6
+*DFN MSL0402RGBU1
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (MSL0402RGBU1)
+~!Mouser Part Number (755-MSL0402RGBU1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/MSL0402RGBU1?qs=4v%252BiZTmLVHE3LHOuFnEVGg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.ph/ProductDetail/ROHM-Semiconductor/MSL0402RGBU1?qs=4v%252biZTmLVHE3LHOuFnEVGg%3D%3D)
+~!Height (0mm)
+~!3D_Model (MSL0402RGBU1)
+MSL0402RGBU1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

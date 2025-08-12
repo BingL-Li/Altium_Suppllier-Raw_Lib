@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MSL0402RGBU1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-09-10:02:19)
+    (mountForm default
+        (footprintRef "MSL0402RGBU1")
+        (spec "System")
+    )
+)
