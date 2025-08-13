@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-74-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-75-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **74** Datasheets (*.pdf)
+- 📄 **75** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -24,6 +24,7 @@ Save and manage supplier raw libraries and datasheets
 - [📂 Connector](./Connector/)
   - [📂 Circular Connector](./Connector/Circular%20Connector/)
     - [📂 **Aero Connector**](./Connector/Circular%20Connector/Aero%20Connector/) - *📄 1 PDF*
+    - [📂 **Push-Pull Locking**](./Connector/Circular%20Connector/Push-Pull%20Locking/) - *📄 1 PDF*
   - [📂 FPC FFC](./Connector/FPC%20FFC/)
     - [📂 **Hirose**](./Connector/FPC%20FFC/Hirose/) - *📄 6 PDF*
       - [📂 **FH63S-10S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
@@ -120,6 +121,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Aero Connector
 
   - [威浦航空插选型手册V202403-1.pdf](./Connector/Circular%20Connector/Aero%20Connector/%E5%A8%81%E6%B5%A6%E8%88%AA%E7%A9%BA%E6%8F%92%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8CV202403-1.pdf)
+
+#### 📂 Push-Pull Locking
+
+  - [Adam-Tech_push-pull-connectors.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam-Tech_push-pull-connectors.pdf)
 
 #### 📂 Hirose
 
