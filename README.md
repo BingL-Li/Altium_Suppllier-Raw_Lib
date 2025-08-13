@@ -18,101 +18,103 @@ Save and manage supplier raw libraries and datasheets
 
 ## 📂 Folder Structure
 
-- [📂 Cable](./Cable/)
-  - [📂 Flat Flex Cable](./Cable/Flat%20Flex%20Cable/)
-    - [📂 **166422358-659-150160207**](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/) - *🎯 1 3D*
-- [📂 Connector](./Connector/)
-  - [📂 Circular Connector](./Connector/Circular%20Connector/)
-    - [📂 **Aero Connector**](./Connector/Circular%20Connector/Aero%20Connector/) - *📄 1 PDF*
-    - [📂 **Push-Pull Locking**](./Connector/Circular%20Connector/Push-Pull%20Locking/) - *📄 1 PDF*
-  - [📂 FPC FFC](./Connector/FPC%20FFC/)
-    - [📂 **Hirose**](./Connector/FPC%20FFC/Hirose/) - *📄 6 PDF*
-      - [📂 **FH63S-10S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
-      - [📂 **FH63S-20S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/) - *🔗 1 IntLib*
-        - [📂 **FH63S-20S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
-      - [📂 **FH63S-30S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/) - *🔗 1 IntLib | 🎯 1 3D*
-        - [📂 **FH63S-30S-0.5SH**](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/) - *📐 1 SchLib | 🦶 1 PcbLib*
-    - [📂 **Molex**](./Connector/FPC%20FFC/Molex/) - *📄 4 PDF*
-      - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/) - *🔗 1 IntLib | 🎯 1 3D*
-        - [📂 **1054301104**](./Connector/FPC%20FFC/Molex/1054301104/1054301104/) - *📐 1 SchLib | 🦶 1 PcbLib*
-      - [📂 **2004850010**](./Connector/FPC%20FFC/Molex/2004850010/) - *🎯 1 3D*
-        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/2004850010/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./Connector/FPC%20FFC/Molex/2004850010/AltiumDesigner/History/)
-      - [📂 **2004850220**](./Connector/FPC%20FFC/Molex/2004850220/) - *🎯 1 3D*
-        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/2004850220/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./Connector/FPC%20FFC/Molex/2004850220/AltiumDesigner/History/)
-      - [📂 **2004850230**](./Connector/FPC%20FFC/Molex/2004850230/) - *🎯 1 3D*
-        - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/)
-  - [📂 USB](./Connector/USB/)
-    - [📂 Type C](./Connector/USB/Type%20C/)
-      - [📂 **ul_USB-C40-S-RA-BK-30-T-R**](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/) - *🎯 1 3D*
-        - [📂 **AltiumDesigner**](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/History/)
-- [📂 Discrete - Active](./Discrete%20-%20Active/)
-  - [📂 MOSFET](./Discrete%20-%20Active/MOSFET/)
-    - [📂 N Channel](./Discrete%20-%20Active/MOSFET/N%20Channel/)
-      - [📂 ZXMN3A01ZTA](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/)
-        - [📂 **Altium**](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
-      - [📂 **sq2310es_hs**](./Discrete%20-%20Active/MOSFET/N%20Channel/sq2310es_hs/) - *📄 1 PDF*
-- [📂 Discrete - Passive](./Discrete%20-%20Passive/)
-  - [📂 Choke](./Discrete%20-%20Passive/Choke/)
-    - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) - *📄 1 PDF*
-  - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 1 PDF*
-    - [📂 LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/)
-      - [📂 MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/)
-        - [📂 **3D**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) - *🎯 1 3D*
-        - [📂 **Altium**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
-  - [📂 Ferrite Bead](./Discrete%20-%20Passive/Ferrite%20Bead/)
-    - [📂 **DLM0QSN900HY2D**](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) - *📐 1 SchLib | 🦶 1 PcbLib*
-  - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
-    - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) - *🔗 1 IntLib | 📄 1 PDF*
-- [📂 Integrated Circuit](./Integrated%20Circuit/)
-  - [📂 ADC-DAC](./Integrated%20Circuit/ADC-DAC/)
-    - [📂 **ADC**](./Integrated%20Circuit/ADC-DAC/ADC/) - *📄 3 PDF*
-      - [📂 ul_AD7291BCPZ](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/)
-        - [📂 **AltiumDesigner**](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
-    - [📂 **Combined ADC DAC and or GPIO**](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/) - *📄 5 PDF*
-    - [📂 **DAC**](./Integrated%20Circuit/ADC-DAC/DAC/) - *📄 1 PDF*
-  - [📂 Driver](./Integrated%20Circuit/Driver/)
-    - [📂 **LED**](./Integrated%20Circuit/Driver/LED/) - *📄 3 PDF*
-      - [📂 **LP5562TMX_NOPB**](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/) - *🔗 1 IntLib*
-        - [📂 **LP5562TMX_NOPB**](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/) - *📐 1 SchLib | 🦶 1 PcbLib*
-    - [📂 Motor](./Integrated%20Circuit/Driver/Motor/)
-      - [📂 **Stepper**](./Integrated%20Circuit/Driver/Motor/Stepper/) - *📄 1 PDF*
-  - [📂 **IO Expander**](./Integrated%20Circuit/IO%20Expander/) - *📄 1 PDF*
-  - [📂 **MCU**](./Integrated%20Circuit/MCU/) - *📄 2 PDF*
-  - [📂 PMIC](./Integrated%20Circuit/PMIC/)
-    - [📂 **Battery Charger**](./Integrated%20Circuit/PMIC/Battery%20Charger/) - *📄 1 PDF*
-    - [📂 DC-DC Converter Monolithic](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/)
-      - [📂 **Buck Step-Down**](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) - *📄 2 PDF*
-    - [📂 **Ideal Diode**](./Integrated%20Circuit/PMIC/Ideal%20Diode/) - *📄 1 PDF*
-    - [📂 **Power Control Switch**](./Integrated%20Circuit/PMIC/Power%20Control%20Switch/) - *📄 2 PDF*
-    - [📂 Voltage Regulator - Linear](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/)
-      - [📂 **Low Drop-Out (LDO) Linear Regulator**](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
-  - [📂 Peripheral](./Integrated%20Circuit/Peripheral/)
-    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 4 PDF*
-  - [📂 Sensor](./Integrated%20Circuit/Sensor/)
-    - [📂 **Barcode Scanner**](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) - *📄 1 PDF*
-    - [📂 **Capacitance**](./Integrated%20Circuit/Sensor/Capacitance/) - *📄 5 PDF*
-      - [📂 FDC1004_Arduino_Test](./Integrated%20Circuit/Sensor/Capacitance/FDC1004_Arduino_Test/)
-    - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
-      - [📂 **Optical Switch**](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
-      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 7 PDF*
-      - [📂 **ToF**](./Integrated%20Circuit/Sensor/Optical/ToF/) - *📄 2 PDF*
-    - [📂 **Position Sensor - Inductive**](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
-      - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
-      - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
-    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 8 PDF*
-  - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
-    - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
-      - [📂 **74LVC**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
-        - [📂 **SN74LVC3G34DCUR**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/History/)
-        - [📂 **ul_SN74LVC3G34YZPR**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) - *🎯 1 3D*
-          - [📂 **AltiumDesigner**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
-            - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
-- [📂 **Power Supply**](./Power%20Supply/) - *🎯 1 3D | 📄 1 PDF*
+| Folder Structure | Library Content |
+|------------------|----------------|
+| 📂 [Cable](./Cable/) | — |
+| &nbsp;&nbsp;├── 📂 [Flat Flex Cable](./Cable/Flat%20Flex%20Cable/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [166422358-659-150160207](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/) | 🎯 1 3D |
+| 📂 [Connector](./Connector/) | — |
+| &nbsp;&nbsp;├── 📂 [Circular Connector](./Connector/Circular%20Connector/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Aero Connector](./Connector/Circular%20Connector/Aero%20Connector/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [FPC FFC](./Connector/FPC%20FFC/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Hirose](./Connector/FPC%20FFC/Hirose/) | 📄 6 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-10S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-20S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/) | 🔗 1 IntLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-20S-0.5SH](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-30S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/) | 🔗 1 IntLib • 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-30S-0.5SH](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Molex](./Connector/FPC%20FFC/Molex/) | 📄 4 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [1054301104](./Connector/FPC%20FFC/Molex/1054301104/) | 🔗 1 IntLib • 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [1054301104](./Connector/FPC%20FFC/Molex/1054301104/1054301104/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [2004850010](./Connector/FPC%20FFC/Molex/2004850010/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/FPC%20FFC/Molex/2004850010/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/FPC%20FFC/Molex/2004850010/AltiumDesigner/History/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [2004850220](./Connector/FPC%20FFC/Molex/2004850220/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/FPC%20FFC/Molex/2004850220/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/FPC%20FFC/Molex/2004850220/AltiumDesigner/History/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [2004850230](./Connector/FPC%20FFC/Molex/2004850230/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/) | — |
+| &nbsp;&nbsp;├── 📂 [USB](./Connector/USB/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Type C](./Connector/USB/Type%20C/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ul_USB-C40-S-RA-BK-30-T-R](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/History/) | — |
+| 📂 [Discrete - Active](./Discrete%20-%20Active/) | — |
+| &nbsp;&nbsp;├── 📂 [MOSFET](./Discrete%20-%20Active/MOSFET/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [N Channel](./Discrete%20-%20Active/MOSFET/N%20Channel/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ZXMN3A01ZTA](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Altium](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/Altium/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [sq2310es_hs](./Discrete%20-%20Active/MOSFET/N%20Channel/sq2310es_hs/) | 📄 1 PDF |
+| 📂 [Discrete - Passive](./Discrete%20-%20Passive/) | — |
+| &nbsp;&nbsp;├── 📂 [Choke](./Discrete%20-%20Passive/Choke/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Murata](./Discrete%20-%20Passive/Choke/Murata/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [Diode - Light Emitting](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [3D](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Altium](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/Altium/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;├── 📂 [Ferrite Bead](./Discrete%20-%20Passive/Ferrite%20Bead/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [DLM0QSN900HY2D](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;├── 📂 [Inductor](./Discrete%20-%20Passive/Inductor/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Wurth-Elektronik](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) | 🔗 1 IntLib • 📄 1 PDF |
+| 📂 [Integrated Circuit](./Integrated%20Circuit/) | — |
+| &nbsp;&nbsp;├── 📂 [ADC-DAC](./Integrated%20Circuit/ADC-DAC/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ADC](./Integrated%20Circuit/ADC-DAC/ADC/) | 📄 3 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ul_AD7291BCPZ](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Combined ADC DAC and or GPIO](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/) | 📄 5 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [DAC](./Integrated%20Circuit/ADC-DAC/DAC/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [Driver](./Integrated%20Circuit/Driver/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [LED](./Integrated%20Circuit/Driver/LED/) | 📄 3 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [LP5562TMX_NOPB](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/) | 🔗 1 IntLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [LP5562TMX_NOPB](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Motor](./Integrated%20Circuit/Driver/Motor/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Stepper](./Integrated%20Circuit/Driver/Motor/Stepper/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [IO Expander](./Integrated%20Circuit/IO%20Expander/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [MCU](./Integrated%20Circuit/MCU/) | 📄 2 PDF |
+| &nbsp;&nbsp;├── 📂 [PMIC](./Integrated%20Circuit/PMIC/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Battery Charger](./Integrated%20Circuit/PMIC/Battery%20Charger/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [DC-DC Converter Monolithic](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Buck Step-Down](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Ideal Diode](./Integrated%20Circuit/PMIC/Ideal%20Diode/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Power Control Switch](./Integrated%20Circuit/PMIC/Power%20Control%20Switch/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Voltage Regulator - Linear](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Low Drop-Out (LDO) Linear Regulator](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) | 📄 1 PDF |
+| &nbsp;&nbsp;├── 📂 [Peripheral](./Integrated%20Circuit/Peripheral/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [SMBus-IIC](./Integrated%20Circuit/Peripheral/SMBus-IIC/) | 📄 4 PDF |
+| &nbsp;&nbsp;├── 📂 [Sensor](./Integrated%20Circuit/Sensor/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Barcode Scanner](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Capacitance](./Integrated%20Circuit/Sensor/Capacitance/) | 📄 5 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FDC1004_Arduino_Test](./Integrated%20Circuit/Sensor/Capacitance/FDC1004_Arduino_Test/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Optical](./Integrated%20Circuit/Sensor/Optical/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Optical Switch](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Proximity](./Integrated%20Circuit/Sensor/Optical/Proximity/) | 📄 7 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ToF](./Integrated%20Circuit/Sensor/Optical/ToF/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Position Sensor - Inductive](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) | 📄 3 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Temperature](./Integrated%20Circuit/Sensor/Temperature/) | 📄 8 PDF |
+| &nbsp;&nbsp;├── 📂 [Small Logic](./Integrated%20Circuit/Small%20Logic/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Texas Instruments](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [74LVC](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [SN74LVC3G34DCUR](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/History/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ul_SN74LVC3G34YZPR](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/) | — |
+| 📂 [Power Supply](./Power%20Supply/) | 🎯 1 3D • 📄 1 PDF |
 
 ## 📋 Detailed File Listings
 
