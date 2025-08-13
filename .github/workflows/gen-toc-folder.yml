@@ -228,7 +228,7 @@ jobs:
                       toc.append(f"- 📄 **{total_counts['pdf']}** Datasheets (*.pdf)\n")
                   toc.append("\n")
               
-              # Then generate folder structure
+              # Generate folder structure as a table
               toc.append("## 📂 Folder Structure\n\n")
               
               # Get all directories
@@ -242,39 +242,49 @@ jobs:
               
               directories.sort()
               
-              for directory in directories:
-                  level = directory.count(os.sep) - 1
-                  indent = '  ' * level
-                  folder_name = os.path.basename(directory)
-                  encoded_directory = url_encode_path(directory)
+              if directories:
+                  # Table header
+                  toc.append("| Folder Structure | Library Content |\n")
+                  toc.append("|------------------|----------------|\n")
                   
-                  # Count files in this specific directory (not subdirectories)
-                  counts = {
-                      'intlib': len([f for f in os.listdir(directory) if f.lower().endswith('.intlib') and os.path.isfile(os.path.join(directory, f))]),
-                      'schlib': len([f for f in os.listdir(directory) if f.lower().endswith('.schlib') and os.path.isfile(os.path.join(directory, f))]),
-                      'pcblib': len([f for f in os.listdir(directory) if f.lower().endswith('.pcblib') and os.path.isfile(os.path.join(directory, f))]),
-                      'step': len([f for f in os.listdir(directory) if f.lower().endswith(('.stp', '.step')) and os.path.isfile(os.path.join(directory, f))]),
-                      'pdf': len([f for f in os.listdir(directory) if f.lower().endswith('.pdf') and os.path.isfile(os.path.join(directory, f))])
-                  }
-                  
-                  # Create description based on file types
-                  descriptions = []
-                  if counts['intlib'] > 0:
-                      descriptions.append(f"🔗 {counts['intlib']} IntLib")
-                  if counts['schlib'] > 0:
-                      descriptions.append(f"📐 {counts['schlib']} SchLib")
-                  if counts['pcblib'] > 0:
-                      descriptions.append(f"🦶 {counts['pcblib']} PcbLib")
-                  if counts['step'] > 0:
-                      descriptions.append(f"🎯 {counts['step']} 3D")
-                  if counts['pdf'] > 0:
-                      descriptions.append(f"📄 {counts['pdf']} PDF")
-                  
-                  if descriptions:
-                      desc = " | ".join(descriptions)
-                      toc.append(f"{indent}- [📂 **{folder_name}**]({encoded_directory}/) - *{desc}*\n")
-                  else:
-                      toc.append(f"{indent}- [📂 {folder_name}]({encoded_directory}/)\n")
+                  for directory in directories:
+                      level = directory.count(os.sep) - 1
+                      folder_name = os.path.basename(directory)
+                      encoded_directory = url_encode_path(directory)
+                      
+                      # Create indentation using non-breaking spaces and tree characters
+                      indent = "&nbsp;&nbsp;" * level
+                      tree_char = "├── " if level > 0 else ""
+                      
+                      # Folder structure column with link
+                      folder_structure = f"{indent}{tree_char}📂 [{folder_name}]({encoded_directory}/)"
+                      
+                      # Count files in this specific directory (not subdirectories)
+                      counts = {
+                          'intlib': len([f for f in os.listdir(directory) if f.lower().endswith('.intlib') and os.path.isfile(os.path.join(directory, f))]),
+                          'schlib': len([f for f in os.listdir(directory) if f.lower().endswith('.schlib') and os.path.isfile(os.path.join(directory, f))]),
+                          'pcblib': len([f for f in os.listdir(directory) if f.lower().endswith('.pcblib') and os.path.isfile(os.path.join(directory, f))]),
+                          'step': len([f for f in os.listdir(directory) if f.lower().endswith(('.stp', '.step')) and os.path.isfile(os.path.join(directory, f))]),
+                          'pdf': len([f for f in os.listdir(directory) if f.lower().endswith('.pdf') and os.path.isfile(os.path.join(directory, f))])
+                      }
+                      
+                      # Create library content description
+                      descriptions = []
+                      if counts['intlib'] > 0:
+                          descriptions.append(f"🔗 {counts['intlib']} IntLib")
+                      if counts['schlib'] > 0:
+                          descriptions.append(f"📐 {counts['schlib']} SchLib")
+                      if counts['pcblib'] > 0:
+                          descriptions.append(f"🦶 {counts['pcblib']} PcbLib")
+                      if counts['step'] > 0:
+                          descriptions.append(f"🎯 {counts['step']} 3D")
+                      if counts['pdf'] > 0:
+                          descriptions.append(f"📄 {counts['pdf']} PDF")
+                      
+                      library_content = " • ".join(descriptions) if descriptions else "—"
+                      
+                      # Add table row
+                      toc.append(f"| {folder_structure} | {library_content} |\n")
               
               # Add detailed file listings organized by type, then by folder
               toc.append("\n## 📋 Detailed File Listings\n\n")
@@ -361,5 +371,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "docs: update license badge for Creative Commons CC BY-NC-SA 4.0"
+          git diff --staged --quiet || git commit -m "docs: convert folder structure to table format"
           git push
