@@ -67,51 +67,51 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **DLM0QSN900HY2D**](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) - *📐 1 SchLib | 🦶 1 PcbLib*
   - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
     - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) - *🔗 1 IntLib | 📄 1 PDF*
-- [📂 IC](./IC/)
-  - [📂 ADC-DAC](./IC/ADC-DAC/)
-    - [📂 **ADC**](./IC/ADC-DAC/ADC/) - *📄 3 PDF*
-      - [📂 ul_AD7291BCPZ](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/)
-        - [📂 **AltiumDesigner**](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
-    - [📂 **Combined ADC DAC and or GPIO**](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/) - *📄 5 PDF*
-    - [📂 **DAC**](./IC/ADC-DAC/DAC/) - *📄 1 PDF*
-  - [📂 Driver](./IC/Driver/)
-    - [📂 **LED**](./IC/Driver/LED/) - *📄 3 PDF*
-      - [📂 **LP5562TMX_NOPB**](./IC/Driver/LED/LP5562TMX_NOPB/) - *🔗 1 IntLib*
-        - [📂 **LP5562TMX_NOPB**](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/) - *📐 1 SchLib | 🦶 1 PcbLib*
-    - [📂 Motor](./IC/Driver/Motor/)
-      - [📂 **Stepper**](./IC/Driver/Motor/Stepper/) - *📄 1 PDF*
-  - [📂 **IO Expander**](./IC/IO%20Expander/) - *📄 1 PDF*
-  - [📂 **MCU**](./IC/MCU/) - *📄 2 PDF*
-  - [📂 PMIC](./IC/PMIC/)
-    - [📂 **Battery Charger**](./IC/PMIC/Battery%20Charger/) - *📄 1 PDF*
-    - [📂 DC-DC Converter Monolithic](./IC/PMIC/DC-DC%20Converter%20Monolithic/)
-      - [📂 **Buck Step-Down**](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) - *📄 2 PDF*
-    - [📂 **Ideal Diode**](./IC/PMIC/Ideal%20Diode/) - *📄 1 PDF*
-    - [📂 **Power Control Switch**](./IC/PMIC/Power%20Control%20Switch/) - *📄 2 PDF*
-    - [📂 Voltage Regulator - Linear](./IC/PMIC/Voltage%20Regulator%20-%20Linear/)
-      - [📂 **Low Drop-Out (LDO) Linear Regulator**](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
-  - [📂 Peripheral](./IC/Peripheral/)
-    - [📂 **SMBus-IIC**](./IC/Peripheral/SMBus-IIC/) - *📄 4 PDF*
-  - [📂 Sensor](./IC/Sensor/)
-    - [📂 **Barcode Scanner**](./IC/Sensor/Barcode%20Scanner/) - *📄 1 PDF*
-    - [📂 **Capacitance**](./IC/Sensor/Capacitance/) - *📄 5 PDF*
-      - [📂 FDC1004_Arduino_Test](./IC/Sensor/Capacitance/FDC1004_Arduino_Test/)
-    - [📂 Optical](./IC/Sensor/Optical/)
-      - [📂 **Optical Switch**](./IC/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
-      - [📂 **Proximity**](./IC/Sensor/Optical/Proximity/) - *📄 7 PDF*
-      - [📂 **ToF**](./IC/Sensor/Optical/ToF/) - *📄 2 PDF*
-    - [📂 **Position Sensor - Inductive**](./IC/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
-      - [📂 Coil Profiles](./IC/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
-      - [📂 ICDT_1_2 1](./IC/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
-    - [📂 **Temperature**](./IC/Sensor/Temperature/) - *📄 8 PDF*
-  - [📂 Small Logic](./IC/Small%20Logic/)
-    - [📂 **Texas Instruments**](./IC/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
-      - [📂 **74LVC**](./IC/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
-        - [📂 **SN74LVC3G34DCUR**](./IC/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/) - *📐 1 SchLib | 🦶 1 PcbLib*
-          - [📂 History](./IC/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/History/)
-        - [📂 **ul_SN74LVC3G34YZPR**](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) - *🎯 1 3D*
-          - [📂 **AltiumDesigner**](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
-            - [📂 History](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
+- [📂 Integrated Circuit](./Integrated%20Circuit/)
+  - [📂 ADC-DAC](./Integrated%20Circuit/ADC-DAC/)
+    - [📂 **ADC**](./Integrated%20Circuit/ADC-DAC/ADC/) - *📄 3 PDF*
+      - [📂 ul_AD7291BCPZ](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/)
+        - [📂 **AltiumDesigner**](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+    - [📂 **Combined ADC DAC and or GPIO**](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/) - *📄 5 PDF*
+    - [📂 **DAC**](./Integrated%20Circuit/ADC-DAC/DAC/) - *📄 1 PDF*
+  - [📂 Driver](./Integrated%20Circuit/Driver/)
+    - [📂 **LED**](./Integrated%20Circuit/Driver/LED/) - *📄 3 PDF*
+      - [📂 **LP5562TMX_NOPB**](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/) - *🔗 1 IntLib*
+        - [📂 **LP5562TMX_NOPB**](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/) - *📐 1 SchLib | 🦶 1 PcbLib*
+    - [📂 Motor](./Integrated%20Circuit/Driver/Motor/)
+      - [📂 **Stepper**](./Integrated%20Circuit/Driver/Motor/Stepper/) - *📄 1 PDF*
+  - [📂 **IO Expander**](./Integrated%20Circuit/IO%20Expander/) - *📄 1 PDF*
+  - [📂 **MCU**](./Integrated%20Circuit/MCU/) - *📄 2 PDF*
+  - [📂 PMIC](./Integrated%20Circuit/PMIC/)
+    - [📂 **Battery Charger**](./Integrated%20Circuit/PMIC/Battery%20Charger/) - *📄 1 PDF*
+    - [📂 DC-DC Converter Monolithic](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/)
+      - [📂 **Buck Step-Down**](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/) - *📄 2 PDF*
+    - [📂 **Ideal Diode**](./Integrated%20Circuit/PMIC/Ideal%20Diode/) - *📄 1 PDF*
+    - [📂 **Power Control Switch**](./Integrated%20Circuit/PMIC/Power%20Control%20Switch/) - *📄 2 PDF*
+    - [📂 Voltage Regulator - Linear](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/)
+      - [📂 **Low Drop-Out (LDO) Linear Regulator**](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
+  - [📂 Peripheral](./Integrated%20Circuit/Peripheral/)
+    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 4 PDF*
+  - [📂 Sensor](./Integrated%20Circuit/Sensor/)
+    - [📂 **Barcode Scanner**](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) - *📄 1 PDF*
+    - [📂 **Capacitance**](./Integrated%20Circuit/Sensor/Capacitance/) - *📄 5 PDF*
+      - [📂 FDC1004_Arduino_Test](./Integrated%20Circuit/Sensor/Capacitance/FDC1004_Arduino_Test/)
+    - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
+      - [📂 **Optical Switch**](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
+      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 7 PDF*
+      - [📂 **ToF**](./Integrated%20Circuit/Sensor/Optical/ToF/) - *📄 2 PDF*
+    - [📂 **Position Sensor - Inductive**](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
+      - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
+      - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
+    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 8 PDF*
+  - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
+    - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
+      - [📂 **74LVC**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
+        - [📂 **SN74LVC3G34DCUR**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/) - *📐 1 SchLib | 🦶 1 PcbLib*
+          - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/History/)
+        - [📂 **ul_SN74LVC3G34YZPR**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) - *🎯 1 3D*
+          - [📂 **AltiumDesigner**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+            - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
 - [📂 **Power Supply**](./Power%20Supply/) - *🎯 1 3D | 📄 1 PDF*
 
 ## 📋 Detailed File Listings
@@ -160,127 +160,127 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 ADC
 
-  - [AD7291.pdf](./IC/ADC-DAC/ADC/AD7291.pdf)
-  - [MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf](./IC/ADC-DAC/ADC/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf)
-  - [UG-253.pdf](./IC/ADC-DAC/ADC/UG-253.pdf)
+  - [AD7291.pdf](./Integrated%20Circuit/ADC-DAC/ADC/AD7291.pdf)
+  - [MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf](./Integrated%20Circuit/ADC-DAC/ADC/MCP3461-2-4R-Family-Data-Sheet-DS20006404C.pdf)
+  - [UG-253.pdf](./Integrated%20Circuit/ADC-DAC/ADC/UG-253.pdf)
 
 #### 📂 Combined ADC DAC and or GPIO
 
-  - [AD7294-2.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/AD7294-2.pdf)
-  - [ad5592r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5592r.pdf)
-  - [ad5593r.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5593r.pdf)
-  - [amc60804.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc60804.pdf)
-  - [amc7891.pdf](./IC/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc7891.pdf)
+  - [AD7294-2.pdf](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/AD7294-2.pdf)
+  - [ad5592r.pdf](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5592r.pdf)
+  - [ad5593r.pdf](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/ad5593r.pdf)
+  - [amc60804.pdf](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc60804.pdf)
+  - [amc7891.pdf](./Integrated%20Circuit/ADC-DAC/Combined%20ADC%20DAC%20and%20or%20GPIO/amc7891.pdf)
 
 #### 📂 DAC
 
-  - [ad5671r_5675r.pdf](./IC/ADC-DAC/DAC/ad5671r_5675r.pdf)
+  - [ad5671r_5675r.pdf](./Integrated%20Circuit/ADC-DAC/DAC/ad5671r_5675r.pdf)
 
 #### 📂 LED
 
-  - [lp5562.pdf](./IC/Driver/LED/lp5562.pdf)
-  - [tlc59108.pdf](./IC/Driver/LED/tlc59108.pdf)
-  - [tlc59116.pdf](./IC/Driver/LED/tlc59116.pdf)
+  - [lp5562.pdf](./Integrated%20Circuit/Driver/LED/lp5562.pdf)
+  - [tlc59108.pdf](./Integrated%20Circuit/Driver/LED/tlc59108.pdf)
+  - [tlc59116.pdf](./Integrated%20Circuit/Driver/LED/tlc59116.pdf)
 
 #### 📂 Stepper
 
-  - [powerstep01.pdf](./IC/Driver/Motor/Stepper/powerstep01.pdf)
+  - [powerstep01.pdf](./Integrated%20Circuit/Driver/Motor/Stepper/powerstep01.pdf)
 
 #### 📂 IO Expander
 
-  - [PCA8575.pdf](./IC/IO%20Expander/PCA8575.pdf)
+  - [PCA8575.pdf](./Integrated%20Circuit/IO%20Expander/PCA8575.pdf)
 
 #### 📂 MCU
 
-  - [cc1312r.pdf](./IC/MCU/cc1312r.pdf)
-  - [swcu185g.pdf](./IC/MCU/swcu185g.pdf)
+  - [cc1312r.pdf](./Integrated%20Circuit/MCU/cc1312r.pdf)
+  - [swcu185g.pdf](./Integrated%20Circuit/MCU/swcu185g.pdf)
 
 #### 📂 Battery Charger
 
-  - [ltc4020.pdf](./IC/PMIC/Battery%20Charger/ltc4020.pdf)
+  - [ltc4020.pdf](./Integrated%20Circuit/PMIC/Battery%20Charger/ltc4020.pdf)
 
 #### 📂 Buck Step-Down
 
-  - [slva289b.pdf](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/slva289b.pdf)
-  - [tlv62569.pdf](./IC/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/tlv62569.pdf)
+  - [slva289b.pdf](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/slva289b.pdf)
+  - [tlv62569.pdf](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/Buck%20Step-Down/tlv62569.pdf)
 
 #### 📂 Ideal Diode
 
-  - [ltc4359.pdf](./IC/PMIC/Ideal%20Diode/ltc4359.pdf)
+  - [ltc4359.pdf](./Integrated%20Circuit/PMIC/Ideal%20Diode/ltc4359.pdf)
 
 #### 📂 Power Control Switch
 
-  - [MP5035GJ.pdf](./IC/PMIC/Power%20Control%20Switch/MP5035GJ.pdf)
-  - [tps2042b.pdf](./IC/PMIC/Power%20Control%20Switch/tps2042b.pdf)
+  - [MP5035GJ.pdf](./Integrated%20Circuit/PMIC/Power%20Control%20Switch/MP5035GJ.pdf)
+  - [tps2042b.pdf](./Integrated%20Circuit/PMIC/Power%20Control%20Switch/tps2042b.pdf)
 
 #### 📂 Low Drop-Out (LDO) Linear Regulator
 
-  - [NCP1117-D.PDF](./IC/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/NCP1117-D.PDF)
+  - [NCP1117-D.PDF](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/NCP1117-D.PDF)
 
 #### 📂 SMBus-IIC
 
-  - [AN10658.pdf](./IC/Peripheral/SMBus-IIC/AN10658.pdf)
-  - [AN255.pdf](./IC/Peripheral/SMBus-IIC/AN255.pdf)
-  - [PCA9600.pdf](./IC/Peripheral/SMBus-IIC/PCA9600.pdf)
-  - [tca9548a.pdf](./IC/Peripheral/SMBus-IIC/tca9548a.pdf)
+  - [AN10658.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/AN10658.pdf)
+  - [AN255.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/AN255.pdf)
+  - [PCA9600.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/PCA9600.pdf)
+  - [tca9548a.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/tca9548a.pdf)
 
 #### 📂 Barcode Scanner
 
-  - [se4100-se4107-spec-sheet-en-us.pdf](./IC/Sensor/Barcode%20Scanner/se4100-se4107-spec-sheet-en-us.pdf)
+  - [se4100-se4107-spec-sheet-en-us.pdf](./Integrated%20Circuit/Sensor/Barcode%20Scanner/se4100-se4107-spec-sheet-en-us.pdf)
 
 #### 📂 Capacitance
 
-  - [snoa925.pdf](./IC/Sensor/Capacitance/snoa925.pdf)
-  - [snoscy5c.pdf](./IC/Sensor/Capacitance/snoscy5c.pdf)
-  - [tidrcr9.pdf](./IC/Sensor/Capacitance/tidrcr9.pdf)
-  - [tidrcs2.pdf](./IC/Sensor/Capacitance/tidrcs2.pdf)
-  - [tidu736a.pdf](./IC/Sensor/Capacitance/tidu736a.pdf)
+  - [snoa925.pdf](./Integrated%20Circuit/Sensor/Capacitance/snoa925.pdf)
+  - [snoscy5c.pdf](./Integrated%20Circuit/Sensor/Capacitance/snoscy5c.pdf)
+  - [tidrcr9.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidrcr9.pdf)
+  - [tidrcs2.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidrcs2.pdf)
+  - [tidu736a.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidu736a.pdf)
 
 #### 📂 Optical Switch
 
-  - [OPB315.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB315.pdf)
-  - [OPB800.pdf](./IC/Sensor/Optical/Optical%20Switch/OPB800.pdf)
+  - [OPB315.pdf](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/OPB315.pdf)
+  - [OPB800.pdf](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/OPB800.pdf)
 
 #### 📂 Proximity
 
-  - [vcnl36687s.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s.pdf)
-  - [vcnl36687s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
-  - [vcnl36687s_sensor-board-files.pdf](./IC/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
-  - [vcnl36826s.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s.pdf)
-  - [vcnl36826s_designing.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
-  - [vcnl36826s_physics.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
-  - [vcnl36826s_sensor-board-guide.pdf](./IC/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
+  - [vcnl36687s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s.pdf)
+  - [vcnl36687s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
+  - [vcnl36687s_sensor-board-files.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
+  - [vcnl36826s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s.pdf)
+  - [vcnl36826s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
+  - [vcnl36826s_physics.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
+  - [vcnl36826s_sensor-board-guide.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
 
 #### 📂 ToF
 
-  - [vl53l5cx.pdf](./IC/Sensor/Optical/ToF/vl53l5cx.pdf)
-  - [vl53l8ch.pdf](./IC/Sensor/Optical/ToF/vl53l8ch.pdf)
+  - [vl53l5cx.pdf](./Integrated%20Circuit/Sensor/Optical/ToF/vl53l5cx.pdf)
+  - [vl53l8ch.pdf](./Integrated%20Circuit/Sensor/Optical/ToF/vl53l8ch.pdf)
 
 #### 📂 Position Sensor - Inductive
 
-  - [REN_IPS2550-Datasheet_DST_20240424.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
-  - [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
-  - [REN_ZMID520x-Datasheet_DST_20200721.pdf](./IC/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
+  - [REN_IPS2550-Datasheet_DST_20240424.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
+  - [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
+  - [REN_ZMID520x-Datasheet_DST_20200721.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
 
 #### 📂 Temperature
 
-  - [PEPI-C-Thermostats.pdf](./IC/Sensor/Temperature/PEPI-C-Thermostats.pdf)
-  - [TC622 TC624 21440D.pdf](./IC/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
-  - [adt7420.pdf](./IC/Sensor/Temperature/adt7420.pdf)
-  - [stcn75.pdf](./IC/Sensor/Temperature/stcn75.pdf)
-  - [stds75.pdf](./IC/Sensor/Temperature/stds75.pdf)
-  - [stts2004.pdf](./IC/Sensor/Temperature/stts2004.pdf)
-  - [stts22h.pdf](./IC/Sensor/Temperature/stts22h.pdf)
-  - [stts751.pdf](./IC/Sensor/Temperature/stts751.pdf)
+  - [PEPI-C-Thermostats.pdf](./Integrated%20Circuit/Sensor/Temperature/PEPI-C-Thermostats.pdf)
+  - [TC622 TC624 21440D.pdf](./Integrated%20Circuit/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
+  - [adt7420.pdf](./Integrated%20Circuit/Sensor/Temperature/adt7420.pdf)
+  - [stcn75.pdf](./Integrated%20Circuit/Sensor/Temperature/stcn75.pdf)
+  - [stds75.pdf](./Integrated%20Circuit/Sensor/Temperature/stds75.pdf)
+  - [stts2004.pdf](./Integrated%20Circuit/Sensor/Temperature/stts2004.pdf)
+  - [stts22h.pdf](./Integrated%20Circuit/Sensor/Temperature/stts22h.pdf)
+  - [stts751.pdf](./Integrated%20Circuit/Sensor/Temperature/stts751.pdf)
 
 #### 📂 Texas Instruments
 
-  - [scyt129g_TI_Small-Logic-Gate.pdf](./IC/Small%20Logic/Texas%20Instruments/scyt129g_TI_Small-Logic-Gate.pdf)
+  - [scyt129g_TI_Small-Logic-Gate.pdf](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/scyt129g_TI_Small-Logic-Gate.pdf)
 
 #### 📂 74LVC
 
-  - [sn74lvc2g241.pdf](./IC/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc2g241.pdf)
-  - [sn74lvc3g34.pdf](./IC/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc3g34.pdf)
+  - [sn74lvc2g241.pdf](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc2g241.pdf)
+  - [sn74lvc3g34.pdf](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/sn74lvc3g34.pdf)
 
 #### 📂 Power Supply
 
@@ -334,19 +334,19 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 AltiumDesigner
 
-  - [AD7291BCPZ.SchLib](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.SchLib)
+  - [AD7291BCPZ.SchLib](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.SchLib)
 
 #### 📂 LP5562TMX_NOPB
 
-  - [LP5562TMX_NOPB.SchLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/LP5562TMX_NOPB.SchLib)
+  - [LP5562TMX_NOPB.SchLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/LP5562TMX_NOPB.SchLib)
 
 #### 📂 SN74LVC3G34DCUR
 
-  - [SN74LVC3G34DCUR.SchLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SN74LVC3G34DCUR.SchLib)
+  - [SN74LVC3G34DCUR.SchLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SN74LVC3G34DCUR.SchLib)
 
 #### 📂 AltiumDesigner
 
-  - [SN74LVC3G34YZPR.SchLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.SchLib)
+  - [SN74LVC3G34YZPR.SchLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.SchLib)
 
 ### 🦶 Footprint Libraries (*.PcbLib)
 
@@ -396,19 +396,19 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 AltiumDesigner
 
-  - [AD7291BCPZ.PcbLib](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.PcbLib)
+  - [AD7291BCPZ.PcbLib](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/AD7291BCPZ.PcbLib)
 
 #### 📂 LP5562TMX_NOPB
 
-  - [BGA12N40P4X3_162X122X68.PcbLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/BGA12N40P4X3_162X122X68.PcbLib)
+  - [BGA12N40P4X3_162X122X68.PcbLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/BGA12N40P4X3_162X122X68.PcbLib)
 
 #### 📂 SN74LVC3G34DCUR
 
-  - [SOP50P310X90-8N.PcbLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SOP50P310X90-8N.PcbLib)
+  - [SOP50P310X90-8N.PcbLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SOP50P310X90-8N.PcbLib)
 
 #### 📂 AltiumDesigner
 
-  - [SN74LVC3G34YZPR.PcbLib](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.PcbLib)
+  - [SN74LVC3G34YZPR.PcbLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.PcbLib)
 
 ### 🎯 3D Models (*.STP/*.STEP)
 
@@ -450,15 +450,15 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 AltiumDesigner
 
-  - [CP_20_8_ADI.step](./IC/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/CP_20_8_ADI.step) *(172.9 KB)*
+  - [CP_20_8_ADI.step](./Integrated%20Circuit/ADC-DAC/ADC/ul_AD7291BCPZ/AltiumDesigner/CP_20_8_ADI.step) *(172.9 KB)*
 
 #### 📂 ul_SN74LVC3G34YZPR
 
-  - [YZP8.step](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/YZP8.step) *(20.5 KB)*
+  - [YZP8.step](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/YZP8.step) *(20.5 KB)*
 
 #### 📂 AltiumDesigner
 
-  - [YZP8.step](./IC/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/YZP8.step) *(20.5 KB)*
+  - [YZP8.step](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/YZP8.step) *(20.5 KB)*
 
 #### 📂 Power Supply
 
@@ -484,6 +484,6 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 LP5562TMX_NOPB
 
-  - [LP5562TMX_NOPB.IntLib](./IC/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB.IntLib)
+  - [LP5562TMX_NOPB.IntLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB.IntLib)
 
 <!-- /FOLDER-TOC -->
