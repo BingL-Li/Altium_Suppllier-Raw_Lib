@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-75-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-76-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **75** Datasheets (*.pdf)
+- 📄 **76** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -52,6 +52,8 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/History/) | — |
 | 📂 [Discrete - Active](./Discrete%20-%20Active/) | — |
+| &nbsp;&nbsp;├── 📂 [BJT](./Discrete%20-%20Active/BJT/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [NPN](./Discrete%20-%20Active/BJT/NPN/) | 📄 1 PDF |
 | &nbsp;&nbsp;├── 📂 [MOSFET](./Discrete%20-%20Active/MOSFET/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [N Channel](./Discrete%20-%20Active/MOSFET/N%20Channel/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ZXMN3A01ZTA](./Discrete%20-%20Active/MOSFET/N%20Channel/ZXMN3A01ZTA/) | — |
@@ -143,6 +145,10 @@ Save and manage supplier raw libraries and datasheets
   - [2004850220_sd.pdf](./Connector/FPC%20FFC/Molex/2004850220_sd.pdf)
   - [2004850230_sd.pdf](./Connector/FPC%20FFC/Molex/2004850230_sd.pdf)
   - [526100672_sd.pdf](./Connector/FPC%20FFC/Molex/526100672_sd.pdf)
+
+#### 📂 NPN
+
+  - [PDTC114YT.pdf](./Discrete%20-%20Active/BJT/NPN/PDTC114YT.pdf)
 
 #### 📂 sq2310es_hs
 
