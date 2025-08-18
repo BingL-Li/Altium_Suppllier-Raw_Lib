@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-76-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-77-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **76** Datasheets (*.pdf)
+- 📄 **77** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -116,7 +116,7 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ul_SN74LVC3G34YZPR](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/) | 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/) | — |
-| 📂 [Power Supply](./Power%20Supply/) | 🎯 1 3D • 📄 1 PDF |
+| 📂 [Power Supply](./Power%20Supply/) | 🎯 1 3D • 📄 2 PDF |
 
 ## 📋 Detailed File Listings
 
@@ -293,6 +293,7 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Power Supply
 
   - [RACM550-G.pdf](./Power%20Supply/RACM550-G.pdf)
+  - [doc_rohs2_v8_2021-01-28.pdf](./Power%20Supply/doc_rohs2_v8_2021-01-28.pdf)
 
 ### 📐 Symbol Libraries (*.SchLib)
 
