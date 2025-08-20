@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-77-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-80-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **77** Datasheets (*.pdf)
+- 📄 **80** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -98,7 +98,9 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [SMBus-IIC](./Integrated%20Circuit/Peripheral/SMBus-IIC/) | 📄 4 PDF |
 | &nbsp;&nbsp;├── 📂 [Sensor](./Integrated%20Circuit/Sensor/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Barcode Scanner](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) | 📄 1 PDF |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Capacitance](./Integrated%20Circuit/Sensor/Capacitance/) | 📄 5 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Capacitance](./Integrated%20Circuit/Sensor/Capacitance/) | 📄 6 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Capacitive Sensing Microcontroller Sample Code (Energia)-1.1](./Integrated%20Circuit/Sensor/Capacitance/Capacitive%20Sensing%20Microcontroller%20Sample%20Code%20%28Energia%29-1.1/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [CapacitiveSensingSampleCodeEnergia](./Integrated%20Circuit/Sensor/Capacitance/Capacitive%20Sensing%20Microcontroller%20Sample%20Code%20%28Energia%29-1.1/CapacitiveSensingSampleCodeEnergia/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FDC1004_Arduino_Test](./Integrated%20Circuit/Sensor/Capacitance/FDC1004_Arduino_Test/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [snvc187a](./Integrated%20Circuit/Sensor/Capacitance/snvc187a/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Optical](./Integrated%20Circuit/Sensor/Optical/) | — |
@@ -241,9 +243,15 @@ Save and manage supplier raw libraries and datasheets
 
   - [snoa925.pdf](./Integrated%20Circuit/Sensor/Capacitance/snoa925.pdf)
   - [snoscy5c.pdf](./Integrated%20Circuit/Sensor/Capacitance/snoscy5c.pdf)
+  - [ssztck0.pdf](./Integrated%20Circuit/Sensor/Capacitance/ssztck0.pdf)
   - [tidrcr9.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidrcr9.pdf)
   - [tidrcs2.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidrcs2.pdf)
   - [tidu736a.pdf](./Integrated%20Circuit/Sensor/Capacitance/tidu736a.pdf)
+
+#### 📂 Capacitive Sensing Microcontroller Sample Code (Energia)-1.1
+
+  - [Getting Started Guide- FDC1004 with MSP430 LaunchPad.pdf](./Integrated%20Circuit/Sensor/Capacitance/Capacitive%20Sensing%20Microcontroller%20Sample%20Code%20%28Energia%29-1.1/Getting%20Started%20Guide-%20FDC1004%20with%20MSP430%20LaunchPad.pdf)
+  - [Internal Use License.pdf](./Integrated%20Circuit/Sensor/Capacitance/Capacitive%20Sensing%20Microcontroller%20Sample%20Code%20%28Energia%29-1.1/Internal%20Use%20License.pdf)
 
 #### 📂 Optical Switch
 
