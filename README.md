@@ -100,6 +100,7 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Barcode Scanner](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) | 📄 1 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Capacitance](./Integrated%20Circuit/Sensor/Capacitance/) | 📄 5 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FDC1004_Arduino_Test](./Integrated%20Circuit/Sensor/Capacitance/FDC1004_Arduino_Test/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [snvc187a](./Integrated%20Circuit/Sensor/Capacitance/snvc187a/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Optical](./Integrated%20Circuit/Sensor/Optical/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Optical Switch](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) | 📄 2 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Proximity](./Integrated%20Circuit/Sensor/Optical/Proximity/) | 📄 7 PDF |
