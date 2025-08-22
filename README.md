@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-86-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-88-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **86** Datasheets (*.pdf)
+- 📄 **88** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -49,6 +49,8 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;├── 📂 [Rectangular Connector](./Connector/Rectangular%20Connector/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Molex Nano-Fit](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Receptable Housing](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Receptable%20Housing/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Terminals](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Terminals/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Molex Pico-Clasp](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/) | 📄 1 PDF |
 | &nbsp;&nbsp;├── 📂 [USB](./Connector/USB/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Type C](./Connector/USB/Type%20C/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [ul_USB-C40-S-RA-BK-30-T-R](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/) | 🎯 1 3D |
@@ -160,6 +162,14 @@ Save and manage supplier raw libraries and datasheets
 
   - [1053071204_sd.pdf](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Receptable%20Housing/1053071204_sd.pdf)
   - [1053081204_sd.pdf](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Receptable%20Housing/1053081204_sd.pdf)
+
+#### 📂 Terminals
+
+  - [1053001200_sd.pdf](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Terminals/1053001200_sd.pdf)
+
+#### 📂 Molex Pico-Clasp
+
+  - [5011892010_sd.pdf](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/5011892010_sd.pdf)
 
 #### 📂 NPN
 
