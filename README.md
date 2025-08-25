@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-90-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-96-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **90** Datasheets (*.pdf)
+- 📄 **96** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -46,7 +46,11 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [2004850230](./Connector/FPC%20FFC/Molex/2004850230/) | 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/) | — |
-| &nbsp;&nbsp;├── 📂 [Rectangular Connector](./Connector/Rectangular%20Connector/) | — |
+| &nbsp;&nbsp;├── 📂 [Rectangular Connector](./Connector/Rectangular%20Connector/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [JST 2mm](./Connector/Rectangular%20Connector/JST%202mm/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [JWPF W2W](./Connector/Rectangular%20Connector/JST%202mm/JWPF%20W2W/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [PH PHD W2B](./Connector/Rectangular%20Connector/JST%202mm/PH%20PHD%20W2B/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [W2W PNI](./Connector/Rectangular%20Connector/JST%202mm/W2W%20PNI/) | 📄 1 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Molex Nano-Fit](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Housing](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Housing/) | 📄 3 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Terminal](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Terminal/) | 📄 1 PDF |
@@ -159,6 +163,24 @@ Save and manage supplier raw libraries and datasheets
   - [2004850220_sd.pdf](./Connector/FPC%20FFC/Molex/2004850220_sd.pdf)
   - [2004850230_sd.pdf](./Connector/FPC%20FFC/Molex/2004850230_sd.pdf)
   - [526100672_sd.pdf](./Connector/FPC%20FFC/Molex/526100672_sd.pdf)
+
+#### 📂 Rectangular Connector
+
+  - [JJ-Product-Guide-Crimp_W-B.pdf](./Connector/Rectangular%20Connector/JJ-Product-Guide-Crimp_W-B.pdf)
+  - [Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf](./Connector/Rectangular%20Connector/Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf)
+
+#### 📂 JWPF W2W
+
+  - [JWPF_Datasheet.pdf](./Connector/Rectangular%20Connector/JST%202mm/JWPF%20W2W/JWPF_Datasheet.pdf)
+
+#### 📂 PH PHD W2B
+
+  - [ePH.pdf](./Connector/Rectangular%20Connector/JST%202mm/PH%20PHD%20W2B/ePH.pdf)
+  - [ePHD.pdf](./Connector/Rectangular%20Connector/JST%202mm/PH%20PHD%20W2B/ePHD.pdf)
+
+#### 📂 W2W PNI
+
+  - [ePNI-WW.pdf](./Connector/Rectangular%20Connector/JST%202mm/W2W%20PNI/ePNI-WW.pdf)
 
 #### 📂 Housing
 
