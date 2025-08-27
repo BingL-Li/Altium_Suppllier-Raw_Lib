@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-27022025-075953";"";
+"REFERENCE";"150260210";"";
+"TraceParts.PartTitle";"Premo-Flex High-Speed LVDS solution";"";
+"TraceParts.InstanceId";"10-27022025-07595343B5RI493GBEPF6Q2PV8GUZ12";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"0.50mm Pitch Premo-Flex LVDS Jumper, 51.00mm Cable Length, Gold (Au) Plating, 10 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.6";"";
