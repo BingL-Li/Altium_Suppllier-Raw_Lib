@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-97-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-13-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-99-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-15-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
-- 🎯 **13** 3D Models (*.STP/.STEP)
-- 📄 **97** Datasheets (*.pdf)
+- 🎯 **15** 3D Models (*.STP/.STEP)
+- 📄 **99** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -22,7 +22,9 @@ Save and manage supplier raw libraries and datasheets
 |------------------|----------------|
 | 📂 [Cable](./Cable/) | — |
 | &nbsp;&nbsp;├── 📂 [Flat Flex Cable](./Cable/Flat%20Flex%20Cable/) | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [166422358-659-150160207](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [150160207](./Cable/Flat%20Flex%20Cable/150160207/) | 🎯 1 3D |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [150260210](./Cable/Flat%20Flex%20Cable/150260210/) | 🎯 1 3D • 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [150260220](./Cable/Flat%20Flex%20Cable/150260220/) | 🎯 1 3D • 📄 1 PDF |
 | 📂 [Connector](./Connector/) | — |
 | &nbsp;&nbsp;├── 📂 [Circular Connector](./Connector/Circular%20Connector/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Aero Connector](./Connector/Circular%20Connector/Aero%20Connector/) | 📄 1 PDF |
@@ -139,6 +141,14 @@ Save and manage supplier raw libraries and datasheets
 ## 📋 Detailed File Listings
 
 ### 📄 Datasheets (*.pdf)
+
+#### 📂 150260210
+
+  - [150260210_sd.pdf](./Cable/Flat%20Flex%20Cable/150260210/150260210_sd.pdf)
+
+#### 📂 150260220
+
+  - [150260220_sd.pdf](./Cable/Flat%20Flex%20Cable/150260220/150260220_sd.pdf)
 
 #### 📂 Aero Connector
 
@@ -489,9 +499,17 @@ Save and manage supplier raw libraries and datasheets
 
 ### 🎯 3D Models (*.STP/*.STEP)
 
-#### 📂 166422358-659-150160207
+#### 📂 150160207
 
-  - [150160207.stp](./Cable/Flat%20Flex%20Cable/166422358-659-150160207/150160207.stp) *(369.9 KB)*
+  - [150160207.stp](./Cable/Flat%20Flex%20Cable/150160207/150160207.stp) *(369.9 KB)*
+
+#### 📂 150260210
+
+  - [150260210.stp](./Cable/Flat%20Flex%20Cable/150260210/150260210.stp) *(238.9 KB)*
+
+#### 📂 150260220
+
+  - [150260220.stp](./Cable/Flat%20Flex%20Cable/150260220/150260220.stp) *(370.3 KB)*
 
 #### 📂 FH63S-10S-0_5SH
 
