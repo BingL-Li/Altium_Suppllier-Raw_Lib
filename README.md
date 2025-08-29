@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-99-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-15-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-118-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
-- 🎯 **15** 3D Models (*.STP/.STEP)
-- 📄 **99** Datasheets (*.pdf)
+- 🎯 **16** 3D Models (*.STP/.STEP)
+- 📄 **118** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -27,15 +27,24 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [150260220](./Cable/Flat%20Flex%20Cable/150260220/) | 🎯 1 3D • 📄 1 PDF |
 | 📂 [Connector](./Connector/) | — |
 | &nbsp;&nbsp;├── 📂 [Circular Connector](./Connector/Circular%20Connector/) | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Aero Connector](./Connector/Circular%20Connector/Aero%20Connector/) | 📄 1 PDF |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Aero Connector](./Connector/Circular%20Connector/Aero%20Connector/) | 📄 3 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Adam Tech](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Weipu](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) | 📄 5 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [RoHS-SF](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/) | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [back shell](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [cap](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [contact](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/contact/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [insert](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/insert/) | 📄 1 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [rubber](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/) | 📄 2 PDF |
 | &nbsp;&nbsp;├── 📂 [FPC FFC](./Connector/FPC%20FFC/) | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Hirose](./Connector/FPC%20FFC/Hirose/) | 📄 6 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Hirose](./Connector/FPC%20FFC/Hirose/) | 📄 8 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-10S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-20S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/) | 🔗 1 IntLib |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-20S-0.5SH](./Connector/FPC%20FFC/Hirose/FH63S-20S-0_5SH/FH63S-20S-0.5SH/) | 📐 1 SchLib • 🦶 1 PcbLib |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-30S-0_5SH](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/) | 🔗 1 IntLib • 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH63S-30S-0.5SH](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH/) | 📐 1 SchLib • 🦶 1 PcbLib |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [FH81-24S-0-5SH](./Connector/FPC%20FFC/Hirose/FH81-24S-0-5SH/) | 🎯 1 3D • 📄 1 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Molex](./Connector/FPC%20FFC/Molex/) | 📄 4 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [1054301104](./Connector/FPC%20FFC/Molex/1054301104/) | 🔗 1 IntLib • 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [1054301104](./Connector/FPC%20FFC/Molex/1054301104/1054301104/) | 📐 1 SchLib • 🦶 1 PcbLib |
@@ -137,6 +146,7 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [AltiumDesigner](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) | 📐 1 SchLib • 🦶 1 PcbLib • 🎯 1 3D |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/) | — |
 | 📂 [Power Supply](./Power%20Supply/) | 🎯 1 3D • 📄 2 PDF |
+| 📂 [Sensor](./Sensor/) | 📄 1 PDF |
 
 ## 📋 Detailed File Listings
 
@@ -152,11 +162,44 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Aero Connector
 
-  - [威浦航空插选型手册V202403-1.pdf](./Connector/Circular%20Connector/Aero%20Connector/%E5%A8%81%E6%B5%A6%E8%88%AA%E7%A9%BA%E6%8F%92%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8CV202403-1.pdf)
+  - [M8-4P-A-P（屏蔽信号）.pdf](./Connector/Circular%20Connector/Aero%20Connector/M8-4P-A-P%EF%BC%88%E5%B1%8F%E8%94%BD%E4%BF%A1%E5%8F%B7%EF%BC%89.pdf)
+  - [M8-6P-A-F（非屏蔽信号）.pdf](./Connector/Circular%20Connector/Aero%20Connector/M8-6P-A-F%EF%BC%88%E9%9D%9E%E5%B1%8F%E8%94%BD%E4%BF%A1%E5%8F%B7%EF%BC%89.pdf)
+  - [M8法兰座板前安装.pdf](./Connector/Circular%20Connector/Aero%20Connector/M8%E6%B3%95%E5%85%B0%E5%BA%A7%E6%9D%BF%E5%89%8D%E5%AE%89%E8%A3%85.pdf)
 
-#### 📂 Push-Pull Locking
+#### 📂 Adam Tech
 
-  - [Adam-Tech_push-pull-connectors.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam-Tech_push-pull-connectors.pdf)
+  - [Adam-Tech_push-pull-connectors.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/Adam-Tech_push-pull-connectors.pdf)
+
+#### 📂 Weipu
+
+  - [E496356-20180906 SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/E496356-20180906%20SF12.pdf)
+  - [SASF10-12 cable plug assembling instruction solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-12%20cable%20plug%20assembling%20instruction%20solder.pdf)
+  - [SASF10-16 rear-nut mount socket assembling instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-16%20rear-nut%20mount%20socket%20assembling%20instruction-Solder.pdf)
+  - [SFSA12-28 square flange mount socket assembing instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SFSA12-28%20square%20flange%20mount%20socket%20assembing%20instruction-Solder.pdf)
+  - [威浦航空插选型手册V202403-1.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/%E5%A8%81%E6%B5%A6%E8%88%AA%E7%A9%BA%E6%8F%92%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8CV202403-1.pdf)
+
+#### 📂 back shell
+
+  - [主件  座件  身件 线夹尾螺母  安装螺母 2025-3-10.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/%E4%B8%BB%E4%BB%B6%20%20%E5%BA%A7%E4%BB%B6%20%20%E8%BA%AB%E4%BB%B6%20%E7%BA%BF%E5%A4%B9%E5%B0%BE%E8%9E%BA%E6%AF%8D%20%20%E5%AE%89%E8%A3%85%E8%9E%BA%E6%AF%8D%202025-3-10.pdf)
+  - [弯式身件 2025-3-10 英文.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/%E5%BC%AF%E5%BC%8F%E8%BA%AB%E4%BB%B6%202025-3-10%20%E8%8B%B1%E6%96%87.pdf)
+
+#### 📂 cap
+
+  - [插座护盖 2025-3-8.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/%E6%8F%92%E5%BA%A7%E6%8A%A4%E7%9B%96%202025-3-8.pdf)
+
+#### 📂 contact
+
+  - [H59.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/contact/H59.pdf)
+  - [H61.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/contact/H61.pdf)
+
+#### 📂 insert
+
+  - [芯件  2025-3-10.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/insert/%E8%8A%AF%E4%BB%B6%20%202025-3-10.pdf)
+
+#### 📂 rubber
+
+  - [丁腈橡胶2025-3-10英文.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/%E4%B8%81%E8%85%88%E6%A9%A1%E8%83%B62025-3-10%E8%8B%B1%E6%96%87.pdf)
+  - [硅橡胶2025-3-10英文 .pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/%E7%A1%85%E6%A9%A1%E8%83%B62025-3-10%E8%8B%B1%E6%96%87%20.pdf)
 
 #### 📂 Hirose
 
@@ -166,6 +209,12 @@ Save and manage supplier raw libraries and datasheets
   - [FH63S-40S-0.5SH(01)_CL0580-4416-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-40S-0.5SH%2801%29_CL0580-4416-0-01_2DDrawing_0001602788.pdf)
   - [FH63S-50S-0.5SH(01)_CL0580-4417-0-01_2DDrawing_0001602788.pdf](./Connector/FPC%20FFC/Hirose/FH63S-50S-0.5SH%2801%29_CL0580-4417-0-01_2DDrawing_0001602788.pdf)
   - [FH63S_Catalog_ed_FH63S_CAT.pdf](./Connector/FPC%20FFC/Hirose/FH63S_Catalog_ed_FH63S_CAT.pdf)
+  - [FH81-24S-0.5SH_CL0580-6004-0-00_2DDrawing_0001680200.pdf](./Connector/FPC%20FFC/Hirose/FH81-24S-0.5SH_CL0580-6004-0-00_2DDrawing_0001680200.pdf)
+  - [FH81_Catalog_ed_FH81_CAT.pdf](./Connector/FPC%20FFC/Hirose/FH81_Catalog_ed_FH81_CAT.pdf)
+
+#### 📂 FH81-24S-0-5SH
+
+  - [Readme.pdf](./Connector/FPC%20FFC/Hirose/FH81-24S-0-5SH/Readme.pdf)
 
 #### 📂 Molex
 
@@ -373,6 +422,10 @@ Save and manage supplier raw libraries and datasheets
   - [RACM550-G.pdf](./Power%20Supply/RACM550-G.pdf)
   - [doc_rohs2_v8_2021-01-28.pdf](./Power%20Supply/doc_rohs2_v8_2021-01-28.pdf)
 
+#### 📂 Sensor
+
+  - [td-sonocheck-abd05-us-sonotec.pdf](./Sensor/td-sonocheck-abd05-us-sonotec.pdf)
+
 ### 📐 Symbol Libraries (*.SchLib)
 
 #### 📂 FH63S-10S-0_5SH
@@ -518,6 +571,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 FH63S-30S-0_5SH
 
   - [FH63S-30S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-30S-0_5SH/FH63S-30S-0.5SH.stp) *(2.7 MB)*
+
+#### 📂 FH81-24S-0-5SH
+
+  - [WFH-2300525.STEP](./Connector/FPC%20FFC/Hirose/FH81-24S-0-5SH/WFH-2300525.STEP) *(1.4 MB)*
 
 #### 📂 1054301104
 
