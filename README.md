@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-118-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-121-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **15** Symbol Libraries (*.SchLib)
 - 🦶 **15** Footprint Libraries (*.PcbLib)
 - 🎯 **16** 3D Models (*.STP/.STEP)
-- 📄 **118** Datasheets (*.pdf)
+- 📄 **121** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -30,7 +30,8 @@ Save and manage supplier raw libraries and datasheets
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Aero Connector](./Connector/Circular%20Connector/Aero%20Connector/) | 📄 3 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Adam Tech](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) | 📄 1 PDF |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Weipu](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) | 📄 5 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Shenzhen Connector Technology](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/) | 📄 2 PDF |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [Weipu](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) | 📄 6 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [RoHS-SF](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/) | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [back shell](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/) | 📄 2 PDF |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📂 [cap](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/) | 📄 1 PDF |
@@ -170,12 +171,18 @@ Save and manage supplier raw libraries and datasheets
 
   - [Adam-Tech_push-pull-connectors.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/Adam-Tech_push-pull-connectors.pdf)
 
+#### 📂 Shenzhen Connector Technology
+
+  - [SZCNT53-J1209TPH-01.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/SZCNT53-J1209TPH-01.pdf)
+  - [SZCNT53-J1209ZSH-01.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/SZCNT53-J1209ZSH-01.pdf)
+
 #### 📂 Weipu
 
   - [E496356-20180906 SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/E496356-20180906%20SF12.pdf)
   - [SASF10-12 cable plug assembling instruction solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-12%20cable%20plug%20assembling%20instruction%20solder.pdf)
   - [SASF10-16 rear-nut mount socket assembling instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-16%20rear-nut%20mount%20socket%20assembling%20instruction-Solder.pdf)
   - [SFSA12-28 square flange mount socket assembing instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SFSA12-28%20square%20flange%20mount%20socket%20assembing%20instruction-Solder.pdf)
+  - [WEIPU-SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU-SF12.pdf)
   - [威浦航空插选型手册V202403-1.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/%E5%A8%81%E6%B5%A6%E8%88%AA%E7%A9%BA%E6%8F%92%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8CV202403-1.pdf)
 
 #### 📂 back shell
