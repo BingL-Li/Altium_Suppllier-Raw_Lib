@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-121-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-35-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-15-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-15-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-122-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-37-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-16-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-16-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
-- 📐 **15** Symbol Libraries (*.SchLib)
-- 🦶 **15** Footprint Libraries (*.PcbLib)
+- 📐 **16** Symbol Libraries (*.SchLib)
+- 🦶 **16** Footprint Libraries (*.PcbLib)
 - 🎯 **16** 3D Models (*.STP/.STEP)
-- 📄 **121** Datasheets (*.pdf)
+- 📄 **122** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -57,6 +57,9 @@ Save and manage supplier raw libraries and datasheets
         - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
           - [📂 History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/)
   - [📂 **Rectangular Connector**](./Connector/Rectangular%20Connector/) - *📄 2 PDF*
+    - [📂 **JST 1mm**](./Connector/Rectangular%20Connector/JST%201mm/) - *📄 1 PDF*
+      - [📂 SM07B_SRSS_TB_LF__SN_](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/)
+        - [📂 **Altium**](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 JST 2mm](./Connector/Rectangular%20Connector/JST%202mm/)
       - [📂 **JWPF W2W**](./Connector/Rectangular%20Connector/JST%202mm/JWPF%20W2W/) - *📄 1 PDF*
       - [📂 **PH PHD W2B**](./Connector/Rectangular%20Connector/JST%202mm/PH%20PHD%20W2B/) - *📄 2 PDF*
@@ -232,6 +235,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [JJ-Product-Guide-Crimp_W-B.pdf](./Connector/Rectangular%20Connector/JJ-Product-Guide-Crimp_W-B.pdf)
   - [Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf](./Connector/Rectangular%20Connector/Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf)
+
+#### 📂 JST 1mm
+
+  - [eSH.pdf](./Connector/Rectangular%20Connector/JST%201mm/eSH.pdf)
 
 #### 📂 JWPF W2W
 
@@ -461,6 +468,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [2004850230.SchLib](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/2004850230.SchLib)
 
+#### 📂 Altium
+
+  - [SM07B-SRSS-TBLFSN.SchLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.SchLib)
+
 #### 📂 AltiumDesigner
 
   - [USB-C40-S-RA-BK-30-TR.SchLib](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/USB-C40-S-RA-BK-30-TR.SchLib)
@@ -522,6 +533,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 AltiumDesigner
 
   - [2004850230.PcbLib](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/2004850230.PcbLib)
+
+#### 📂 Altium
+
+  - [SM07B-SRSS-TBLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.PcbLib)
 
 #### 📂 AltiumDesigner
 
