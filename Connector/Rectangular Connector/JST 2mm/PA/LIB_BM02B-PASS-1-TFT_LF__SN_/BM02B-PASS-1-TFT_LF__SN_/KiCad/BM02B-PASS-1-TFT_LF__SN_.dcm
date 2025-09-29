@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BM02B-PASS-1-TFT_LF__SN_
+D 1x2P 2P PA Tin 2 -25~+85 3A 1 2mm Brass Alloy Standing paste SMD,P=2mm Wire To Board Connector ROHS
+K
+F https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf
+$ENDCMP
+#
+#End Doc Library
