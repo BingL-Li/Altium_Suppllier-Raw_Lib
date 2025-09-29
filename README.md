@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-123-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-37-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-16-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-16-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-16-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-124-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-39-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-17-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-17-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-18-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
-- 📐 **16** Symbol Libraries (*.SchLib)
-- 🦶 **16** Footprint Libraries (*.PcbLib)
-- 🎯 **16** 3D Models (*.STP/.STEP)
-- 📄 **123** Datasheets (*.pdf)
+- 📐 **17** Symbol Libraries (*.SchLib)
+- 🦶 **17** Footprint Libraries (*.PcbLib)
+- 🎯 **18** 3D Models (*.STP/.STEP)
+- 📄 **124** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -63,6 +63,45 @@ Save and manage supplier raw libraries and datasheets
     - [📂 JST 2mm](./Connector/Rectangular%20Connector/JST%202mm/)
       - [📂 **JWPF W2W**](./Connector/Rectangular%20Connector/JST%202mm/JWPF%20W2W/) - *📄 1 PDF*
       - [📂 **PA**](./Connector/Rectangular%20Connector/JST%202mm/PA/) - *📄 1 PDF*
+        - [📂 **BM02B-PASS-1-TFT**](./Connector/Rectangular%20Connector/JST%202mm/PA/BM02B-PASS-1-TFT/) - *🎯 1 3D*
+        - [📂 LIB_BM02B-PASS-1-TFT_LF__SN_](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/)
+          - [📂 **BM02B-PASS-1-TFT_LF__SN_**](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/) - *📄 1 PDF*
+            - [📂 Allegro](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Allegro/)
+            - [📂 Altair](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Altair/)
+            - [📂 Altium](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Altium/)
+            - [📂 CADSTAR](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/CADSTAR/)
+            - [📂 CR-5000](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/CR-5000/)
+            - [📂 CR-8000](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/CR-8000/)
+            - [📂 Capture](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Capture/)
+            - [📂 CircuitStudio](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/CircuitStudio/)
+            - [📂 DEHDL](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DEHDL/)
+              - [📂 bm02b_pass_1_tft_lf__sn_](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DEHDL/bm02b_pass_1_tft_lf__sn_/)
+                - [📂 chips](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DEHDL/bm02b_pass_1_tft_lf__sn_/chips/)
+                - [📂 part_table](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DEHDL/bm02b_pass_1_tft_lf__sn_/part_table/)
+                - [📂 sym_1](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DEHDL/bm02b_pass_1_tft_lf__sn_/sym_1/)
+            - [📂 DesignSpark PCB](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DesignSpark%20PCB/)
+            - [📂 DesignSpark PCB PRO](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DesignSpark%20PCB%20PRO/)
+            - [📂 DipTrace](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/DipTrace/)
+            - [📂 EAGLE](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/EAGLE/)
+            - [📂 Easy-PC](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Easy-PC/)
+            - [📂 EasyEDA](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/EasyEDA/)
+            - [📂 KiCad](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/KiCad/)
+            - [📂 OrCAD_Allegro16](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/OrCAD_Allegro16/)
+            - [📂 PADS](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/PADS/)
+            - [📂 Proteus](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Proteus/)
+              - [📂 8.8 or earlier](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Proteus/8.8%20or%20earlier/)
+              - [📂 8.9 or later](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Proteus/8.9%20or%20later/)
+            - [📂 Pulsonix](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Pulsonix/)
+            - [📂 Quadcept](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Quadcept/)
+            - [📂 SOLIDWORKS PCB](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/SOLIDWORKS%20PCB/)
+            - [📂 TARGET 3001!](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/TARGET%203001%21/)
+            - [📂 Xpedition](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/Xpedition/)
+            - [📂 eCADSTAR](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/eCADSTAR/)
+            - [📂 xDX Designer](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/xDX%20Designer/)
+        - [📂 **SM02B-PASS-TB**](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B-PASS-TB/) - *🎯 1 3D*
+        - [📂 SM02B_PASS_TBT_LF__SN_](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B_PASS_TBT_LF__SN_/)
+          - [📂 Altium](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B_PASS_TBT_LF__SN_/Altium/)
+            - [📂 **SM02B-PASS-TBT-LF-SN-**](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B_PASS_TBT_LF__SN_/Altium/SM02B-PASS-TBT-LF-SN-/) - *📐 1 SchLib | 🦶 1 PcbLib*
       - [📂 **PH PHD W2B**](./Connector/Rectangular%20Connector/JST%202mm/PH%20PHD%20W2B/) - *📄 2 PDF*
       - [📂 **W2W PNI**](./Connector/Rectangular%20Connector/JST%202mm/W2W%20PNI/) - *📄 1 PDF*
     - [📂 Molex Nano-Fit](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/)
@@ -248,6 +287,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 PA
 
   - [ePA-F.pdf](./Connector/Rectangular%20Connector/JST%202mm/PA/ePA-F.pdf)
+
+#### 📂 BM02B-PASS-1-TFT_LF__SN_
+
+  - [How_To_Use_Models.pdf](./Connector/Rectangular%20Connector/JST%202mm/PA/LIB_BM02B-PASS-1-TFT_LF__SN_/BM02B-PASS-1-TFT_LF__SN_/How_To_Use_Models.pdf)
 
 #### 📂 PH PHD W2B
 
@@ -477,6 +520,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [SM07B-SRSS-TBLFSN.SchLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.SchLib)
 
+#### 📂 SM02B-PASS-TBT-LF-SN-
+
+  - [SM02B-PASS-TBTLFSN.SchLib](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B_PASS_TBT_LF__SN_/Altium/SM02B-PASS-TBT-LF-SN-/SM02B-PASS-TBTLFSN.SchLib)
+
 #### 📂 AltiumDesigner
 
   - [USB-C40-S-RA-BK-30-TR.SchLib](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/AltiumDesigner/USB-C40-S-RA-BK-30-TR.SchLib)
@@ -542,6 +589,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Altium
 
   - [SM07B-SRSS-TBLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.PcbLib)
+
+#### 📂 SM02B-PASS-TBT-LF-SN-
+
+  - [SM02B-PASS-TBTLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B_PASS_TBT_LF__SN_/Altium/SM02B-PASS-TBT-LF-SN-/SM02B-PASS-TBTLFSN.PcbLib)
 
 #### 📂 AltiumDesigner
 
@@ -616,6 +667,14 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 2004850230
 
   - [2004850230.stp](./Connector/FPC%20FFC/Molex/2004850230/2004850230.stp) *(2.2 MB)*
+
+#### 📂 BM02B-PASS-1-TFT
+
+  - [BM02B-PASS-1-TFT.STEP](./Connector/Rectangular%20Connector/JST%202mm/PA/BM02B-PASS-1-TFT/BM02B-PASS-1-TFT.STEP) *(220.8 KB)*
+
+#### 📂 SM02B-PASS-TB
+
+  - [SM02B-PASS-TB.STEP](./Connector/Rectangular%20Connector/JST%202mm/PA/SM02B-PASS-TB/SM02B-PASS-TB.STEP) *(252.6 KB)*
 
 #### 📂 ul_USB-C40-S-RA-BK-30-T-R
 
