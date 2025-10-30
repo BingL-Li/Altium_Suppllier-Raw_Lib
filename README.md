@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-133-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-35-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-134-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-35-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
 - 🎯 **35** 3D Models (*.STP/.STEP)
-- 📄 **133** Datasheets (*.pdf)
+- 📄 **134** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -146,7 +146,7 @@ Save and manage supplier raw libraries and datasheets
     - [📂 Voltage Regulator - Linear](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/)
       - [📂 **Low Drop-Out (LDO) Linear Regulator**](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
   - [📂 Peripheral](./Integrated%20Circuit/Peripheral/)
-    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 5 PDF*
+    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 6 PDF*
   - [📂 Sensor](./Integrated%20Circuit/Sensor/)
     - [📂 **Barcode Scanner**](./Integrated%20Circuit/Sensor/Barcode%20Scanner/) - *📄 1 PDF*
     - [📂 **Capacitance**](./Integrated%20Circuit/Sensor/Capacitance/) - *📄 6 PDF*
@@ -414,6 +414,7 @@ Save and manage supplier raw libraries and datasheets
   - [AN10658.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/AN10658.pdf)
   - [AN255.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/AN255.pdf)
   - [PCA9600.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/PCA9600.pdf)
+  - [ee-431.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/ee-431.pdf)
   - [lt3960.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/lt3960.pdf)
   - [tca9548a.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/tca9548a.pdf)
 
