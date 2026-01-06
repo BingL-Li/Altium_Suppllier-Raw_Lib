@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-140-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-35-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-142-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-35-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
 - 🎯 **35** 3D Models (*.STP/.STEP)
-- 📄 **140** Datasheets (*.pdf)
+- 📄 **142** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -162,7 +162,7 @@ Save and manage supplier raw libraries and datasheets
       - [📂 snoc028f](./Integrated%20Circuit/Sensor/Capacitance/snoc028f/)
       - [📂 **snor019**](./Integrated%20Circuit/Sensor/Capacitance/snor019/) - *📄 4 PDF*
       - [📂 snvc187a](./Integrated%20Circuit/Sensor/Capacitance/snvc187a/)
-    - [📂 **Hall Effect**](./Integrated%20Circuit/Sensor/Hall%20Effect/) - *📄 2 PDF*
+    - [📂 **Hall Effect**](./Integrated%20Circuit/Sensor/Hall%20Effect/) - *📄 4 PDF*
       - [📂 TMAG5x73-EXAMPLE-CODE](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/)
         - [📂 TMAG5x73 Online Code Examples](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/TMAG5x73%20Online%20Code%20Examples/)
     - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
@@ -468,6 +468,8 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Hall Effect
 
   - [AS5304_06_DS000187_3-00.pdf](./Integrated%20Circuit/Sensor/Hall%20Effect/AS5304_06_DS000187_3-00.pdf)
+  - [Position_Sensors_PD001074_1-01.pdf](./Integrated%20Circuit/Sensor/Hall%20Effect/Position_Sensors_PD001074_1-01.pdf)
+  - [Precision_Position_Sensing_Guide_AN001092_1-00.pdf](./Integrated%20Circuit/Sensor/Hall%20Effect/Precision_Position_Sensing_Guide_AN001092_1-00.pdf)
   - [tmag5273.pdf](./Integrated%20Circuit/Sensor/Hall%20Effect/tmag5273.pdf)
 
 #### 📂 Optical Switch
