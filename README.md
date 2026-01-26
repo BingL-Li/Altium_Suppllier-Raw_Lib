@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-143-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-35-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-147-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
-- 🎯 **35** 3D Models (*.STP/.STEP)
-- 📄 **143** Datasheets (*.pdf)
+- 🎯 **53** 3D Models (*.STP/.STEP)
+- 📄 **147** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -59,9 +59,23 @@ Save and manage supplier raw libraries and datasheets
         - [📂 **AltiumDesigner**](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib*
           - [📂 History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/)
   - [📂 **Rectangular Connector**](./Connector/Rectangular%20Connector/) - *📄 2 PDF*
-    - [📂 **JST 1mm**](./Connector/Rectangular%20Connector/JST%201mm/) - *📄 1 PDF*
-      - [📂 SM07B_SRSS_TB_LF__SN_](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/)
-        - [📂 **Altium**](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
+    - [📂 JST 1mm](./Connector/Rectangular%20Connector/JST%201mm/)
+      - [📂 **NSHD**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/) - *📄 1 PDF*
+        - [📂 **BM16B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM16B-NSHDZS-TFT/) - *🎯 1 3D*
+        - [📂 **BM20B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM20B-NSHDZS-TFT/) - *🎯 1 3D*
+        - [📂 **BM24B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM24B-NSHDZS-TFT/) - *🎯 1 3D*
+        - [📂 **BM28B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM28B-NSHDZS-TFT/) - *🎯 1 3D*
+        - [📂 **BM32B-NSHDZS-1-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM32B-NSHDZS-1-TFT/) - *🎯 1 3D*
+        - [📂 **BM40B-NSHDZS-1-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM40B-NSHDZS-1-TFT/) - *🎯 1 3D*
+        - [📂 **SM16B-NSHDZS-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM16B-NSHDZS-TF/) - *🎯 1 3D*
+        - [📂 **SM20B-NSHDZS-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM20B-NSHDZS-TF/) - *🎯 1 3D*
+        - [📂 **SM24B-NSHDZS-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM24B-NSHDZS-TF/) - *🎯 1 3D*
+        - [📂 **SM28B-NSHDZS-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM28B-NSHDZS-TF/) - *🎯 1 3D*
+        - [📂 **SM32B-NSHDZS-1-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM32B-NSHDZS-1-TF/) - *🎯 1 3D*
+        - [📂 **SM40B-NSHDZS-1-TF**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM40B-NSHDZS-1-TF/) - *🎯 1 3D*
+      - [📂 **SH**](./Connector/Rectangular%20Connector/JST%201mm/SH/) - *📄 1 PDF*
+        - [📂 SM07B_SRSS_TB_LF__SN_](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/)
+          - [📂 **Altium**](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/Altium/) - *📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 JST 2mm](./Connector/Rectangular%20Connector/JST%202mm/)
       - [📂 **JWPF W2W**](./Connector/Rectangular%20Connector/JST%202mm/JWPF%20W2W/) - *📄 1 PDF*
       - [📂 **PA**](./Connector/Rectangular%20Connector/JST%202mm/PA/) - *📄 1 PDF*
@@ -124,6 +138,20 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) - *🔗 1 IntLib | 📄 1 PDF*
   - [📂 Resistor](./Discrete%20-%20Passive/Resistor/)
     - [📂 **NTC**](./Discrete%20-%20Passive/Resistor/NTC/) - *📄 1 PDF*
+- [📂 Electromechanical](./Electromechanical/)
+  - [📂 Actuator](./Electromechanical/Actuator/)
+  - [📂 Fan and Thermal Management](./Electromechanical/Fan%20and%20Thermal%20Management/)
+  - [📂 Motor](./Electromechanical/Motor/)
+  - [📂 Relay](./Electromechanical/Relay/)
+  - [📂 Switch](./Electromechanical/Switch/)
+    - [📂 Limit Switch](./Electromechanical/Switch/Limit%20Switch/)
+      - [📂 **D2F_01FL30**](./Electromechanical/Switch/Limit%20Switch/D2F_01FL30/) - *🎯 1 3D*
+      - [📂 **Omron D2F**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/) - *📄 1 PDF*
+        - [📂 **D2F_01F**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01F/) - *🎯 1 3D*
+        - [📂 **D2F_01FL**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL/) - *🎯 1 3D*
+        - [📂 **D2F_01FL2**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL2/) - *🎯 1 3D*
+        - [📂 **D2F_01FL3**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL3/) - *🎯 1 3D*
+        - [📂 **D2F_01L2**](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01L2/) - *🎯 1 3D*
 - [📂 Integrated Circuit](./Integrated%20Circuit/)
   - [📂 ADC-DAC](./Integrated%20Circuit/ADC-DAC/)
     - [📂 **ADC**](./Integrated%20Circuit/ADC-DAC/ADC/) - *📄 3 PDF*
@@ -139,6 +167,8 @@ Save and manage supplier raw libraries and datasheets
       - [📂 **Stepper**](./Integrated%20Circuit/Driver/Motor/Stepper/) - *📄 1 PDF*
   - [📂 **IO Expander**](./Integrated%20Circuit/IO%20Expander/) - *📄 1 PDF*
   - [📂 **MCU**](./Integrated%20Circuit/MCU/) - *📄 2 PDF*
+  - [📂 Memory](./Integrated%20Circuit/Memory/)
+    - [📂 **E2PROM**](./Integrated%20Circuit/Memory/E2PROM/) - *📄 1 PDF*
   - [📂 PMIC](./Integrated%20Circuit/PMIC/)
     - [📂 **Battery Charger**](./Integrated%20Circuit/PMIC/Battery%20Charger/) - *📄 1 PDF*
     - [📂 DC-DC Converter Monolithic](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/)
@@ -178,7 +208,7 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Position Sensor - Inductive**](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
       - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
       - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
-    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 8 PDF*
+    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 9 PDF*
   - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
     - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
       - [📂 **74LVC**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
@@ -283,9 +313,13 @@ Save and manage supplier raw libraries and datasheets
   - [JJ-Product-Guide-Crimp_W-B.pdf](./Connector/Rectangular%20Connector/JJ-Product-Guide-Crimp_W-B.pdf)
   - [Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf](./Connector/Rectangular%20Connector/Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf)
 
-#### 📂 JST 1mm
+#### 📂 NSHD
 
-  - [eSH.pdf](./Connector/Rectangular%20Connector/JST%201mm/eSH.pdf)
+  - [eNSHD.pdf](./Connector/Rectangular%20Connector/JST%201mm/NSHD/eNSHD.pdf)
+
+#### 📂 SH
+
+  - [eSH.pdf](./Connector/Rectangular%20Connector/JST%201mm/SH/eSH.pdf)
 
 #### 📂 JWPF W2W
 
@@ -367,6 +401,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [AUA0000C8.pdf](./Discrete%20-%20Passive/Resistor/NTC/AUA0000C8.pdf)
 
+#### 📂 Omron D2F
+
+  - [D2F_0318_DS.pdf](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_0318_DS.pdf)
+
 #### 📂 ADC
 
   - [AD7291.pdf](./Integrated%20Circuit/ADC-DAC/ADC/AD7291.pdf)
@@ -403,6 +441,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [cc1312r.pdf](./Integrated%20Circuit/MCU/cc1312r.pdf)
   - [swcu185g.pdf](./Integrated%20Circuit/MCU/swcu185g.pdf)
+
+#### 📂 E2PROM
+
+  - [24AA32A-24LC32A-32-Kbit-I2C-Serial-EEPROM-DS20001713.pdf](./Integrated%20Circuit/Memory/E2PROM/24AA32A-24LC32A-32-Kbit-I2C-Serial-EEPROM-DS20001713.pdf)
 
 #### 📂 Battery Charger
 
@@ -508,6 +550,7 @@ Save and manage supplier raw libraries and datasheets
   - [PEPI-C-Thermostats.pdf](./Integrated%20Circuit/Sensor/Temperature/PEPI-C-Thermostats.pdf)
   - [TC622 TC624 21440D.pdf](./Integrated%20Circuit/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
   - [adt7420.pdf](./Integrated%20Circuit/Sensor/Temperature/adt7420.pdf)
+  - [hdc3022.pdf](./Integrated%20Circuit/Sensor/Temperature/hdc3022.pdf)
   - [stcn75.pdf](./Integrated%20Circuit/Sensor/Temperature/stcn75.pdf)
   - [stds75.pdf](./Integrated%20Circuit/Sensor/Temperature/stds75.pdf)
   - [stts2004.pdf](./Integrated%20Circuit/Sensor/Temperature/stts2004.pdf)
@@ -564,7 +607,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Altium
 
-  - [SM07B-SRSS-TBLFSN.SchLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.SchLib)
+  - [SM07B-SRSS-TBLFSN.SchLib](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.SchLib)
 
 #### 📂 parts
 
@@ -658,7 +701,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Altium
 
-  - [SM07B-SRSS-TBLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.PcbLib)
+  - [SM07B-SRSS-TBLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.PcbLib)
 
 #### 📂 parts
 
@@ -769,6 +812,54 @@ Save and manage supplier raw libraries and datasheets
 
   - [2004850230.stp](./Connector/FPC%20FFC/Molex/2004850230/2004850230.stp) *(2.2 MB)*
 
+#### 📂 BM16B-NSHDZS-TFT
+
+  - [BM16B-NSHDZS-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM16B-NSHDZS-TFT/BM16B-NSHDZS-TFT.STEP) *(790.5 KB)*
+
+#### 📂 BM20B-NSHDZS-TFT
+
+  - [BM20B-NSHDZS-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM20B-NSHDZS-TFT/BM20B-NSHDZS-TFT.STEP) *(951.7 KB)*
+
+#### 📂 BM24B-NSHDZS-TFT
+
+  - [BM24B-NSHDZS-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM24B-NSHDZS-TFT/BM24B-NSHDZS-TFT.STEP) *(777.0 KB)*
+
+#### 📂 BM28B-NSHDZS-TFT
+
+  - [BM28B-NSHDZS-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM28B-NSHDZS-TFT/BM28B-NSHDZS-TFT.STEP) *(1.2 MB)*
+
+#### 📂 BM32B-NSHDZS-1-TFT
+
+  - [BM32B-NSHDZS-1-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM32B-NSHDZS-1-TFT/BM32B-NSHDZS-1-TFT.STEP) *(992.1 KB)*
+
+#### 📂 BM40B-NSHDZS-1-TFT
+
+  - [BM40B-NSHDZS-1-TFT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM40B-NSHDZS-1-TFT/BM40B-NSHDZS-1-TFT.STEP) *(1.2 MB)*
+
+#### 📂 SM16B-NSHDZS-TF
+
+  - [SM16B-NSHDZS-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM16B-NSHDZS-TF/SM16B-NSHDZS-TF.STEP) *(552.7 KB)*
+
+#### 📂 SM20B-NSHDZS-TF
+
+  - [SM20B-NSHDZS-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM20B-NSHDZS-TF/SM20B-NSHDZS-TF.STEP) *(656.2 KB)*
+
+#### 📂 SM24B-NSHDZS-TF
+
+  - [SM24B-NSHDZS-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM24B-NSHDZS-TF/SM24B-NSHDZS-TF.STEP) *(761.6 KB)*
+
+#### 📂 SM28B-NSHDZS-TF
+
+  - [SM28B-NSHDZS-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM28B-NSHDZS-TF/SM28B-NSHDZS-TF.STEP) *(867.8 KB)*
+
+#### 📂 SM32B-NSHDZS-1-TF
+
+  - [SM32B-NSHDZS-1-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM32B-NSHDZS-1-TF/SM32B-NSHDZS-1-TF.STEP) *(974.1 KB)*
+
+#### 📂 SM40B-NSHDZS-1-TF
+
+  - [SM40B-NSHDZS-1-TF.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSHD/SM40B-NSHDZS-1-TF/SM40B-NSHDZS-1-TF.STEP) *(1.2 MB)*
+
 #### 📂 BM02B-PASS-1-TFT
 
   - [BM02B-PASS-1-TFT.STEP](./Connector/Rectangular%20Connector/JST%202mm/PA/BM02B-PASS-1-TFT/BM02B-PASS-1-TFT.STEP) *(220.8 KB)*
@@ -836,6 +927,30 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 3D
 
   - [MSL0402RGBU1.stp](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/MSL0402RGBU1.stp) *(230.3 KB)*
+
+#### 📂 D2F_01FL30
+
+  - [d2f-01fl30.stp](./Electromechanical/Switch/Limit%20Switch/D2F_01FL30/d2f-01fl30.stp) *(64.2 KB)*
+
+#### 📂 D2F_01F
+
+  - [d2f-01f.stp](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01F/d2f-01f.stp) *(45.8 KB)*
+
+#### 📂 D2F_01FL
+
+  - [d2f-01fl.stp](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL/d2f-01fl.stp) *(57.3 KB)*
+
+#### 📂 D2F_01FL2
+
+  - [d2f-01fl2.stp](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL2/d2f-01fl2.stp) *(91.0 KB)*
+
+#### 📂 D2F_01FL3
+
+  - [d2f-01fl3.stp](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01FL3/d2f-01fl3.stp) *(68.3 KB)*
+
+#### 📂 D2F_01L2
+
+  - [d2f-01l2.stp](./Electromechanical/Switch/Limit%20Switch/Omron%20D2F/D2F_01L2/d2f-01l2.stp) *(91.0 KB)*
 
 #### 📂 AltiumDesigner
 
