@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16052011-063956";"";
+"REFERENCE";"D2F-01FL2";"";
+"TraceParts.PartTitle";"Ultra Subminiature Basic Switch – D2F";"";
+"TraceParts.InstanceId";"10-16052011-063956E9M7976KUX1GRDPI84Q4KUDRL";"";
+"SUPPLIER";"OMRON";"";
+"DESIGN";"Ultra Subminiature Basic Switch, Micro loads - Low operating force, Hinge roller lever, PCB terminals";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.4.0";"";

@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16052011-063956";"";
+"REFERENCE";"D2F-01FL3";"";
+"TraceParts.PartTitle";"Ultra Subminiature Basic Switch – D2F";"";
+"TraceParts.InstanceId";"10-16052011-0639567A3OO8TWAJH1G65AI3SLLJGGH";"";
+"SUPPLIER";"OMRON";"";
+"DESIGN";"Ultra Subminiature Basic Switch, Micro loads - Low operating force, Simulated roller lever (R1.3), PCB terminals";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.4.0";"";

@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16052011-063956";"";
+"REFERENCE";"D2F-01L2";"";
+"TraceParts.PartTitle";"Ultra Subminiature Basic Switch – D2F";"";
+"TraceParts.InstanceId";"10-16052011-063956E6VSK5GTWHTDXQ1JRYKQ5JZZZ";"";
+"DESIGN";"Ultra Subminiature Basic Switch, Micro loads - General-purpose, Hinge roller lever, PCB terminals";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"OMRON";"";
+"TraceParts.PartVersion";"1.4.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"OMRON:10-16052011-063956";"";
