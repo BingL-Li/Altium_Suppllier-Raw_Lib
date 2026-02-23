@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-147-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-148-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
 - 🎯 **53** 3D Models (*.STP/.STEP)
-- 📄 **147** Datasheets (*.pdf)
+- 📄 **148** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -168,7 +168,7 @@ Save and manage supplier raw libraries and datasheets
   - [📂 **IO Expander**](./Integrated%20Circuit/IO%20Expander/) - *📄 1 PDF*
   - [📂 **MCU**](./Integrated%20Circuit/MCU/) - *📄 2 PDF*
   - [📂 Memory](./Integrated%20Circuit/Memory/)
-    - [📂 **E2PROM**](./Integrated%20Circuit/Memory/E2PROM/) - *📄 1 PDF*
+    - [📂 **E2PROM**](./Integrated%20Circuit/Memory/E2PROM/) - *📄 2 PDF*
   - [📂 PMIC](./Integrated%20Circuit/PMIC/)
     - [📂 **Battery Charger**](./Integrated%20Circuit/PMIC/Battery%20Charger/) - *📄 1 PDF*
     - [📂 DC-DC Converter Monolithic](./Integrated%20Circuit/PMIC/DC-DC%20Converter%20Monolithic/)
@@ -445,6 +445,7 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 E2PROM
 
   - [24AA32A-24LC32A-32-Kbit-I2C-Serial-EEPROM-DS20001713.pdf](./Integrated%20Circuit/Memory/E2PROM/24AA32A-24LC32A-32-Kbit-I2C-Serial-EEPROM-DS20001713.pdf)
+  - [24CS128-128-Kbit-3.4-MHz-I2C-Serial-EEPROM-DS20006913.pdf](./Integrated%20Circuit/Memory/E2PROM/24CS128-128-Kbit-3.4-MHz-I2C-Serial-EEPROM-DS20006913.pdf)
 
 #### 📂 Battery Charger
 
