@@ -7,13 +7,13 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-153-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-153-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-54-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
-- 🎯 **53** 3D Models (*.STP/.STEP)
+- 🎯 **54** 3D Models (*.STP/.STEP)
 - 📄 **153** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
@@ -221,7 +221,8 @@ Save and manage supplier raw libraries and datasheets
           - [📂 **AltiumDesigner**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
             - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
 - [📂 **Power Supply**](./Power%20Supply/) - *🎯 1 3D | 📄 2 PDF*
-- [📂 **Sensor**](./Sensor/) - *📄 2 PDF*
+- [📂 **Sensor**](./Sensor/) - *📄 1 PDF*
+  - [📂 **OPB80x**](./Sensor/OPB80x/) - *🎯 1 3D | 📄 1 PDF*
 
 ## 📋 Detailed File Listings
 
@@ -581,8 +582,11 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Sensor
 
-  - [OPB800.pdf](./Sensor/OPB800.pdf)
   - [td-sonocheck-abd05-us-sonotec.pdf](./Sensor/td-sonocheck-abd05-us-sonotec.pdf)
+
+#### 📂 OPB80x
+
+  - [OPB800.pdf](./Sensor/OPB80x/OPB800.pdf)
 
 ### 📐 Symbol Libraries (*.SchLib)
 
@@ -976,6 +980,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Power Supply
 
   - [RACM1200-SAV_ENC.STEP](./Power%20Supply/RACM1200-SAV_ENC.STEP) *(21.9 MB)*
+
+#### 📂 OPB80x
+
+  - [OPB800W51Z.STEP](./Sensor/OPB80x/OPB800W51Z.STEP) *(469.0 KB)*
 
 ### 🔗 Integrated Libraries (*.IntLib)
 
