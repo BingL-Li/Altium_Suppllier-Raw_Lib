@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-148-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-153-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-53-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
 - 🎯 **53** 3D Models (*.STP/.STEP)
-- 📄 **148** Datasheets (*.pdf)
+- 📄 **153** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -197,7 +197,10 @@ Save and manage supplier raw libraries and datasheets
         - [📂 TMAG5x73 Online Code Examples](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/TMAG5x73%20Online%20Code%20Examples/)
     - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
       - [📂 **Optical Switch**](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
-      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 8 PDF*
+      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 12 PDF*
+        - [📂 vcnl36826m_software_module](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/)
+          - [📂 VCNL36826M_V1_0_0_0](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/)
+            - [📂 ru-ru](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/ru-ru/)
       - [📂 **ToF**](./Integrated%20Circuit/Sensor/Optical/ToF/) - *📄 2 PDF*
         - [📂 STSW-IMG027](./Integrated%20Circuit/Sensor/Optical/ToF/STSW-IMG027/)
           - [📂 STSW-IMG027](./Integrated%20Circuit/Sensor/Optical/ToF/STSW-IMG027/STSW-IMG027/)
@@ -218,7 +221,7 @@ Save and manage supplier raw libraries and datasheets
           - [📂 **AltiumDesigner**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
             - [📂 History](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/History/)
 - [📂 **Power Supply**](./Power%20Supply/) - *🎯 1 3D | 📄 2 PDF*
-- [📂 **Sensor**](./Sensor/) - *📄 1 PDF*
+- [📂 **Sensor**](./Sensor/) - *📄 2 PDF*
 
 ## 📋 Detailed File Listings
 
@@ -522,6 +525,9 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Proximity
 
+  - [designingvcnl36826mintoapplication.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designingvcnl36826mintoapplication.pdf)
+  - [sensorboardguidevcnl36826m.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826m.pdf)
+  - [sensorboardguidevcnl36826msb.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826msb.pdf)
   - [vcnl36687s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s.pdf)
   - [vcnl36687s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
   - [vcnl36687s_sensor-board-files.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
@@ -530,6 +536,7 @@ Save and manage supplier raw libraries and datasheets
   - [vcnl36826s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
   - [vcnl36826s_physics.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
   - [vcnl36826s_sensor-board-guide.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
+  - [windowmaterialforproximityreflectivesensors.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/windowmaterialforproximityreflectivesensors.pdf)
 
 #### 📂 ToF
 
@@ -574,6 +581,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Sensor
 
+  - [OPB800.pdf](./Sensor/OPB800.pdf)
   - [td-sonocheck-abd05-us-sonotec.pdf](./Sensor/td-sonocheck-abd05-us-sonotec.pdf)
 
 ### 📐 Symbol Libraries (*.SchLib)
