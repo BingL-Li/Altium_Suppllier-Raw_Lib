@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-153-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-54-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-155-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-54-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **5** Integrated Libraries (*.IntLib)
 - 📐 **23** Symbol Libraries (*.SchLib)
 - 🦶 **23** Footprint Libraries (*.PcbLib)
 - 🎯 **54** 3D Models (*.STP/.STEP)
-- 📄 **153** Datasheets (*.pdf)
+- 📄 **155** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -60,6 +60,7 @@ Save and manage supplier raw libraries and datasheets
           - [📂 History](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/History/)
   - [📂 **Rectangular Connector**](./Connector/Rectangular%20Connector/) - *📄 2 PDF*
     - [📂 JST 1mm](./Connector/Rectangular%20Connector/JST%201mm/)
+      - [📂 **NSH**](./Connector/Rectangular%20Connector/JST%201mm/NSH/) - *📄 1 PDF*
       - [📂 **NSHD**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/) - *📄 1 PDF*
         - [📂 **BM16B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM16B-NSHDZS-TFT/) - *🎯 1 3D*
         - [📂 **BM20B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM20B-NSHDZS-TFT/) - *🎯 1 3D*
@@ -211,6 +212,7 @@ Save and manage supplier raw libraries and datasheets
     - [📂 **Position Sensor - Inductive**](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) - *📄 3 PDF*
       - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
       - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
+    - [📂 **TMR**](./Integrated%20Circuit/Sensor/TMR/) - *📄 1 PDF*
     - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 9 PDF*
   - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
     - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
@@ -316,6 +318,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [JJ-Product-Guide-Crimp_W-B.pdf](./Connector/Rectangular%20Connector/JJ-Product-Guide-Crimp_W-B.pdf)
   - [Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf](./Connector/Rectangular%20Connector/Product-Guide-2024-ver2-CMYK_for-print_Correct-QR.pdf)
+
+#### 📂 NSH
+
+  - [eNSH.pdf](./Connector/Rectangular%20Connector/JST%201mm/NSH/eNSH.pdf)
 
 #### 📂 NSHD
 
@@ -553,6 +559,10 @@ Save and manage supplier raw libraries and datasheets
   - [REN_IPS2550-Datasheet_DST_20240424.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_IPS2550-Datasheet_DST_20240424.pdf)
   - [REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_Import_Gerber_Drills_to_Altium_240813.pdf_TRA_20240722_1.pdf)
   - [REN_ZMID520x-Datasheet_DST_20200721.pdf](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/REN_ZMID520x-Datasheet_DST_20200721.pdf)
+
+#### 📂 TMR
+
+  - [TMR3109.pdf](./Integrated%20Circuit/Sensor/TMR/TMR3109.pdf)
 
 #### 📂 Temperature
 
