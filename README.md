@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-155-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-51-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-5-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-23-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-23-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-54-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-159-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-87-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-17-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-35-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-35-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
-- 🔗 **5** Integrated Libraries (*.IntLib)
-- 📐 **23** Symbol Libraries (*.SchLib)
-- 🦶 **23** Footprint Libraries (*.PcbLib)
-- 🎯 **54** 3D Models (*.STP/.STEP)
-- 📄 **155** Datasheets (*.pdf)
+- 🔗 **17** Integrated Libraries (*.IntLib)
+- 📐 **35** Symbol Libraries (*.SchLib)
+- 🦶 **35** Footprint Libraries (*.PcbLib)
+- 🎯 **83** 3D Models (*.STP/.STEP)
+- 📄 **159** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -29,9 +29,9 @@ Save and manage supplier raw libraries and datasheets
   - [📂 Circular Connector](./Connector/Circular%20Connector/)
     - [📂 **Aero Connector**](./Connector/Circular%20Connector/Aero%20Connector/) - *📄 3 PDF*
     - [📂 Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/)
-      - [📂 **Adam Tech**](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) - *📄 1 PDF*
+      - [📂 **Adam Tech**](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) - *📄 4 PDF*
       - [📂 **Shenzhen Connector Technology**](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/) - *📄 2 PDF*
-      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) - *📄 6 PDF*
+      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) - *🎯 1 3D | 📄 6 PDF*
         - [📂 RoHS-SF](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/)
           - [📂 **back shell**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/) - *📄 2 PDF*
           - [📂 **cap**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/) - *📄 1 PDF*
@@ -61,6 +61,34 @@ Save and manage supplier raw libraries and datasheets
   - [📂 **Rectangular Connector**](./Connector/Rectangular%20Connector/) - *📄 2 PDF*
     - [📂 JST 1mm](./Connector/Rectangular%20Connector/JST%201mm/)
       - [📂 **NSH**](./Connector/Rectangular%20Connector/JST%201mm/NSH/) - *📄 1 PDF*
+        - [📂 **BM02B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM02B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM03B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM03B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **BM04B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM04B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM05B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM05B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **BM06B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM06B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM07B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM07B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **BM08B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM08B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM09B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM09B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **BM10B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM10B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM11B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM11B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM12B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM12B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM13B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM13B-NSHSS-TBT/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **BM14B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM14B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **BM15B-NSHSS-TBT**](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM15B-NSHSS-TBT/) - *🎯 1 3D*
+        - [📂 **SM02B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM02B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM03B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM03B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM04B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM04B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM05B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM05B-NSHSS-TB/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **SM06B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM06B-NSHSS-TB/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **SM07B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM07B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM08B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM08B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM09B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM09B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM10B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM10B-NSHSS-TB/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **SM11B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM11B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM12B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM12B-NSHSS-TB/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
+        - [📂 **SM13B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM13B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM14B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM14B-NSHSS-TB/) - *🎯 1 3D*
+        - [📂 **SM15B-NSHSS-TB**](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM15B-NSHSS-TB/) - *🎯 1 3D*
       - [📂 **NSHD**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/) - *📄 1 PDF*
         - [📂 **BM16B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM16B-NSHDZS-TFT/) - *🎯 1 3D*
         - [📂 **BM20B-NSHDZS-TFT**](./Connector/Rectangular%20Connector/JST%201mm/NSHD/BM20B-NSHDZS-TFT/) - *🎯 1 3D*
@@ -128,7 +156,7 @@ Save and manage supplier raw libraries and datasheets
 - [📂 Discrete - Passive](./Discrete%20-%20Passive/)
   - [📂 Choke](./Discrete%20-%20Passive/Choke/)
     - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) - *📄 1 PDF*
-  - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 1 PDF*
+  - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 2 PDF*
     - [📂 LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/)
       - [📂 MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/)
         - [📂 **3D**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) - *🎯 1 3D*
@@ -254,6 +282,9 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Adam Tech
 
   - [Adam-Tech_push-pull-connectors.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/Adam-Tech_push-pull-connectors.pdf)
+  - [mmi-m1pgxxsxx-ip67-data-sheet.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/mmi-m1pgxxsxx-ip67-data-sheet.pdf)
+  - [mmi-m1pgxxsxxb-ip67-data-sheet.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/mmi-m1pgxxsxxb-ip67-data-sheet.pdf)
+  - [mmi-m1rsgxxs-ip67-data-sheet.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/mmi-m1rsgxxs-ip67-data-sheet.pdf)
 
 #### 📂 Shenzhen Connector Technology
 
@@ -401,6 +432,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Diode - Light Emitting
 
+  - [l10660_series_kled1055e.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/l10660_series_kled1055e.pdf)
   - [msl0402rgbu1-e.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/msl0402rgbu1-e.pdf)
 
 #### 📂 Wurth-Elektronik
@@ -628,6 +660,54 @@ Save and manage supplier raw libraries and datasheets
 
   - [2004850230.SchLib](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/2004850230.SchLib)
 
+#### 📂 BM02B-NSHSS-TBT
+
+  - [BM02B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM02B-NSHSS-TBT/BM02B-NSHSS-TBT.SchLib)
+
+#### 📂 BM04B-NSHSS-TBT
+
+  - [BM04B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM04B-NSHSS-TBT/BM04B-NSHSS-TBT.SchLib)
+
+#### 📂 BM06B-NSHSS-TBT
+
+  - [BM06B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM06B-NSHSS-TBT/BM06B-NSHSS-TBT.SchLib)
+
+#### 📂 BM08B-NSHSS-TBT
+
+  - [BM08B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM08B-NSHSS-TBT/BM08B-NSHSS-TBT.SchLib)
+
+#### 📂 BM10B-NSHSS-TBT
+
+  - [BM10B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM10B-NSHSS-TBT/BM10B-NSHSS-TBT.SchLib)
+
+#### 📂 BM11B-NSHSS-TBT
+
+  - [BM11B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM11B-NSHSS-TBT/BM11B-NSHSS-TBT.SchLib)
+
+#### 📂 BM12B-NSHSS-TBT
+
+  - [BM12B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM12B-NSHSS-TBT/BM12B-NSHSS-TBT.SchLib)
+
+#### 📂 BM13B-NSHSS-TBT
+
+  - [BM13B-NSHSS-TBT.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM13B-NSHSS-TBT/BM13B-NSHSS-TBT.SchLib)
+
+#### 📂 SM05B-NSHSS-TB
+
+  - [SM05B-NSHSS-TB.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM05B-NSHSS-TB/SM05B-NSHSS-TB.SchLib)
+
+#### 📂 SM06B-NSHSS-TB
+
+  - [SM06B-NSHSS-TB.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM06B-NSHSS-TB/SM06B-NSHSS-TB.SchLib)
+
+#### 📂 SM10B-NSHSS-TB
+
+  - [SM10B-NSHSS-TB.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM10B-NSHSS-TB/SM10B-NSHSS-TB.SchLib)
+
+#### 📂 SM12B-NSHSS-TB
+
+  - [SM12B-NSHSS-TB.SchLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM12B-NSHSS-TB/SM12B-NSHSS-TB.SchLib)
+
 #### 📂 Altium
 
   - [SM07B-SRSS-TBLFSN.SchLib](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.SchLib)
@@ -722,6 +802,54 @@ Save and manage supplier raw libraries and datasheets
 
   - [2004850230.PcbLib](./Connector/FPC%20FFC/Molex/2004850230/AltiumDesigner/2004850230.PcbLib)
 
+#### 📂 BM02B-NSHSS-TBT
+
+  - [BM02B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM02B-NSHSS-TBT/BM02B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM04B-NSHSS-TBT
+
+  - [BM04B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM04B-NSHSS-TBT/BM04B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM06B-NSHSS-TBT
+
+  - [BM06B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM06B-NSHSS-TBT/BM06B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM08B-NSHSS-TBT
+
+  - [BM08B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM08B-NSHSS-TBT/BM08B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM10B-NSHSS-TBT
+
+  - [BM10B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM10B-NSHSS-TBT/BM10B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM11B-NSHSS-TBT
+
+  - [BM11B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM11B-NSHSS-TBT/BM11B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM12B-NSHSS-TBT
+
+  - [BM12B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM12B-NSHSS-TBT/BM12B-NSHSS-TBT.PcbLib)
+
+#### 📂 BM13B-NSHSS-TBT
+
+  - [BM13B-NSHSS-TBT.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM13B-NSHSS-TBT/BM13B-NSHSS-TBT.PcbLib)
+
+#### 📂 SM05B-NSHSS-TB
+
+  - [SM05B-NSHSS-TB.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM05B-NSHSS-TB/SM05B-NSHSS-TB.PcbLib)
+
+#### 📂 SM06B-NSHSS-TB
+
+  - [SM06B-NSHSS-TB.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM06B-NSHSS-TB/SM06B-NSHSS-TB.PcbLib)
+
+#### 📂 SM10B-NSHSS-TB
+
+  - [SM10B-NSHSS-TB.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM10B-NSHSS-TB/SM10B-NSHSS-TB.PcbLib)
+
+#### 📂 SM12B-NSHSS-TB
+
+  - [SM12B-NSHSS-TB.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM12B-NSHSS-TB/SM12B-NSHSS-TB.PcbLib)
+
 #### 📂 Altium
 
   - [SM07B-SRSS-TBLFSN.PcbLib](./Connector/Rectangular%20Connector/JST%201mm/SH/SM07B_SRSS_TB_LF__SN_/Altium/SM07B-SRSS-TBLFSN.PcbLib)
@@ -807,6 +935,10 @@ Save and manage supplier raw libraries and datasheets
   - [TC2030-IDC--3DModel-STEP-56544.STEP](./Cable/Test%20Cable/TC2030-IDC--3DModel-STEP-56544.STEP) *(1.8 MB)*
   - [TC2030-IDC-NL--3DModel-STEP-56544.STEP](./Cable/Test%20Cable/TC2030-IDC-NL--3DModel-STEP-56544.STEP) *(1.6 MB)*
 
+#### 📂 Weipu
+
+  - [SF1210-I-P_S.stp](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SF1210-I-P_S.stp) *(486.5 KB)*
+
 #### 📂 FH63S-10S-0_5SH
 
   - [FH63S-10S-0.5SH.stp](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/FH63S-10S-0.5SH.stp) *(1.6 MB)*
@@ -834,6 +966,118 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 2004850230
 
   - [2004850230.stp](./Connector/FPC%20FFC/Molex/2004850230/2004850230.stp) *(2.2 MB)*
+
+#### 📂 BM02B-NSHSS-TBT
+
+  - [BM02B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM02B-NSHSS-TBT/BM02B-NSHSS-TBT.STEP) *(227.9 KB)*
+
+#### 📂 BM03B-NSHSS-TBT
+
+  - [BM03B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM03B-NSHSS-TBT/BM03B-NSHSS-TBT.STEP) *(234.6 KB)*
+
+#### 📂 BM04B-NSHSS-TBT
+
+  - [BM04B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM04B-NSHSS-TBT/BM04B-NSHSS-TBT.STEP) *(255.1 KB)*
+
+#### 📂 BM05B-NSHSS-TBT
+
+  - [BM05B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM05B-NSHSS-TBT/BM05B-NSHSS-TBT.STEP) *(274.6 KB)*
+
+#### 📂 BM06B-NSHSS-TBT
+
+  - [BM06B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM06B-NSHSS-TBT/BM06B-NSHSS-TBT.STEP) *(295.2 KB)*
+
+#### 📂 BM07B-NSHSS-TBT
+
+  - [BM07B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM07B-NSHSS-TBT/BM07B-NSHSS-TBT.STEP) *(316.3 KB)*
+
+#### 📂 BM08B-NSHSS-TBT
+
+  - [BM08B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM08B-NSHSS-TBT/BM08B-NSHSS-TBT.STEP) *(337.5 KB)*
+
+#### 📂 BM09B-NSHSS-TBT
+
+  - [BM09B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM09B-NSHSS-TBT/BM09B-NSHSS-TBT.STEP) *(358.1 KB)*
+
+#### 📂 BM10B-NSHSS-TBT
+
+  - [BM10B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM10B-NSHSS-TBT/BM10B-NSHSS-TBT.STEP) *(378.7 KB)*
+
+#### 📂 BM11B-NSHSS-TBT
+
+  - [BM11B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM11B-NSHSS-TBT/BM11B-NSHSS-TBT.STEP) *(394.6 KB)*
+
+#### 📂 BM12B-NSHSS-TBT
+
+  - [BM12B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM12B-NSHSS-TBT/BM12B-NSHSS-TBT.STEP) *(420.0 KB)*
+
+#### 📂 BM13B-NSHSS-TBT
+
+  - [BM13B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM13B-NSHSS-TBT/BM13B-NSHSS-TBT.STEP) *(440.5 KB)*
+
+#### 📂 BM14B-NSHSS-TBT
+
+  - [BM14B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM14B-NSHSS-TBT/BM14B-NSHSS-TBT.STEP) *(461.1 KB)*
+
+#### 📂 BM15B-NSHSS-TBT
+
+  - [BM15B-NSHSS-TBT.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM15B-NSHSS-TBT/BM15B-NSHSS-TBT.STEP) *(481.7 KB)*
+
+#### 📂 SM02B-NSHSS-TB
+
+  - [SM02B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM02B-NSHSS-TB/SM02B-NSHSS-TB.STEP) *(224.4 KB)*
+
+#### 📂 SM03B-NSHSS-TB
+
+  - [SM03B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM03B-NSHSS-TB/SM03B-NSHSS-TB.STEP) *(231.1 KB)*
+
+#### 📂 SM04B-NSHSS-TB
+
+  - [SM04B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM04B-NSHSS-TB/SM04B-NSHSS-TB.STEP) *(251.5 KB)*
+
+#### 📂 SM05B-NSHSS-TB
+
+  - [SM05B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM05B-NSHSS-TB/SM05B-NSHSS-TB.STEP) *(271.8 KB)*
+
+#### 📂 SM06B-NSHSS-TB
+
+  - [SM06B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM06B-NSHSS-TB/SM06B-NSHSS-TB.STEP) *(292.2 KB)*
+
+#### 📂 SM07B-NSHSS-TB
+
+  - [SM07B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM07B-NSHSS-TB/SM07B-NSHSS-TB.STEP) *(312.6 KB)*
+
+#### 📂 SM08B-NSHSS-TB
+
+  - [SM08B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM08B-NSHSS-TB/SM08B-NSHSS-TB.STEP) *(333.0 KB)*
+
+#### 📂 SM09B-NSHSS-TB
+
+  - [SM09B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM09B-NSHSS-TB/SM09B-NSHSS-TB.STEP) *(353.4 KB)*
+
+#### 📂 SM10B-NSHSS-TB
+
+  - [SM10B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM10B-NSHSS-TB/SM10B-NSHSS-TB.STEP) *(373.8 KB)*
+
+#### 📂 SM11B-NSHSS-TB
+
+  - [SM11B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM11B-NSHSS-TB/SM11B-NSHSS-TB.STEP) *(394.2 KB)*
+
+#### 📂 SM12B-NSHSS-TB
+
+  - [SM12B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM12B-NSHSS-TB/SM12B-NSHSS-TB.STEP) *(414.6 KB)*
+
+#### 📂 SM13B-NSHSS-TB
+
+  - [SM13B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM13B-NSHSS-TB/SM13B-NSHSS-TB.STEP) *(435.1 KB)*
+
+#### 📂 SM14B-NSHSS-TB
+
+  - [SM14B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM14B-NSHSS-TB/SM14B-NSHSS-TB.STEP) *(455.5 KB)*
+
+#### 📂 SM15B-NSHSS-TB
+
+  - [SM15B-NSHSS-TB.STEP](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM15B-NSHSS-TB/SM15B-NSHSS-TB.STEP) *(475.9 KB)*
 
 #### 📂 BM16B-NSHDZS-TFT
 
@@ -1008,6 +1252,54 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 1054301104
 
   - [1054301104.IntLib](./Connector/FPC%20FFC/Molex/1054301104/1054301104.IntLib)
+
+#### 📂 BM02B-NSHSS-TBT
+
+  - [BM02B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM02B-NSHSS-TBT/BM02B-NSHSS-TBT.IntLib)
+
+#### 📂 BM04B-NSHSS-TBT
+
+  - [BM04B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM04B-NSHSS-TBT/BM04B-NSHSS-TBT.IntLib)
+
+#### 📂 BM06B-NSHSS-TBT
+
+  - [BM06B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM06B-NSHSS-TBT/BM06B-NSHSS-TBT.IntLib)
+
+#### 📂 BM08B-NSHSS-TBT
+
+  - [BM08B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM08B-NSHSS-TBT/BM08B-NSHSS-TBT.IntLib)
+
+#### 📂 BM10B-NSHSS-TBT
+
+  - [BM10B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM10B-NSHSS-TBT/BM10B-NSHSS-TBT.IntLib)
+
+#### 📂 BM11B-NSHSS-TBT
+
+  - [BM11B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM11B-NSHSS-TBT/BM11B-NSHSS-TBT.IntLib)
+
+#### 📂 BM12B-NSHSS-TBT
+
+  - [BM12B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM12B-NSHSS-TBT/BM12B-NSHSS-TBT.IntLib)
+
+#### 📂 BM13B-NSHSS-TBT
+
+  - [BM13B-NSHSS-TBT.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/BM13B-NSHSS-TBT/BM13B-NSHSS-TBT.IntLib)
+
+#### 📂 SM05B-NSHSS-TB
+
+  - [SM05B-NSHSS-TB.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM05B-NSHSS-TB/SM05B-NSHSS-TB.IntLib)
+
+#### 📂 SM06B-NSHSS-TB
+
+  - [SM06B-NSHSS-TB.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM06B-NSHSS-TB/SM06B-NSHSS-TB.IntLib)
+
+#### 📂 SM10B-NSHSS-TB
+
+  - [SM10B-NSHSS-TB.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM10B-NSHSS-TB/SM10B-NSHSS-TB.IntLib)
+
+#### 📂 SM12B-NSHSS-TB
+
+  - [SM12B-NSHSS-TB.IntLib](./Connector/Rectangular%20Connector/JST%201mm/NSH/SM12B-NSHSS-TB/SM12B-NSHSS-TB.IntLib)
 
 #### 📂 Wurth-Elektronik
 
