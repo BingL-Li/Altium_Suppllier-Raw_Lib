@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-081136";"";
+"REFERENCE";"2035662007";"";
+"TraceParts.PartTitle";"Pico-Clasp";"";
+"TraceParts.InstanceId";"90-09042024-0811362N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"1.00mm Pitch, Pico-Clasp PCB Header, Dual Row, Right-Angle, Surface Mount, 0.38µm Gold Plated, Inner Positive Lock, 20 Circuits, Natural";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.2";"";
