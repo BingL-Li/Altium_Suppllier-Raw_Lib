@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-159-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-87-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-17-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-35-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-35-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-172-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-89-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-17-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-36-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-36-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **17** Integrated Libraries (*.IntLib)
-- 📐 **35** Symbol Libraries (*.SchLib)
-- 🦶 **35** Footprint Libraries (*.PcbLib)
+- 📐 **36** Symbol Libraries (*.SchLib)
+- 🦶 **36** Footprint Libraries (*.PcbLib)
 - 🎯 **83** 3D Models (*.STP/.STEP)
-- 📄 **159** Datasheets (*.pdf)
+- 📄 **172** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -31,13 +31,17 @@ Save and manage supplier raw libraries and datasheets
     - [📂 Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/)
       - [📂 **Adam Tech**](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) - *📄 4 PDF*
       - [📂 **Shenzhen Connector Technology**](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/) - *📄 2 PDF*
-      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) - *🎯 1 3D | 📄 6 PDF*
+      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) - *🎯 1 3D | 📄 12 PDF*
         - [📂 RoHS-SF](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/)
           - [📂 **back shell**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/) - *📄 2 PDF*
           - [📂 **cap**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/) - *📄 1 PDF*
           - [📂 **contact**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/contact/) - *📄 2 PDF*
           - [📂 **insert**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/insert/) - *📄 1 PDF*
           - [📂 **rubber**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/) - *📄 2 PDF*
+  - [📂 **D-SUB**](./Connector/D-SUB/) - *📄 4 PDF*
+    - [📂 1731070255](./Connector/D-SUB/1731070255/)
+      - [📂 Altium](./Connector/D-SUB/1731070255/Altium/)
+        - [📂 **1731070255**](./Connector/D-SUB/1731070255/Altium/1731070255/) - *📐 1 SchLib | 🦶 1 PcbLib*
   - [📂 FPC FFC](./Connector/FPC%20FFC/)
     - [📂 **Hirose**](./Connector/FPC%20FFC/Hirose/) - *📄 8 PDF*
       - [📂 **FH63S-10S-0_5SH**](./Connector/FPC%20FFC/Hirose/FH63S-10S-0_5SH/) - *📐 1 SchLib | 🦶 1 PcbLib | 🎯 1 3D*
@@ -138,6 +142,8 @@ Save and manage supplier raw libraries and datasheets
       - [📂 **Housing**](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Housing/) - *📄 3 PDF*
       - [📂 **Terminal**](./Connector/Rectangular%20Connector/Molex%20Nano-Fit/Terminal/) - *📄 1 PDF*
     - [📂 Molex Pico-Clasp](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/)
+      - [📂 180964001-7-2035662007](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/180964001-7-2035662007/)
+      - [📂 180964004-16-2035662007](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/180964004-16-2035662007/)
       - [📂 **Housing**](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/Housing/) - *📄 2 PDF*
       - [📂 **Terminal**](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/Terminal/) - *📄 1 PDF*
   - [📂 USB](./Connector/USB/)
@@ -207,7 +213,7 @@ Save and manage supplier raw libraries and datasheets
     - [📂 Voltage Regulator - Linear](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/)
       - [📂 **Low Drop-Out (LDO) Linear Regulator**](./Integrated%20Circuit/PMIC/Voltage%20Regulator%20-%20Linear/Low%20Drop-Out%20%28LDO%29%20Linear%20Regulator/) - *📄 1 PDF*
   - [📂 Peripheral](./Integrated%20Circuit/Peripheral/)
-    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 7 PDF*
+    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) - *📄 8 PDF*
     - [📂 USB](./Integrated%20Circuit/Peripheral/USB/)
       - [📂 **USB HUB**](./Integrated%20Circuit/Peripheral/USB/USB%20HUB/) - *📄 1 PDF*
   - [📂 Sensor](./Integrated%20Circuit/Sensor/)
@@ -226,7 +232,7 @@ Save and manage supplier raw libraries and datasheets
         - [📂 TMAG5x73 Online Code Examples](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/TMAG5x73%20Online%20Code%20Examples/)
     - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
       - [📂 **Optical Switch**](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
-      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 12 PDF*
+      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 14 PDF*
         - [📂 vcnl36826m_software_module](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/)
           - [📂 VCNL36826M_V1_0_0_0](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/)
             - [📂 ru-ru](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/ru-ru/)
@@ -294,10 +300,16 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 Weipu
 
   - [E496356-20180906 SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/E496356-20180906%20SF12.pdf)
+  - [PI-26-04161V1-Imaxeon.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/PI-26-04161V1-Imaxeon.pdf)
   - [SASF10-12 cable plug assembling instruction solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-12%20cable%20plug%20assembling%20instruction%20solder.pdf)
   - [SASF10-16 rear-nut mount socket assembling instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SASF10-16%20rear-nut%20mount%20socket%20assembling%20instruction-Solder.pdf)
   - [SFSA12-28 square flange mount socket assembing instruction-Solder.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SFSA12-28%20square%20flange%20mount%20socket%20assembing%20instruction-Solder.pdf)
+  - [WEIPU SF824-P8-1-1PVC-30A.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU%20SF824-P8-1-1PVC-30A.pdf)
+  - [WEIPU cable SF8B+SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU%20cable%20SF8B%2BSF12.pdf)
+  - [WEIPU-SF-Series-Cable-Assembly.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU-SF-Series-Cable-Assembly.pdf)
   - [WEIPU-SF12.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU-SF12.pdf)
+  - [WEIPU-SF1224-P9-1-1PVC-24A.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU-SF1224-P9-1-1PVC-24A.pdf)
+  - [WEIPU-SF8B.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/WEIPU-SF8B.pdf)
   - [威浦航空插选型手册V202403-1.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/%E5%A8%81%E6%B5%A6%E8%88%AA%E7%A9%BA%E6%8F%92%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8CV202403-1.pdf)
 
 #### 📂 back shell
@@ -322,6 +334,13 @@ Save and manage supplier raw libraries and datasheets
 
   - [丁腈橡胶2025-3-10英文.pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/%E4%B8%81%E8%85%88%E6%A9%A1%E8%83%B62025-3-10%E8%8B%B1%E6%96%87.pdf)
   - [硅橡胶2025-3-10英文 .pdf](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/rubber/%E7%A1%85%E6%A9%A1%E8%83%B62025-3-10%E8%8B%B1%E6%96%87%20.pdf)
+
+#### 📂 D-SUB
+
+  - [1731070255.pdf](./Connector/D-SUB/1731070255.pdf)
+  - [1731070255_sd.pdf](./Connector/D-SUB/1731070255_sd.pdf)
+  - [1731120006-PK-000.pdf](./Connector/D-SUB/1731120006-PK-000.pdf)
+  - [1731130063_sd.pdf](./Connector/D-SUB/1731130063_sd.pdf)
 
 #### 📂 Hirose
 
@@ -519,6 +538,7 @@ Save and manage supplier raw libraries and datasheets
   - [ee-431.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/ee-431.pdf)
   - [lt3960.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/lt3960.pdf)
   - [tca4307.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/tca4307.pdf)
+  - [tca9548a-q1.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/tca9548a-q1.pdf)
   - [tca9548a.pdf](./Integrated%20Circuit/Peripheral/SMBus-IIC/tca9548a.pdf)
 
 #### 📂 USB HUB
@@ -564,12 +584,14 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Proximity
 
+  - [designing_vcnl36758_into_an_application.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designing_vcnl36758_into_an_application.pdf)
   - [designingvcnl36826mintoapplication.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designingvcnl36826mintoapplication.pdf)
   - [sensorboardguidevcnl36826m.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826m.pdf)
   - [sensorboardguidevcnl36826msb.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826msb.pdf)
   - [vcnl36687s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s.pdf)
   - [vcnl36687s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_designing.pdf)
   - [vcnl36687s_sensor-board-files.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s_sensor-board-files.pdf)
+  - [vcnl36758.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36758.pdf)
   - [vcnl36826m.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m.pdf)
   - [vcnl36826s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s.pdf)
   - [vcnl36826s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
@@ -631,6 +653,10 @@ Save and manage supplier raw libraries and datasheets
   - [OPB800.pdf](./Sensor/OPB80x/OPB800.pdf)
 
 ### 📐 Symbol Libraries (*.SchLib)
+
+#### 📂 1731070255
+
+  - [1731070255.SchLib](./Connector/D-SUB/1731070255/Altium/1731070255/1731070255.SchLib)
 
 #### 📂 FH63S-10S-0_5SH
 
@@ -773,6 +799,10 @@ Save and manage supplier raw libraries and datasheets
   - [SN74LVC3G34YZPR.SchLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/ul_SN74LVC3G34YZPR/AltiumDesigner/SN74LVC3G34YZPR.SchLib)
 
 ### 🦶 Footprint Libraries (*.PcbLib)
+
+#### 📂 1731070255
+
+  - [1731070255.PcbLib](./Connector/D-SUB/1731070255/Altium/1731070255/1731070255.PcbLib)
 
 #### 📂 FH63S-10S-0_5SH
 
