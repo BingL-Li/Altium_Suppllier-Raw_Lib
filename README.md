@@ -162,7 +162,7 @@ Save and manage supplier raw libraries and datasheets
 - [📂 Discrete - Passive](./Discrete%20-%20Passive/)
   - [📂 Choke](./Discrete%20-%20Passive/Choke/)
     - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) - *📄 1 PDF*
-  - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 2 PDF*
+  - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) - *📄 3 PDF*
     - [📂 LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/)
       - [📂 MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/)
         - [📂 **3D**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) - *🎯 1 3D*
@@ -247,7 +247,7 @@ Save and manage supplier raw libraries and datasheets
       - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
       - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
     - [📂 **TMR**](./Integrated%20Circuit/Sensor/TMR/) - *📄 1 PDF*
-    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 9 PDF*
+    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 8 PDF*
   - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
     - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
       - [📂 **74LVC**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
@@ -451,6 +451,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Diode - Light Emitting
 
+  - [APX-NG011SMD.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/APX-NG011SMD.pdf)
   - [l10660_series_kled1055e.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/l10660_series_kled1055e.pdf)
   - [msl0402rgbu1-e.pdf](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/msl0402rgbu1-e.pdf)
 
@@ -622,7 +623,6 @@ Save and manage supplier raw libraries and datasheets
 
   - [PEPI-C-Thermostats.pdf](./Integrated%20Circuit/Sensor/Temperature/PEPI-C-Thermostats.pdf)
   - [TC622 TC624 21440D.pdf](./Integrated%20Circuit/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
-  - [adt7420.pdf](./Integrated%20Circuit/Sensor/Temperature/adt7420.pdf)
   - [hdc3022.pdf](./Integrated%20Circuit/Sensor/Temperature/hdc3022.pdf)
   - [stcn75.pdf](./Integrated%20Circuit/Sensor/Temperature/stcn75.pdf)
   - [stds75.pdf](./Integrated%20Circuit/Sensor/Temperature/stds75.pdf)
