@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-172-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-89-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-17-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-36-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-36-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-176-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
-- 🔗 **17** Integrated Libraries (*.IntLib)
-- 📐 **36** Symbol Libraries (*.SchLib)
-- 🦶 **36** Footprint Libraries (*.PcbLib)
+- 🔗 **18** Integrated Libraries (*.IntLib)
+- 📐 **37** Symbol Libraries (*.SchLib)
+- 🦶 **37** Footprint Libraries (*.PcbLib)
 - 🎯 **83** 3D Models (*.STP/.STEP)
-- 📄 **172** Datasheets (*.pdf)
+- 📄 **176** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -227,12 +227,14 @@ Save and manage supplier raw libraries and datasheets
       - [📂 snoc028f](./Integrated%20Circuit/Sensor/Capacitance/snoc028f/)
       - [📂 **snor019**](./Integrated%20Circuit/Sensor/Capacitance/snor019/) - *📄 4 PDF*
       - [📂 snvc187a](./Integrated%20Circuit/Sensor/Capacitance/snvc187a/)
+    - [📂 **Current**](./Integrated%20Circuit/Sensor/Current/) - *📄 2 PDF*
+      - [📂 **INA212-Q1**](./Integrated%20Circuit/Sensor/Current/INA212-Q1/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 **Hall Effect**](./Integrated%20Circuit/Sensor/Hall%20Effect/) - *📄 4 PDF*
       - [📂 TMAG5x73-EXAMPLE-CODE](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/)
         - [📂 TMAG5x73 Online Code Examples](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/TMAG5x73%20Online%20Code%20Examples/)
     - [📂 Optical](./Integrated%20Circuit/Sensor/Optical/)
       - [📂 **Optical Switch**](./Integrated%20Circuit/Sensor/Optical/Optical%20Switch/) - *📄 2 PDF*
-      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 14 PDF*
+      - [📂 **Proximity**](./Integrated%20Circuit/Sensor/Optical/Proximity/) - *📄 16 PDF*
         - [📂 vcnl36826m_software_module](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/)
           - [📂 VCNL36826M_V1_0_0_0](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/)
             - [📂 ru-ru](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826m_software_module/VCNL36826M_V1_0_0_0/ru-ru/)
@@ -571,6 +573,11 @@ Save and manage supplier raw libraries and datasheets
   - [SV601093B_Fabrication Drawing.PDF](./Integrated%20Circuit/Sensor/Capacitance/snor019/SV601093B_Fabrication%20Drawing.PDF)
   - [SV601093B_PCB.PDF](./Integrated%20Circuit/Sensor/Capacitance/snor019/SV601093B_PCB.PDF)
 
+#### 📂 Current
+
+  - [AD8210.pdf](./Integrated%20Circuit/Sensor/Current/AD8210.pdf)
+  - [INA212-Q1.pdf](./Integrated%20Circuit/Sensor/Current/INA212-Q1.pdf)
+
 #### 📂 Hall Effect
 
   - [AS5304_06_DS000187_3-00.pdf](./Integrated%20Circuit/Sensor/Hall%20Effect/AS5304_06_DS000187_3-00.pdf)
@@ -587,6 +594,7 @@ Save and manage supplier raw libraries and datasheets
 
   - [designing_vcnl36758_into_an_application.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designing_vcnl36758_into_an_application.pdf)
   - [designingvcnl36826mintoapplication.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designingvcnl36826mintoapplication.pdf)
+  - [designingvcnl4040.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/designingvcnl4040.pdf)
   - [sensorboardguidevcnl36826m.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826m.pdf)
   - [sensorboardguidevcnl36826msb.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/sensorboardguidevcnl36826msb.pdf)
   - [vcnl36687s.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36687s.pdf)
@@ -598,6 +606,7 @@ Save and manage supplier raw libraries and datasheets
   - [vcnl36826s_designing.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_designing.pdf)
   - [vcnl36826s_physics.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_physics.pdf)
   - [vcnl36826s_sensor-board-guide.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl36826s_sensor-board-guide.pdf)
+  - [vcnl4040.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/vcnl4040.pdf)
   - [windowmaterialforproximityreflectivesensors.pdf](./Integrated%20Circuit/Sensor/Optical/Proximity/windowmaterialforproximityreflectivesensors.pdf)
 
 #### 📂 ToF
@@ -790,6 +799,10 @@ Save and manage supplier raw libraries and datasheets
 
   - [LP5562TMX_NOPB.SchLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/LP5562TMX_NOPB.SchLib)
 
+#### 📂 INA212-Q1
+
+  - [INA212-Q1.SchLib](./Integrated%20Circuit/Sensor/Current/INA212-Q1/INA212-Q1.SchLib)
+
 #### 📂 SN74LVC3G34DCUR
 
   - [SN74LVC3G34DCUR.SchLib](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/SN74LVC3G34DCUR/SN74LVC3G34DCUR.SchLib)
@@ -935,6 +948,10 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 LP5562TMX_NOPB
 
   - [BGA12N40P4X3_162X122X68.PcbLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB/BGA12N40P4X3_162X122X68.PcbLib)
+
+#### 📂 INA212-Q1
+
+  - [INA212-Q1.PcbLib](./Integrated%20Circuit/Sensor/Current/INA212-Q1/INA212-Q1.PcbLib)
 
 #### 📂 SN74LVC3G34DCUR
 
@@ -1338,5 +1355,9 @@ Save and manage supplier raw libraries and datasheets
 #### 📂 LP5562TMX_NOPB
 
   - [LP5562TMX_NOPB.IntLib](./Integrated%20Circuit/Driver/LED/LP5562TMX_NOPB/LP5562TMX_NOPB.IntLib)
+
+#### 📂 INA212-Q1
+
+  - [INA212-Q1.IntLib](./Integrated%20Circuit/Sensor/Current/INA212-Q1/INA212-Q1.IntLib)
 
 <!-- /FOLDER-TOC -->
