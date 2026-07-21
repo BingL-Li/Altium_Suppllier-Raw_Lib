@@ -1,365 +1,40 @@
-name: Generate Enhanced Folder TOC
+name: Update README library index
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+  workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: readme-library-index-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  generate-folder-toc:
+  update-readme:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - name: Generate Enhanced Folder Structure
-        run: |
-          cat > generate_toc.py << 'EOF'
-          import os
-          import urllib.parse
-          
-          def url_encode_path(path):
-              """URL encode path for GitHub links"""
-              # Split path into parts and encode each part
-              parts = path.split('/')
-              encoded_parts = [urllib.parse.quote(part) for part in parts]
-              return '/'.join(encoded_parts)
-          
-          def count_files_by_type(directory):
-              """Count Altium library files by type"""
-              counts = {
-                  'intlib': 0,    # Integrated Libraries
-                  'pcblib': 0,    # Footprint Libraries  
-                  'schlib': 0,    # Symbol Libraries
-                  'step': 0,      # 3D Models (STP/STEP)
-                  'pdf': 0        # Datasheets
-              }
-              
-              # Count files in current directory and subdirectories
-              for root, dirs, files in os.walk('.'):
-                  for file in files:
-                      file_lower = file.lower()
-                      if file_lower.endswith('.intlib'):
-                          counts['intlib'] += 1
-                      elif file_lower.endswith('.pcblib'):
-                          counts['pcblib'] += 1
-                      elif file_lower.endswith('.schlib'):
-                          counts['schlib'] += 1
-                      elif file_lower.endswith(('.stp', '.step')):
-                          counts['step'] += 1
-                      elif file_lower.endswith('.pdf'):
-                          counts['pdf'] += 1
-              
-              return counts
-          
-          def get_all_files_by_type():
-              """Get all files organized by type and folder with hierarchy info"""
-              files_by_type = {
-                  'intlib': {},    # folder: {'files': [files], 'level': depth}
-                  'schlib': {},
-                  'pcblib': {},
-                  'step': {},      # 3D Models
-                  'pdf': {}
-              }
-              
-              for root, dirs, files in os.walk('.'):
-                  # Skip .git and .github directories
-                  dirs[:] = [d for d in dirs if not d.startswith('.git')]
-                  
-                  if root == '.':
-                      continue
-                  
-                  # Calculate folder depth for proper indentation
-                  folder_depth = root.count(os.sep)
-                  relative_path = root
-                  
-                  for file in files:
-                      file_lower = file.lower()
-                      if file_lower.endswith('.intlib'):
-                          if relative_path not in files_by_type['intlib']:
-                              files_by_type['intlib'][relative_path] = {'files': [], 'level': folder_depth}
-                          files_by_type['intlib'][relative_path]['files'].append(file)
-                      elif file_lower.endswith('.schlib'):
-                          if relative_path not in files_by_type['schlib']:
-                              files_by_type['schlib'][relative_path] = {'files': [], 'level': folder_depth}
-                          files_by_type['schlib'][relative_path]['files'].append(file)
-                      elif file_lower.endswith('.pcblib'):
-                          if relative_path not in files_by_type['pcblib']:
-                              files_by_type['pcblib'][relative_path] = {'files': [], 'level': folder_depth}
-                          files_by_type['pcblib'][relative_path]['files'].append(file)
-                      elif file_lower.endswith(('.stp', '.step')):
-                          if relative_path not in files_by_type['step']:
-                              files_by_type['step'][relative_path] = {'files': [], 'level': folder_depth}
-                          files_by_type['step'][relative_path]['files'].append(file)
-                      elif file_lower.endswith('.pdf'):
-                          if relative_path not in files_by_type['pdf']:
-                              files_by_type['pdf'][relative_path] = {'files': [], 'level': folder_depth}
-                          files_by_type['pdf'][relative_path]['files'].append(file)
-              
-              return files_by_type
-          
-          def get_repo_info():
-              """Get repository information for badges"""
-              # Try to get repo info from git remote
-              try:
-                  import subprocess
-                  result = subprocess.run(['git', 'remote', 'get-url', 'origin'], 
-                                        capture_output=True, text=True)
-                  if result.returncode == 0:
-                      url = result.stdout.strip()
-                      # Parse GitHub URL
-                      if 'github.com' in url:
-                          # Handle both SSH and HTTPS URLs
-                          if url.startswith('git@github.com:'):
-                              repo_path = url.replace('git@github.com:', '').replace('.git', '')
-                          elif 'github.com/' in url:
-                              repo_path = url.split('github.com/')[-1].replace('.git', '')
-                          else:
-                              repo_path = 'user/repo'
-                          return repo_path
-              except:
-                  pass
-              return 'user/repo'  # fallback
-          
-          def check_license_type():
-              """Check what type of license is being used"""
-              license_files = ['LICENSE', 'LICENSE.md', 'LICENSE.txt', 'README.md']
-              
-              for file_name in license_files:
-                  if os.path.exists(file_name):
-                      try:
-                          with open(file_name, 'r', encoding='utf-8') as f:
-                              content = f.read().lower()
-                              if 'creative commons' in content and 'by-nc-sa' in content:
-                                  return 'cc-by-nc-sa'
-                              elif 'creative commons' in content:
-                                  return 'creative-commons'
-                              elif any(license_type in content for license_type in ['mit', 'apache', 'gpl', 'bsd']):
-                                  return 'standard'
-                      except:
-                          continue
-              
-              return 'standard'  # fallback
-          
-          def generate_badges(total_counts, repo_path):
-              """Generate shields.io badges with corrected logos in the specified order"""
-              badges = []
-              
-              # First row: Altium Designer + License
-              badges.append("![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner)")
-              
-              # Check license type and create appropriate badge
-              license_type = check_license_type()
-              if license_type == 'cc-by-nc-sa':
-                  badges.append("![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square&logo=creativecommons)")
-              elif license_type == 'creative-commons':
-                  badges.append("![License: Creative Commons](https://img.shields.io/badge/License-Creative%20Commons-lightgrey.svg?style=flat-square&logo=creativecommons)")
-              elif os.path.exists('LICENSE') or os.path.exists('LICENSE.md') or os.path.exists('LICENSE.txt'):
-                  badges.append(f"![License](https://img.shields.io/github/license/{repo_path}?style=flat-square&logo=opensourcehardware)")
-              
-              # Second row: GitHub info
-              github_badges = []
-              github_badges.append(f"![GitHub repo size](https://img.shields.io/github/repo-size/{repo_path}?style=flat-square&logo=github)")
-              github_badges.append(f"![GitHub last commit](https://img.shields.io/github/last-commit/{repo_path}?style=flat-square&logo=github)")
-              github_badges.append(f"![GitHub stars](https://img.shields.io/github/stars/{repo_path}?style=flat-square&logo=github)")
-              
-              # Third row: Library counts with corrected logos
-              library_badges = []
-              
-              if total_counts['pdf'] > 0:
-                  library_badges.append(f"![Datasheets](https://img.shields.io/badge/Datasheets-{total_counts['pdf']}-yellow?style=flat-square&logo=filedotio)")
-              
-              # Total libraries count - use opensourcehardware gear logo
-              total_libs = total_counts['intlib'] + total_counts['schlib'] + total_counts['pcblib']
-              if total_libs > 0:
-                  library_badges.append(f"![Total Libraries](https://img.shields.io/badge/Libraries-{total_libs}-blue?style=flat-square&logo=opensourcehardware)")
-              
-              if total_counts['intlib'] > 0:
-                  library_badges.append(f"![IntLib](https://img.shields.io/badge/IntLib-{total_counts['intlib']}-green?style=flat-square&logo=librariesdotio)")
-              
-              if total_counts['schlib'] > 0:
-                  library_badges.append(f"![SchLib](https://img.shields.io/badge/SchLib-{total_counts['schlib']}-orange?style=flat-square&logo=electron)")
-              
-              if total_counts['pcblib'] > 0:
-                  library_badges.append(f"![PcbLib](https://img.shields.io/badge/PcbLib-{total_counts['pcblib']}-red?style=flat-square&logo=circuitverse)")
-              
-              if total_counts['step'] > 0:
-                  library_badges.append(f"![3D Models](https://img.shields.io/badge/3D%20Models-{total_counts['step']}-purple?style=flat-square&logo=blender)")
-              
-              return badges, github_badges, library_badges
-          
-          def generate_folder_toc():
-              toc = []
-              
-              # Get repository information
-              repo_path = get_repo_info()
-              
-              # Generate overall statistics first (needed for badges)
-              total_counts = count_files_by_type('.')
-              
-              # Add badges section (without header)
-              if any(total_counts.values()):
-                  first_row, second_row, third_row = generate_badges(total_counts, repo_path)
-                  
-                  # First row: Altium Designer + License
-                  if first_row:
-                      toc.append(" ".join(first_row) + "\n\n")
-                  
-                  # Second row: GitHub info
-                  if second_row:
-                      toc.append(" ".join(second_row) + "\n\n")
-                  
-                  # Third row: Library counts
-                  if third_row:
-                      toc.append(" ".join(third_row) + "\n\n")
-              
-              # Library Summary section
-              if any(total_counts.values()):
-                  toc.append("## 📊 Library Summary\n")
-                  if total_counts['intlib'] > 0:
-                      toc.append(f"- 🔗 **{total_counts['intlib']}** Integrated Libraries (*.IntLib)\n")
-                  if total_counts['schlib'] > 0:
-                      toc.append(f"- 📐 **{total_counts['schlib']}** Symbol Libraries (*.SchLib)\n")
-                  if total_counts['pcblib'] > 0:
-                      toc.append(f"- 🦶 **{total_counts['pcblib']}** Footprint Libraries (*.PcbLib)\n")
-                  if total_counts['step'] > 0:
-                      toc.append(f"- 🎯 **{total_counts['step']}** 3D Models (*.STP/.STEP)\n")
-                  if total_counts['pdf'] > 0:
-                      toc.append(f"- 📄 **{total_counts['pdf']}** Datasheets (*.pdf)\n")
-                  toc.append("\n")
-              
-              # Then generate folder structure as a list (reverted from table)
-              toc.append("## 📂 Folder Structure\n\n")
-              
-              # Get all directories
-              directories = []
-              for root, dirs, files in os.walk('.'):
-                  # Skip .git and .github directories
-                  dirs[:] = [d for d in dirs if not d.startswith('.git')]
-                  
-                  if root != '.':
-                      directories.append(root)
-              
-              directories.sort()
-              
-              for directory in directories:
-                  level = directory.count(os.sep) - 1
-                  indent = '  ' * level
-                  folder_name = os.path.basename(directory)
-                  encoded_directory = url_encode_path(directory)
-                  
-                  # Count files in this specific directory (not subdirectories)
-                  counts = {
-                      'intlib': len([f for f in os.listdir(directory) if f.lower().endswith('.intlib') and os.path.isfile(os.path.join(directory, f))]),
-                      'schlib': len([f for f in os.listdir(directory) if f.lower().endswith('.schlib') and os.path.isfile(os.path.join(directory, f))]),
-                      'pcblib': len([f for f in os.listdir(directory) if f.lower().endswith('.pcblib') and os.path.isfile(os.path.join(directory, f))]),
-                      'step': len([f for f in os.listdir(directory) if f.lower().endswith(('.stp', '.step')) and os.path.isfile(os.path.join(directory, f))]),
-                      'pdf': len([f for f in os.listdir(directory) if f.lower().endswith('.pdf') and os.path.isfile(os.path.join(directory, f))])
-                  }
-                  
-                  # Create description based on file types
-                  descriptions = []
-                  if counts['intlib'] > 0:
-                      descriptions.append(f"🔗 {counts['intlib']} IntLib")
-                  if counts['schlib'] > 0:
-                      descriptions.append(f"📐 {counts['schlib']} SchLib")
-                  if counts['pcblib'] > 0:
-                      descriptions.append(f"🦶 {counts['pcblib']} PcbLib")
-                  if counts['step'] > 0:
-                      descriptions.append(f"🎯 {counts['step']} 3D")
-                  if counts['pdf'] > 0:
-                      descriptions.append(f"📄 {counts['pdf']} PDF")
-                  
-                  if descriptions:
-                      desc = " | ".join(descriptions)
-                      toc.append(f"{indent}- [📂 **{folder_name}**]({encoded_directory}/) - *{desc}*\n")
-                  else:
-                      toc.append(f"{indent}- [📂 {folder_name}]({encoded_directory}/)\n")
-              
-              # Add detailed file listings organized by type, then by folder
-              toc.append("\n## 📋 Detailed File Listings\n\n")
-              
-              files_by_type = get_all_files_by_type()
-              
-              # File type configurations with their display info - REORDERED
-              file_types = [
-                  ('pdf', '📄', 'Datasheets', '*.pdf'),                    # 1st - Datasheets
-                  ('schlib', '📐', 'Symbol Libraries', '*.SchLib'),        # 2nd - Symbol Libraries
-                  ('pcblib', '🦶', 'Footprint Libraries', '*.PcbLib'),     # 3rd - Footprint Libraries
-                  ('step', '🎯', '3D Models', '*.STP/*.STEP'),             # 4th - 3D Models
-                  ('intlib', '🔗', 'Integrated Libraries', '*.IntLib'),    # 5th - Integrated Libraries
-              ]
-              
-              for file_type, emoji, display_name, extension in file_types:
-                  if files_by_type[file_type]:
-                      # File type header (level 3: ###)
-                      toc.append(f"### {emoji} {display_name} ({extension})\n\n")
-                      
-                      # Sort folders by path for consistent ordering
-                      sorted_folders = sorted(files_by_type[file_type].keys())
-                      
-                      for folder_path in sorted_folders:
-                          folder_info = files_by_type[file_type][folder_path]
-                          folder_name = os.path.basename(folder_path)
-                          
-                          # All folder headers are level 4 (####) regardless of depth
-                          toc.append(f"#### 📂 {folder_name}\n\n")
-                          
-                          # Use consistent 2-space indentation for all file lists
-                          indent = "  "  # Always 2 spaces to avoid code block formatting
-                          
-                          for file in sorted(folder_info['files']):
-                              encoded_path = url_encode_path(f"{folder_path}/{file}")
-                              
-                              # Special handling for 3D models (show file size)
-                              if file_type == 'step':
-                                  try:
-                                      file_size = os.path.getsize(f"{folder_path}/{file}")
-                                      if file_size > 1024*1024:  # > 1MB
-                                          size_str = f" *({file_size/(1024*1024):.1f} MB)*"
-                                      elif file_size > 1024:  # > 1KB
-                                          size_str = f" *({file_size/1024:.1f} KB)*"
-                                      else:
-                                          size_str = f" *({file_size} B)*"
-                                  except:
-                                      size_str = ""
-                                  toc.append(f"{indent}- [{file}]({encoded_path}){size_str}\n")
-                              else:
-                                  toc.append(f"{indent}- [{file}]({encoded_path})\n")
-                          
-                          toc.append("\n")  # Add spacing between folders
-              
-              return ''.join(toc)
-          
-          # Generate and save TOC
-          with open('folder_toc.md', 'w') as f:
-              f.write(generate_folder_toc())
-          EOF
-          
-          python generate_toc.py
-
-      - name: Update README
-        run: |
-          if grep -q "<!-- FOLDER-TOC -->" README.md; then
-            # Create temporary file with new content
-            awk '
-            /<!-- FOLDER-TOC -->/ {print; system("cat folder_toc.md"); f=1; next}
-            /<!-- \/FOLDER-TOC -->/ {f=0}
-            !f {print}
-            ' README.md > temp_readme.md
-            mv temp_readme.md README.md
-          else
-            # If no markers exist, append to end
-            echo "" >> README.md
-            echo "<!-- FOLDER-TOC -->" >> README.md
-            cat folder_toc.md >> README.md
-            echo "<!-- /FOLDER-TOC -->" >> README.md
-          fi
+      - name: Generate library index
+        run: python .github/scripts/update_readme.py
 
       - name: Commit changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "README.md Updated"
+          if git diff --staged --quiet; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: update library index"
           git push
