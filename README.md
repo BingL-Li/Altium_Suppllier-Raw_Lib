@@ -1,6 +1,17 @@
-# Altium_Suppllier-Raw_Lib
-Save and manage supplier raw libraries and datasheets
+# Altium Supplier Raw Library
 
+A curated collection of supplier-provided Altium libraries, 3D models, and
+component datasheets.
+
+## Repository contents
+
+- **Altium libraries:** integrated, schematic symbol, and PCB footprint files.
+- **Mechanical models:** STEP models for supported components.
+- **Documentation:** supplier datasheets and application notes.
+
+Browse the generated catalog below, or use the top-level component categories
+to locate a part. The catalog is updated automatically when repository content
+changes.
 
 <!-- FOLDER-TOC -->
 ![Altium Designer](https://img.shields.io/badge/Altium%20Designer-Compatible-blue?style=flat-square&logo=altiumdesigner) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square&logo=creativecommons)
@@ -1364,3 +1375,15 @@ Save and manage supplier raw libraries and datasheets
   - [INA212-Q1.IntLib](./Integrated%20Circuit/Sensor/Current/INA212-Q1/INA212-Q1.IntLib)
 
 <!-- /FOLDER-TOC -->
+
+## Using the library
+
+Download the files for the required component and review the corresponding
+supplier datasheet before using them in a design. Verify symbols, footprints,
+pin assignments, and mechanical dimensions against the latest manufacturer
+documentation.
+
+## License
+
+This repository is licensed under the
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE).
