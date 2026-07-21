@@ -218,8 +218,13 @@ def generate_catalog() -> str:
 def update_readme(catalog: str) -> None:
     """Replace the generated section while preserving hand-written content."""
     content = README.read_text(encoding="utf-8")
-    if content.count(START_MARKER) != 1 or content.count(END_MARKER) != 1:
-        raise ValueError("README must contain exactly one catalog marker pair")
+    start_count = content.count(START_MARKER)
+    end_count = content.count(END_MARKER)
+    if start_count != 1 or end_count != 1:
+        raise ValueError(
+            "README must contain exactly one catalog marker pair "
+            f"(found {start_count} start and {end_count} end markers)"
+        )
 
     before, remainder = content.split(START_MARKER, 1)
     _, after = remainder.split(END_MARKER, 1)
