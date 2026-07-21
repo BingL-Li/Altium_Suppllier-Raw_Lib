@@ -7,14 +7,14 @@ Save and manage supplier raw libraries and datasheets
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-176-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-179-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## 📊 Library Summary
 - 🔗 **18** Integrated Libraries (*.IntLib)
 - 📐 **37** Symbol Libraries (*.SchLib)
 - 🦶 **37** Footprint Libraries (*.PcbLib)
 - 🎯 **83** 3D Models (*.STP/.STEP)
-- 📄 **176** Datasheets (*.pdf)
+- 📄 **179** Datasheets (*.pdf)
 
 ## 📂 Folder Structure
 
@@ -227,7 +227,7 @@ Save and manage supplier raw libraries and datasheets
       - [📂 snoc028f](./Integrated%20Circuit/Sensor/Capacitance/snoc028f/)
       - [📂 **snor019**](./Integrated%20Circuit/Sensor/Capacitance/snor019/) - *📄 4 PDF*
       - [📂 snvc187a](./Integrated%20Circuit/Sensor/Capacitance/snvc187a/)
-    - [📂 **Current**](./Integrated%20Circuit/Sensor/Current/) - *📄 2 PDF*
+    - [📂 **Current**](./Integrated%20Circuit/Sensor/Current/) - *📄 4 PDF*
       - [📂 **INA212-Q1**](./Integrated%20Circuit/Sensor/Current/INA212-Q1/) - *🔗 1 IntLib | 📐 1 SchLib | 🦶 1 PcbLib*
     - [📂 **Hall Effect**](./Integrated%20Circuit/Sensor/Hall%20Effect/) - *📄 4 PDF*
       - [📂 TMAG5x73-EXAMPLE-CODE](./Integrated%20Circuit/Sensor/Hall%20Effect/TMAG5x73-EXAMPLE-CODE/)
@@ -249,7 +249,7 @@ Save and manage supplier raw libraries and datasheets
       - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
       - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
     - [📂 **TMR**](./Integrated%20Circuit/Sensor/TMR/) - *📄 1 PDF*
-    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 8 PDF*
+    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) - *📄 9 PDF*
   - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
     - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) - *📄 1 PDF*
       - [📂 **74LVC**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/74LVC/) - *📄 2 PDF*
@@ -577,6 +577,8 @@ Save and manage supplier raw libraries and datasheets
 
   - [AD8210.pdf](./Integrated%20Circuit/Sensor/Current/AD8210.pdf)
   - [INA212-Q1.pdf](./Integrated%20Circuit/Sensor/Current/INA212-Q1.pdf)
+  - [sboa300a.pdf](./Integrated%20Circuit/Sensor/Current/sboa300a.pdf)
+  - [sbou164.pdf](./Integrated%20Circuit/Sensor/Current/sbou164.pdf)
 
 #### 📂 Hall Effect
 
@@ -630,6 +632,7 @@ Save and manage supplier raw libraries and datasheets
 
 #### 📂 Temperature
 
+  - [MAX6622.pdf](./Integrated%20Circuit/Sensor/Temperature/MAX6622.pdf)
   - [PEPI-C-Thermostats.pdf](./Integrated%20Circuit/Sensor/Temperature/PEPI-C-Thermostats.pdf)
   - [TC622 TC624 21440D.pdf](./Integrated%20Circuit/Sensor/Temperature/TC622%20TC624%2021440D.pdf)
   - [hdc3022.pdf](./Integrated%20Circuit/Sensor/Temperature/hdc3022.pdf)
