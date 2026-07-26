@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-179-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-180-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -30,7 +30,7 @@ changes.
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
 | 3D models | `.STP, .STEP` | 83 |
-| Datasheets | `.pdf` | 179 |
+| Datasheets | `.pdf` | 180 |
 
 ### Browse by folder
 
@@ -224,7 +224,7 @@ changes.
   - [📂 Memory](./Integrated%20Circuit/Memory/)
     - [📂 **E2PROM**](./Integrated%20Circuit/Memory/E2PROM/) — *📄 2 PDF*
   - [📂 Peripheral](./Integrated%20Circuit/Peripheral/)
-    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) — *📄 8 PDF*
+    - [📂 **SMBus-IIC**](./Integrated%20Circuit/Peripheral/SMBus-IIC/) — *📄 9 PDF*
     - [📂 USB](./Integrated%20Circuit/Peripheral/USB/)
       - [📂 **USB HUB**](./Integrated%20Circuit/Peripheral/USB/USB%20HUB/) — *📄 1 PDF*
   - [📂 PMIC](./Integrated%20Circuit/PMIC/)
@@ -535,6 +535,7 @@ changes.
 
 #### 📂 SMBus-IIC
 
+  - [4280f.pdf](Integrated%20Circuit/Peripheral/SMBus-IIC/4280f.pdf)
   - [AN10658.pdf](Integrated%20Circuit/Peripheral/SMBus-IIC/AN10658.pdf)
   - [AN255.pdf](Integrated%20Circuit/Peripheral/SMBus-IIC/AN255.pdf)
   - [ee-431.pdf](Integrated%20Circuit/Peripheral/SMBus-IIC/ee-431.pdf)
