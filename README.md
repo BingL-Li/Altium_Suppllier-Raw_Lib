@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-187-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-188-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -30,7 +30,7 @@ changes.
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
 | 3D models | `.STP, .STEP` | 83 |
-| Datasheets | `.pdf` | 187 |
+| Datasheets | `.pdf` | 188 |
 
 ### Browse by folder
 
@@ -267,7 +267,7 @@ changes.
     - [📂 **Position Sensor - Inductive**](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/) — *📄 3 PDF*
       - [📂 Coil Profiles](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/Coil%20Profiles/)
       - [📂 ICDT_1_2 1](./Integrated%20Circuit/Sensor/Position%20Sensor%20-%20Inductive/ICDT_1_2%201/)
-    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) — *📄 15 PDF*
+    - [📂 **Temperature**](./Integrated%20Circuit/Sensor/Temperature/) — *📄 16 PDF*
     - [📂 **TMR**](./Integrated%20Circuit/Sensor/TMR/) — *📄 1 PDF*
   - [📂 Small Logic](./Integrated%20Circuit/Small%20Logic/)
     - [📂 **Texas Instruments**](./Integrated%20Circuit/Small%20Logic/Texas%20Instruments/) — *📄 1 PDF*
@@ -655,6 +655,7 @@ changes.
 
 #### 📂 Temperature
 
+  - [ADT7420.pdf](Integrated%20Circuit/Sensor/Temperature/ADT7420.pdf)
   - [hdc3022.pdf](Integrated%20Circuit/Sensor/Temperature/hdc3022.pdf)
   - [LM73.pdf](Integrated%20Circuit/Sensor/Temperature/LM73.pdf)
   - [MAX30208.pdf](Integrated%20Circuit/Sensor/Temperature/MAX30208.pdf)
