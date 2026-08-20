@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-188-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-83-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-188-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-84-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -29,7 +29,7 @@ changes.
 | Integrated libraries | `.IntLib` | 18 |
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
-| 3D models | `.STP, .STEP` | 83 |
+| 3D models | `.STP, .STEP` | 84 |
 | Datasheets | `.pdf` | 188 |
 
 ### Browse by folder
@@ -50,7 +50,7 @@ changes.
     - [📂 Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/)
       - [📂 **Adam Tech**](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) — *📄 4 PDF*
       - [📂 **Shenzhen Connector Technology**](./Connector/Circular%20Connector/Push-Pull%20Locking/Shenzhen%20Connector%20Technology/) — *📄 2 PDF*
-      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) — *🎯 1 3D | 📄 12 PDF*
+      - [📂 **Weipu**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/) — *🎯 2 3D | 📄 12 PDF*
         - [📂 RoHS-SF](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/)
           - [📂 **back shell**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/back%20shell/) — *📄 2 PDF*
           - [📂 **cap**](./Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/RoHS-SF/cap/) — *📄 1 PDF*
@@ -1031,6 +1031,7 @@ changes.
 #### 📂 Weipu
 
   - [SF1210-I-P_S.stp](Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SF1210-I-P_S.stp) *(486.5 KB)*
+  - [SF1212-P_S-N.stp](Connector/Circular%20Connector/Push-Pull%20Locking/Weipu/SF1212-P_S-N.stp) *(261.6 KB)*
 
 #### 📂 FH63S-10S-0_5SH
 
