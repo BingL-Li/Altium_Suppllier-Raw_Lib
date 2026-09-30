@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-188-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-85-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-189-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-85-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -30,7 +30,7 @@ changes.
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
 | 3D models | `.STP, .STEP` | 85 |
-| Datasheets | `.pdf` | 188 |
+| Datasheets | `.pdf` | 189 |
 
 ### Browse by folder
 
@@ -196,7 +196,7 @@ changes.
   - [📂 Actuator](./Electromechanical/Actuator/)
   - [📂 Fan and Thermal Management](./Electromechanical/Fan%20and%20Thermal%20Management/)
   - [📂 Motor](./Electromechanical/Motor/)
-  - [📂 Relay](./Electromechanical/Relay/)
+  - [📂 **Relay**](./Electromechanical/Relay/) — *📄 1 PDF*
   - [📂 Switch](./Electromechanical/Switch/)
     - [📂 Limit Switch](./Electromechanical/Switch/Limit%20Switch/)
       - [📂 **D2F_01FL30**](./Electromechanical/Switch/Limit%20Switch/D2F_01FL30/) — *🎯 1 3D*
@@ -490,6 +490,10 @@ changes.
 #### 📂 NTC
 
   - [AUA0000C8.pdf](Discrete%20-%20Passive/Resistor/NTC/AUA0000C8.pdf)
+
+#### 📂 Relay
+
+  - [en-g6e.pdf](Electromechanical/Relay/en-g6e.pdf)
 
 #### 📂 Omron D2F
 
