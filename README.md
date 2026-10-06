@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-189-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-85-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-192-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-86-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -29,8 +29,8 @@ changes.
 | Integrated libraries | `.IntLib` | 18 |
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
-| 3D models | `.STP, .STEP` | 85 |
-| Datasheets | `.pdf` | 189 |
+| 3D models | `.STP, .STEP` | 86 |
+| Datasheets | `.pdf` | 192 |
 
 ### Browse by folder
 
@@ -165,6 +165,9 @@ changes.
       - [📂 180964004-16-2035662007](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/180964004-16-2035662007/)
       - [📂 **Housing**](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/Housing/) — *📄 2 PDF*
       - [📂 **Terminal**](./Connector/Rectangular%20Connector/Molex%20Pico-Clasp/Terminal/) — *📄 1 PDF*
+  - [📂 Test Point](./Connector/Test%20Point/)
+    - [📂 Surface Mount](./Connector/Test%20Point/Surface%20Mount/)
+      - [📂 **RH-5015**](./Connector/Test%20Point/Surface%20Mount/RH-5015/) — *🎯 1 3D | 📄 3 PDF*
   - [📂 USB](./Connector/USB/)
     - [📂 Type C](./Connector/USB/Type%20C/)
       - [📂 **ul_USB-C40-S-RA-BK-30-T-R**](./Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/) — *🎯 1 3D*
@@ -464,6 +467,12 @@ changes.
 #### 📂 Terminal
 
   - [5011937000_sd.pdf](Connector/Rectangular%20Connector/Molex%20Pico-Clasp/Terminal/5011937000_sd.pdf)
+
+#### 📂 RH-5015
+
+  - [RH-5015_C5199798_datasheet.pdf](Connector/Test%20Point/Surface%20Mount/RH-5015/RH-5015_C5199798_datasheet.pdf)
+  - [RH-5015_C5199798_RoHS.pdf](Connector/Test%20Point/Surface%20Mount/RH-5015/RH-5015_C5199798_RoHS.pdf)
+  - [RH-5015_C5199798_RoHS_2.pdf](Connector/Test%20Point/Surface%20Mount/RH-5015/RH-5015_C5199798_RoHS_2.pdf)
 
 #### 📂 NPN
 
@@ -1285,6 +1294,10 @@ changes.
 #### 📂 parts
 
   - [Conn_JST_SM04B-PASS-TBT_LF_SN_eec.STEP](Connector/Rectangular%20Connector/JST%202mm/PA/SM04B-PASS-TB/parts/Conn_JST_SM04B-PASS-TBT_LF_SN_eec.STEP) *(427.7 KB)*
+
+#### 📂 RH-5015
+
+  - [RH-5015.step](Connector/Test%20Point/Surface%20Mount/RH-5015/RH-5015.step) *(1.1 MB)*
 
 #### 📂 ul_USB-C40-S-RA-BK-30-T-R
 
