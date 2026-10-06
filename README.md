@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-192-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-86-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-197-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-88-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -29,8 +29,8 @@ changes.
 | Integrated libraries | `.IntLib` | 18 |
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
-| 3D models | `.STP, .STEP` | 86 |
-| Datasheets | `.pdf` | 192 |
+| 3D models | `.STP, .STEP` | 88 |
+| Datasheets | `.pdf` | 197 |
 
 ### Browse by folder
 
@@ -185,6 +185,7 @@ changes.
   - [📂 Choke](./Discrete%20-%20Passive/Choke/)
     - [📂 **Murata**](./Discrete%20-%20Passive/Choke/Murata/) — *📄 1 PDF*
   - [📂 **Diode - Light Emitting**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/) — *📄 3 PDF*
+    - [📂 **KT-0603R**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/KT-0603R/) — *🎯 1 3D | 📄 3 PDF*
     - [📂 LIB_MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/)
       - [📂 MSL0402RGBU1](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/)
         - [📂 **3D**](./Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/) — *🎯 1 3D*
@@ -193,6 +194,8 @@ changes.
     - [📂 **DLM0QSN900HY2D**](./Discrete%20-%20Passive/Ferrite%20Bead/DLM0QSN900HY2D/) — *📐 1 SchLib | 🦶 1 PcbLib*
   - [📂 Inductor](./Discrete%20-%20Passive/Inductor/)
     - [📂 **Wurth-Elektronik**](./Discrete%20-%20Passive/Inductor/Wurth-Elektronik/) — *🔗 1 IntLib | 📄 1 PDF*
+  - [📂 PTC Resettable Fuse](./Discrete%20-%20Passive/PTC%20Resettable%20Fuse/)
+    - [📂 **mSMD050-60V**](./Discrete%20-%20Passive/PTC%20Resettable%20Fuse/mSMD050-60V/) — *🎯 1 3D | 📄 2 PDF*
   - [📂 Resistor](./Discrete%20-%20Passive/Resistor/)
     - [📂 **NTC**](./Discrete%20-%20Passive/Resistor/NTC/) — *📄 1 PDF*
 - [📂 Electromechanical](./Electromechanical/)
@@ -492,9 +495,20 @@ changes.
   - [l10660_series_kled1055e.pdf](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/l10660_series_kled1055e.pdf)
   - [msl0402rgbu1-e.pdf](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/msl0402rgbu1-e.pdf)
 
+#### 📂 KT-0603R
+
+  - [KT-0603R_C2286_datasheet.pdf](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/KT-0603R/KT-0603R_C2286_datasheet.pdf)
+  - [KT-0603R_C2286_RoHS_1.pdf](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/KT-0603R/KT-0603R_C2286_RoHS_1.pdf)
+  - [KT-0603R_C2286_RoHS_2.pdf](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/KT-0603R/KT-0603R_C2286_RoHS_2.pdf)
+
 #### 📂 Wurth-Elektronik
 
   - [74438336015HT.pdf](Discrete%20-%20Passive/Inductor/Wurth-Elektronik/74438336015HT.pdf)
+
+#### 📂 mSMD050-60V
+
+  - [mSMD050-60V_C70113_datasheet.pdf](Discrete%20-%20Passive/PTC%20Resettable%20Fuse/mSMD050-60V/mSMD050-60V_C70113_datasheet.pdf)
+  - [mSMD050-60V_C70113_RoHS.pdf](Discrete%20-%20Passive/PTC%20Resettable%20Fuse/mSMD050-60V/mSMD050-60V_C70113_RoHS.pdf)
 
 #### 📂 NTC
 
@@ -1303,9 +1317,17 @@ changes.
 
   - [usb-c40-s-ra-bk-30-tr-model.step](Connector/USB/Type%20C/ul_USB-C40-S-RA-BK-30-T-R/usb-c40-s-ra-bk-30-tr-model.step) *(7.1 MB)*
 
+#### 📂 KT-0603R
+
+  - [KT-0603R.step](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/KT-0603R/KT-0603R.step) *(1.2 MB)*
+
 #### 📂 3D
 
   - [MSL0402RGBU1.stp](Discrete%20-%20Passive/Diode%20-%20Light%20Emitting/LIB_MSL0402RGBU1/MSL0402RGBU1/3D/MSL0402RGBU1.stp) *(230.3 KB)*
+
+#### 📂 mSMD050-60V
+
+  - [mSMD050-60V.step](Discrete%20-%20Passive/PTC%20Resettable%20Fuse/mSMD050-60V/mSMD050-60V.step) *(1.2 MB)*
 
 #### 📂 D2F_01FL30
 
