@@ -18,7 +18,7 @@ changes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github) ![GitHub stars](https://img.shields.io/github/stars/BingL-Li/Altium_Suppllier-Raw_Lib?style=flat-square&logo=github)
 
-![Datasheets](https://img.shields.io/badge/Datasheets-197-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-88-purple?style=flat-square&logo=blender)
+![Datasheets](https://img.shields.io/badge/Datasheets-198-yellow?style=flat-square&logo=filedotio) ![Total Libraries](https://img.shields.io/badge/Libraries-92-blue?style=flat-square&logo=opensourcehardware) ![IntLib](https://img.shields.io/badge/IntLib-18-green?style=flat-square&logo=librariesdotio) ![SchLib](https://img.shields.io/badge/SchLib-37-orange?style=flat-square&logo=electron) ![PcbLib](https://img.shields.io/badge/PcbLib-37-red?style=flat-square&logo=circuitverse) ![3D Models](https://img.shields.io/badge/3D%20Models-88-purple?style=flat-square&logo=blender)
 
 ## Library catalog
 
@@ -30,7 +30,7 @@ changes.
 | Symbol libraries | `.SchLib` | 37 |
 | Footprint libraries | `.PcbLib` | 37 |
 | 3D models | `.STP, .STEP` | 88 |
-| Datasheets | `.pdf` | 197 |
+| Datasheets | `.pdf` | 198 |
 
 ### Browse by folder
 
@@ -45,7 +45,7 @@ changes.
   - [📂 **Test Cable**](./Cable/Test%20Cable/) — *🎯 4 3D | 📄 4 PDF*
     - [📂 Renderings](./Cable/Test%20Cable/Renderings/)
 - [📂 Connector](./Connector/)
-  - [📂 Circular Connector](./Connector/Circular%20Connector/)
+  - [📂 **Circular Connector**](./Connector/Circular%20Connector/) — *📄 1 PDF*
     - [📂 **Aero Connector**](./Connector/Circular%20Connector/Aero%20Connector/) — *📄 3 PDF*
     - [📂 Push-Pull Locking](./Connector/Circular%20Connector/Push-Pull%20Locking/)
       - [📂 **Adam Tech**](./Connector/Circular%20Connector/Push-Pull%20Locking/Adam%20Tech/) — *📄 4 PDF*
@@ -312,6 +312,10 @@ changes.
   - [TC2030-IDC-NL-Datasheet-Rev-B.pdf](Cable/Test%20Cable/TC2030-IDC-NL-Datasheet-Rev-B.pdf)
   - [TC2030-MCP-NL.pdf](Cable/Test%20Cable/TC2030-MCP-NL.pdf)
   - [TC2030-MCP.pdf](Cable/Test%20Cable/TC2030-MCP.pdf)
+
+#### 📂 Circular Connector
+
+  - [D-Series-Catalog-(US).pdf](Connector/Circular%20Connector/D-Series-Catalog-%28US%29.pdf)
 
 #### 📂 Aero Connector
 
